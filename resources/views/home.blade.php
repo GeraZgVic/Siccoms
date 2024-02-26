@@ -68,7 +68,7 @@
     <div class="my-10 seccion">
         <div class="max-w-4xl mx-auto px-8 py-9 text-center">
             <h2 class="text-4xl font-semibold text-blue-900 mb-4 capitalize">Algunos de Nuestros Clientes</h2>
-            <p class="text-lg text-gray-700 mb-6">Una imagen vale más que mil palabras. Nos gusta realizar trabajos con tecnología de vanguardia y moderna. Explore nuestra galería de trabajos realizados antes de contratarnos.</p>
+           
         </div>
         <livewire:slide-infinito />
     </div>
@@ -77,7 +77,7 @@
     <section class="flex items-center justify-center py-8 bg-white min-w-screen">
         <div class="px-16 bg-white">
             <div class="container flex flex-col items-start mx-auto lg:items-center">
-                <p class="relative flex items-start justify-start w-full text-lg font-bold tracking-wider text-blue-500 uppercase lg:justify-center lg:items-center" data-primary="purple-500">No te conformes solo con nuestra palabra</p>
+                <p class="relative flex items-start justify-start w-full text-lg font-bold tracking-wider text-blue-900 uppercase lg:justify-center lg:items-center" data-primary="purple-500">No te conformes solo con nuestra palabra</p>
     
     
                 <h2 class="relative flex items-start justify-start w-full max-w-3xl text-5xl font-bold lg:justify-center">
@@ -94,42 +94,42 @@
                     <div class="flex flex-col items-start justify-start w-full h-auto mb-12 lg:w-1/3 lg:mb-0">
                         <div class="flex items-center justify-center">
                             <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                                <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80"
-                                    class="object-cover w-full h-full">
+                                <img src="{{asset('img/testimonio1.avif')}}"
+                                    class="object-cover w-full h-full"  alt="imagen-testimonio">
                             </div>
                             <div class="flex flex-col items-start justify-center">
                                 <h4 class="font-bold text-gray-800">Víctor Zg</h4>
-                                <p class="text-gray-600">CEO de Gamboys Company</p>
+                                <p class="text-gray-700">CEO de Gamboys Company</p>
                             </div>
                         </div>
-                        <blockquote class="mt-8 text-lg text-gray-500">"Esto es una obviedad si desea llevar su negocio al siguiente nivel. Si está buscando el conjunto de herramientas definitivo, ¡aquí lo tiene!"</blockquote>
+                        <blockquote class="mt-8 text-lg text-gray-600">"Esto es una obviedad si desea llevar su negocio al siguiente nivel. Si está buscando el conjunto de herramientas definitivo, ¡aquí lo tiene!"</blockquote>
                     </div>
                     <div
                         class="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200">
                         <div class="flex items-center justify-center">
                             <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                                <img src="https://concepto.de/wp-content/uploads/2014/03/modelo-e1551453273683.jpg"
-                                    class="object-cover w-full h-full">
+                                <img src="{{asset('img/testimonio2.jpg')}}"
+                                    class="object-cover w-full h-full" alt="imagen-testimonio">
                             </div>
                             <div class="flex flex-col items-start justify-center">
                                 <h4 class="font-bold text-gray-800">Carolina Herrera</h4>
-                                <p class="text-gray-600">CTO de Lugares Seguros</p>
+                                <p class="text-gray-700">CTO de Lugares Seguros</p>
                             </div>
                         </div>
-                        <blockquote class="mt-8 text-lg text-gray-500">"Gracias por crear este servicio. Mi vida es mucho más fácil. Gracias por crear un producto tan fantástico".</blockquote>
+                        <blockquote class="mt-8 text-lg text-gray-600">"Gracias por crear este servicio. Mi vida es mucho más fácil. Gracias por crear un producto tan fantástico".</blockquote>
                     </div>
                     <div class="flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
                         <div class="flex items-center justify-center">
                             <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg/800px-Elon_Musk_Colorado_2022_%28cropped2%29.jpg"
-                                    class="object-cover w-full h-full">
+                                <img src="{{asset('img/testimonio3.jpg')}}"
+                                    class="object-cover w-full h-full" alt="imagen-testimonio">
                             </div>
                             <div class="flex flex-col items-start justify-center">
                                 <h4 class="font-bold text-gray-800">Elon Musk</h4>
-                                <p class="text-gray-600">Creator Space X</p>
+                                <p class="text-gray-700">Creator Space X</p>
                             </div>
                         </div>
-                        <blockquote class="mt-8 text-lg text-gray-500">"Repleto de contenido increíble y exactamente lo que estaba buscando. Se lo recomendaría a cualquiera".</blockquote>
+                        <blockquote class="mt-8 text-lg text-gray-600">"Repleto de contenido increíble y exactamente lo que estaba buscando. Se lo recomendaría a cualquiera".</blockquote>
                     </div>
                 </div>
             </div>

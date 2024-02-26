@@ -10,22 +10,27 @@ class CardComponent extends Component
     public function render()
     {
 
-        // Simulando datos de servicios
+        // Datos de los servicios con descripciones más cortas
         $servicios = [
             [
-                'imagen' => 'img/imagen1.webp',
-                'titulo' => 'Servicio 1',
-                'descripcion' => 'SERVICIOS DE INGENIERÍA TI'
+                'imagen' => 'img/servicio1.webp',
+                'titulo' => 'Ingeniería de Sistemas',
+                'descripcion' => 'Desarrollamos soluciones tecnológicas avanzadas.'
             ],
             [
-                'imagen' => 'img/imagen2.webp',
-                'titulo' => 'Servicio 2',
-                'descripcion' => 'INGENIERIA DE SOFTWARE'
+                'imagen' => 'img/servicio2.webp',
+                'titulo' => 'Desarrollo de Software Personalizado',
+                'descripcion' => 'Creamos aplicaciones y sistemas a medida.'
             ],
             [
-                'imagen' => 'img/imagen3.webp',
-                'titulo' => 'Servicio 3',
-                'descripcion' => 'SEGURIDAD ELECTRÓNICA Y AUTOMATIZACIÓN'
+                'imagen' => 'img/servicio3.webp',
+                'titulo' => 'Seguridad Electrónica Integral',
+                'descripcion' => 'Implementamos sistemas de seguridad electrónica.'
+            ],
+            [
+                'imagen' => 'img/servicio4.webp',
+                'titulo' => 'Servicios de Integración Especializados',
+                'descripcion' => 'Ofrecemos servicios especializados de integración e ingeniería.'
             ]
         ];
 
