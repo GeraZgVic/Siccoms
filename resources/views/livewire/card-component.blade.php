@@ -3,15 +3,22 @@
     <div class="container px-6 py-4 mx-auto">
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-4">
             @foreach ($servicios as $index => $servicio)
-                <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group {{$index == 2 ? 'hidden md:block' : ''}}"
-                    style="background-image:url('{{ asset($servicio['imagen']) }}')">
-                    <div class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/90 group-hover:opacity-100">
-                        <h2 class="mt-4 text-xl font-bold text-white capitalize">{{ $servicio['titulo'] }}</h2>
-                        <p class="mt-2 text-lg tracking-wider text-blue-300 uppercase font-light">{{ $servicio['descripcion'] }}</p>
+                <div class="flex justify-center">
+                    <div class="group h-96 w-96 perspective-1000">
+                        <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                            <div class="absolute inset-0 bg-cover bg-center rounded-xl" style="background-image: url('{{ $servicio['imagen'] }}');">
+                            </div>
+                            <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] transition-all duration-500 opacity-0 group-hover:opacity-100">
+                                <div class="flex h-full flex-col items-center justify-center">
+                                    <h1 class="text-3xl font-bold">{{ $servicio['titulo'] }}</h1>
+                                    <p class="mt-2">{{ $servicio['descripcion'] }}</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             @endforeach
-
-        </div>
+        </div>        
     </div>
 </section>

@@ -9,10 +9,10 @@
     <livewire:card-component />
 
     <div class="flex justify-end mx-6 mt-4 seccion">
-        <a href="#"
+        <a href="{{route('servicios.index')}}"
             class="inline-block bg-gradient-to-r
         from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-800 text-white font-bold py-2 px-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105">
-            Ver más servicios
+            Ver más
         </a>
     </div>
 
@@ -134,5 +134,6 @@
                 </div>
             </div>
         </div>
-    </section>    
+    </section> 
+       
 @endsection

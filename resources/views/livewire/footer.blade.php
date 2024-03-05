@@ -1,6 +1,6 @@
 <div class="w-full">
 
-    <footer class="w-full text-gray-700 bg-gray-100 body-font">
+    <footer class="w-full text-gray-700 bg-gray-100 body-font seccion nuestros-servicios">
         <div class="container px-8 py-16 mx-auto md:flex md:items-center md:justify-between">
             <div class="md:flex-shrink-0 md:w-64 mx-auto text-center md:mx-0 md:text-left mb-4 md:mb-0">
                 <a class="flex items-center justify-center text-gray-900 title-font md:justify-start text-3xl font-bold">
