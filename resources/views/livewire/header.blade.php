@@ -1,13 +1,18 @@
-<header class="w-full antialiased bg-gradient-to-br from-blue-800 via-gray-900 to-blue-700">
+<header class="w-full antialiased bg-cover bg-center bg-blend-overlay bg-fixed bg-black/60" style="background-image: url('/img/heros.jpg')">
     <div class="mx-auto">
-       <livewire:navegation-menu />
-        <div class="flex flex-col justify-center items-center h-screen px-6 md:text-center">
-             <h1 class="capitalize mb-6 text-5xl font-extrabold leading-none max-w-5xl mx-auto tracking-normal text-gray-200 sm:text-6xl md:text-6xl lg:text-7xl md:tracking-tight animate-fade animate-once animate-duration-[900ms] animate-delay-[400ms] animate-ease-in animate-normal">
-                Tú <span class="w-full text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-teal-500 lg:inline">Aliado Estratégico</span> para<br class="lg:block hidden"> el éxito empresarial
-            </h1>
-            <p class="px-0 mb-6 text-lg text-gray-200 md:text-xl lg:px-24 animate-fade animate-once animate-duration-[600ms] animate-delay-200 animate-ease-in animate-normal">
-                Con más de 10 años de experiencia, Siccoms ofrece <a href="{{route('servicios.index')}}" class="underline decoration-blue-400">servicios</a> integrales en consultoría, comercialización y tecnología. Desde asesoría legal hasta desarrollo de software, nos comprometemos a proporcionar soluciones estratégicas y de calidad para ayudarte a alcanzar tus metas de negocio.
-            </p>    
+        <livewire:navegation-menu />
+        <div class="flex flex-col justify-center items-center h-screen px-6 text-center">
+            {{-- Agregar fondo semi transparente gris oscuro --}}
+
+            <h1 class="font-mulish-bold uppercase pb-2 text-left md:text-center text-6xl md:text-8xl font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] bg-[length:200%_auto] animate-gradient">Siccoms</h1>
+            {{-- <p class="font-mulish-normal text-left md:text-center text-3xl md:text-5xl font-extrabold text-white pb-2 uppercase">Tu Aliado Estratégico</p> --}}
+            <p
+                class="font-mulish-normal md:text-center font-serif mb-6 text-lg md:text-xl lg:text-3xl text-gray-200 md:px-24 animate-fade animate-once animate-duration-[600ms] animate-delay-200 animate-ease-in animate-normal mt-2">
+                Con más de 10 años de experiencia, ofrecemos <a href="{{ route('servicios.index') }}"
+                    class="underline decoration-blue-400">servicios</a> integrales en consultoría, comercialización y
+                tecnología.
+            </p>
+
         </div>
     </div>
 </header>

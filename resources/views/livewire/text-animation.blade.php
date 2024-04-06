@@ -32,6 +32,6 @@ gsapInterval2 = setInterval(function() {
         clearInterval(gsapInterval2);
     }
 }, 5);"
-    class="invisible block pb-2 overflow-hidden text-4xl md:text-5xl lg:text-7xl mb-2 md:m-0 font-bold custom-font tracking-tight">
+    class="invisible block pb-4 overflow-hidden text-4xl md:text-5xl lg:text-7xl mb-2 md:m-0 font-bold custom-font tracking-tight text-blue-800">
     {{$texto}}
 </h2>

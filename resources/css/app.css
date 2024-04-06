@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,800;1,800&family=Reem+Kufi+Fun:wght@400..700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.font-mulish-bold {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-mulish-normal {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 @layer components {
   .group-date {
@@ -32,4 +47,11 @@
   .timeline-title {
     @apply text-3xl text-gray-600 font-semibold tracking-wide mb-2;
   }
+}
+
+html {
+  overflow-y: scroll;
+  scrollbar-color: #32adfae0 #516791e4;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
 }

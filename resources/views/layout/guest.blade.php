@@ -11,6 +11,7 @@
     <meta property="og:description"
         content="Con más de 10 años de experiencia, Siccoms ofrece servicios integrales en consultoría, comercialización y tecnología.">
     <meta property="og:type" content="website">
+    
     <meta property="og:url" content="{{ Request::url() }}">
     {{-- <meta property="og:image" content="URL_DE_LA_IMAGEN"> --}}
     <!-- Etiqueta Canonical -->
@@ -28,17 +29,21 @@
     <meta property="og:email" content="ventas@siccoms.com">
     <meta property="og:phone_number" content="993-268-0885">
 
+    
+
     <link rel="icon" type="image/png" href="{{ asset('favicon.ico') }}">
 
     <title>Siccoms |@yield('titulo')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/css.js'])
 
     @stack('styles')
+
 </head>
 
 <body class="antialiased selection:bg-sky-400 selection:text-sky-900">
     <livewire:header />
-    <main class="">
+
+    <main>
         @yield('contenido')
     </main>
 
@@ -46,7 +51,8 @@
 
     {{-- ICONO WHATSAPP --}}
     <div class="fixed bottom-4 ml-4 z-10"> <!-- Ajusta la posición del icono según tu preferencia -->
-        <a href="https://wa.me/9932910217" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/9932910217" target="_blank" rel="noopener noreferrer" aria-label="Enviar WhatsApp"
+            title="Enviar mensaje de WhatsApp">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 p-2 text-white rounded-full bg-green-500"
                 fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -72,6 +78,7 @@
     </div>
 
     @stack('script')
+   
 </body>
 
 </html>

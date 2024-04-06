@@ -8,9 +8,6 @@ function iniciarApp() {
 
 }
 
-
-
-
 function navegacionFija() {
     const barraNavegacion = document.querySelector('.navegacion');
     const servicios = document.querySelector('.nuestros-servicios');
@@ -21,9 +18,9 @@ function navegacionFija() {
 
         // Si el borde del apartado de servicios está arriba de la parte superior de la ventana
         if (serviciosBottom < 0) {
-            barraNavegacion.classList.add('fixed','top-0', 'z-40' ,'bg-blue-900', 'w-full');
+            barraNavegacion.classList.add('fixed','top-0', 'z-40' ,'bg-blue-950', 'w-full');
         } else {
-           barraNavegacion.classList.remove('fixed','top-0', 'z-40' ,'bg-blue-900', 'w-full');
+           barraNavegacion.classList.remove('fixed','top-0', 'z-40' ,'bg-blue-950', 'w-full');
 
         }
     })

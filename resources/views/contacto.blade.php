@@ -11,8 +11,8 @@
 
             <livewire:text-animation texto="Ponte en contacto" />
 
-            <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
-                <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1">
+            <div>
+                <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3 my-6">
                     <div>
                         <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 ">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -40,9 +40,7 @@
 
                         <h2 class="mt-4 text-base font-medium text-gray-800 ">Oficina</h2>
                         <p class="mt-2 text-sm text-gray-500">Ven a saludarnos a nuestra oficina principal.</p>
-                        <address class="mt-2 text-sm text-blue-500">Av. del Sol #202, Fracc. Galaxia, Villahermosa, Tabasco
-                            86035
-                        </address>
+                        
                     </div>
 
                     <div>
@@ -60,12 +58,13 @@
                     </div>
                 </div>
 
-                <div class="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto">
+                {{-- <div class="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto">
                     <iframe
+                        loading="lazy"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1005.0410244641496!2d-92.95114501363369!3d18.000605765716696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85edd7933d329dd9%3A0xff26104d4b594117!2sAv.%20del%20Sol%20202%2C%20Fraccionamiento%20Galaxia%2C%2086035%20Villahermosa%2C%20Tab.!5e0!3m2!1ses!2smx!4v1709398876799!5m2!1ses!2smx"
                         width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
@@ -100,4 +99,6 @@
             </form>
         </div>
     </section>
+    
+    
 @endsection

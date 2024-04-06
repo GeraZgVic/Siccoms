@@ -24,15 +24,15 @@
     <div x-ref="tabButtons" class="flex flex-col md:flex-row">
         <button :id="$id(tabId)" @click="tabButtonClicked($el);" type="button"
             :class="{ 'bg-blue-100 text-blue-800': tabButtonActive($el) }"
-            class="relative z-20 flex items-center justify-center w-full h-8 py-8 md:py-6 text-sm font-medium transition-all rounded-md cursor-pointer whitespace-nowrap ">Ingenieria
+            class=" font-semibold relative z-20 flex items-center justify-center w-full h-8 py-8 md:py-6  text-base transition-all rounded-md cursor-pointer whitespace-nowrap ">Ingenieria
             TI</button>
         <button :id="$id(tabId)" @click="tabButtonClicked($el);" type="button"
             :class="{ 'bg-blue-100 text-blue-800': tabButtonActive($el) }"
-            class="relative z-20 flex items-center justify-center w-full h-8 py-8 md:py-6 text-sm font-medium transition-all rounded-md cursor-pointer whitespace-nowrap ">Ingenieria
+            class="font-semibold relative z-20 flex items-center justify-center w-full h-8 py-8 md:py-6  text-base transition-all rounded-md cursor-pointer whitespace-nowrap ">Ingenieria
             Software</button>
         <button :id="$id(tabId)" @click="tabButtonClicked($el);" type="button"
-            :class="{ 'bg-blue-100 text-blue-800': tabButtonActive($el) }"
-            class="relative z-20 flex items-center justify-center w-full h-8 py-8 md:py-6 text-sm font-medium transition-all rounded-md cursor-pointer whitespace-nowrap ">Seguridad
+            :class="{ 'bg-blue-100 text-blue-800/90': tabButtonActive($el) }"
+            class="font-semibold relative z-20 flex items-center justify-center w-full h-8 py-8 md:py-6  text-base transition-all rounded-md cursor-pointer whitespace-nowrap ">Seguridad
             Electrónica y Automatización</button>
         {{-- <div x-ref="tabMarker" class="md:absolute md:left-0 md:z-10 md:w-1/2 md:h-full md:duration-300 md:ease-out" x-cloak><div class="md:w-full md:h-full md:bg-gray-100 md:rounded-md md:shadow-sm"></div></div> --}}
     </div>

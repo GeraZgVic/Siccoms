@@ -31,17 +31,19 @@
 
     <title>Siccoms |@yield('titulo')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-
+    @livewireStyles
     @stack('styles')
 </head>
 
 <body class="antialiased selection:bg-sky-400 selection:text-sky-900">
-   <livewire:navegation-menu-guest />
+    <livewire:navegation-menu-guest />
+    
     <main>
         @yield('contenido')
     </main>
 
-    <livewire:footer />
+    {{-- <livewire:footer /> --}}
+    @livewireStyles
     @stack('script')
 </body>
 

@@ -1,4 +1,4 @@
-<nav class="flex items-center w-full h-24 select-none navegacion bg-blue-900 sticky top-0 z-40" x-data="{ showMenu: false }">
+<nav class="flex items-center w-full h-24 select-none navegacion bg-blue-950 sticky top-0 z-40" x-data="{ showMenu: false }">
     <div class=" relative flex w-full mx-auto font-medium md:items-center md:h-24 md:justify-between">
         {{-- LOGO --}}
         <a href="{{ route('home') }}"

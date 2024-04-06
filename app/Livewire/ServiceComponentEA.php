@@ -10,7 +10,7 @@ class ServiceComponentEA extends Component
     {
         $serviciosEA = [
             [
-                'imagen' => 'img/servicio1.webp',
+                'imagen' => 'img/cctv.jpg',
                 'titulo' => 'Soluciones de CCTV videovigilancia',
                 'lista' => [
                     'CCTV Turbo, IP 4K',
@@ -26,29 +26,7 @@ class ServiceComponentEA extends Component
                 ]
             ],
             [
-                'imagen' => 'img/servicio1.webp',
-                'titulo' => 'Alarmas residenciales y comerciales
-                Sistemas de emergencia',
-                'lista' => [
-                    'Barras de pánico',
-                    'Estaciones de emergencias',
-                    'Luces LEDs de emergencia',
-                    'Alarmas de zona',
-                    'Pulsadores de emergencia'
-                ]
-            ],
-            [
-                'imagen' => 'img/servicio1.webp',
-                'titulo' => 'Controles de acceso y asistencia personal',
-                'lista' => [
-                    'Reloj checador facial / huella dactilar / tarjeta /
-                    teclado',
-                    'Videoporteros',
-                    'Interfonos',
-                ]
-            ],
-            [
-                'imagen' => 'img/servicio1.webp',
+                'imagen' => 'img/control.jpg',
                 'titulo' => 'Controles de acceso vehicular',
                 'lista' => [
                     'Barreras vehiculares por medio de LPR',
@@ -61,25 +39,41 @@ class ServiceComponentEA extends Component
                 ]
             ],
             [
-                'imagen' => 'img/servicio1.webp',
+                'imagen' => 'img/alarma.jpg',
+                'titulo' => 'Alarmas residenciales y comerciales
+                Sistemas de emergencia',
+                'lista' => [
+                    'Barras de pánico',
+                    'Estaciones de emergencias',
+                    'Luces LEDs de emergencia',
+                    'Alarmas de zona',
+                    'Pulsadores de emergencia'
+                ]
+            ],
+            [
+                'imagen' => 'img/controlAccess.jpg',
+                'titulo' => 'Controles de acceso y asistencia personal',
+                'lista' => [
+                    'Reloj checador facial, huella dactilar, tarjeta,
+                    teclado',
+                    'Videoporteros',
+                    'Interfonos',
+                ]
+            ],
+            
+            [
+                'imagen' => 'img/gps.jpg',
                 'titulo' => 'Rastreo GPS',
                 'lista' => [
                     'Monitoreo para flotillas y vehiculos particulares de
-                    uso pesado o ligeros con gestion de geocerca,
-                    reportes de combustible, inmovilizador remoto,
-                    alertas SOS',
+                    uso pesado o ligeros con gestion de geocerca',
+                    'Reportes de combustible',
+                    'Inmovilizador remoto',
+                    'Alertas SOS',
                 ]
             ],
             [
-                'imagen' => 'img/servicio1.webp',
-                'titulo' => 'Energía & UPS',
-                'lista' => [
-                   'Venta y mantenimiento de equipos No-Break de
-                   oficina / hogar y área médica',
-                ]
-            ],
-            [
-                'imagen' => 'img/servicio1.webp',
+                'imagen' => 'img/cerca.jpg',
                 'titulo' => 'Cercos eléctricos',
                 'lista' => [
                    'Soluciones de cercas eléctricas de alta y máxima
@@ -90,6 +84,15 @@ class ServiceComponentEA extends Component
                    'Integraciones con alarmas control remoto y Wi-Fi'
                 ]
             ],
+            [
+                'imagen' => 'img/servicio1.jpg',
+                'titulo' => 'Energía & UPS',
+                'lista' => [
+                   'Venta y mantenimiento de equipos No-Break de
+                   oficina, hogar y área médica',
+                ]
+            ],
+            
         ];
         return view('livewire.service-component-e-a', [
             'serviciosEA' => $serviciosEA

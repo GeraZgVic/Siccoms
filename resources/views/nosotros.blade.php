@@ -33,8 +33,14 @@
             </div>
         </div>
         <div class="lg:w-1/2 lg:ml-10 mb-4 md:mb-0">
-            <img class="h-auto w-full object-cover lg:h-full lg:w-full rounded-lg shadow-lg" src="{{ asset('img/imagen-siccoms.avif') }}" alt="Imagen de la empresa">
-        </div>
+            <picture>
+                <source srcset="{{ asset('img/imagen-siccoms.webp') }}" type="image/webp">
+                <img class="h-auto w-full object-cover lg:h-full lg:w-full rounded-lg shadow-lg" 
+                     src="{{ asset('img/imagen-siccoms.jpg') }}" 
+                     alt="Imagen de la empresa" 
+                     loading="lazy">
+            </picture>
+        </div>        
     </div>
 </section>
 

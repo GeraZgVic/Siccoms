@@ -34,6 +34,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     @stack('styles')
+
 </head>
 
 <body class="antialiased selection:bg-sky-400 selection:text-sky-900">
@@ -45,8 +46,13 @@
     <livewire:footer />
 
     {{-- Btn WhatsApp --}}
-    <div class="fixed bottom-4 ml-4 z-20"> <!-- Ajusta la posición del icono según tu preferencia -->
-        <a href="https://wa.me/9932910217" target="_blank" rel="noopener noreferrer">
+    <div class="fixed bottom-4 ml-4 z-10"> <!-- Ajusta la posición del icono según tu preferencia -->
+        <a 
+            href="https://wa.me/9932910217" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="Enviar WhatsApp"
+            title="Enviar mensaje de WhatsApp">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 p-2 text-white rounded-full bg-green-500"
                 fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -56,7 +62,12 @@
     </div>
 
     {{-- Btn Arrow Up --}}
-    <div x-data="{ showScrollButton: false, handleTop: function() { window.scrollTo({ top: 0, behavior: 'smooth' }); } }" x-init="window.addEventListener('scroll', function() {
+    <div x-data="{ 
+        showScrollButton: false, 
+        handleTop: 
+            function() { 
+                window.scrollTo({ top: 0, behavior: 'smooth' }); 
+        } }" x-init="window.addEventListener('scroll', function() {
         showScrollButton = window.scrollY > window.innerHeight / 0.30;
     })">
         <button x-show="showScrollButton" @click="handleTop"

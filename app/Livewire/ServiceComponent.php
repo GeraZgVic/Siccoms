@@ -11,7 +11,7 @@ class ServiceComponent extends Component
     {
         $serviciosTI = [
             [
-                'imagen' => 'img/servicio1.webp',
+                'imagen' => 'img/mantenimiento_equipo.jpg',
                 'titulo' => 'Mantenimiento de equipo de cómputo y servidores',
                 'lista' => [
                     'Diagnóstico y soporte correctivo a nivel hardware',
@@ -21,7 +21,7 @@ class ServiceComponent extends Component
                 ]
             ],
             [
-                'imagen' => 'img/servicio1.webp',
+                'imagen' => 'img/cableado_estructurado.jpg',
                 'titulo' => 'Cableado Estructurado',
                 'lista' => [
                     'Distribución de Cableado Horizontal Interior y
@@ -33,7 +33,7 @@ class ServiceComponent extends Component
                 ]
             ],
             [
-                'imagen' => 'img/servicio1.webp',
+                'imagen' => 'img/redes_inalambricas.jpg',
                 'titulo' => 'Redes Inalámbricas',
                 'lista' => [
                     'Módems',
@@ -46,7 +46,7 @@ class ServiceComponent extends Component
                 ]
             ],
             [
-                'imagen' => 'img/servicio1.webp',
+                'imagen' => 'img/celular.jpg',
                 'titulo' => 'Amplificador para Señal Celular',
                 'lista' => [
                     'Kit amplificador celular 4G LTE',
@@ -54,7 +54,7 @@ class ServiceComponent extends Component
                 ]
             ],
             [
-                'imagen' => 'img/servicio1.webp',
+                'imagen' => 'img/telefonia.jpg',
                 'titulo' => 'Telefonía y Conmutadores',
                 'lista' => [
                     'Teléfonia Análoga',
@@ -63,7 +63,7 @@ class ServiceComponent extends Component
                 ]
             ],
             [
-                'imagen' => 'img/servicio1.webp',
+                'imagen' => 'img/ciberseguridad.jpg',
                 'titulo' => 'Ciber Seguridad',
                 'lista' => [
                    'Antivirus Kaspersky'

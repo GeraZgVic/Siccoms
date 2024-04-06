@@ -3,13 +3,15 @@
     <footer class="w-full text-gray-700 bg-gray-100 body-font seccion nuestros-servicios">
         <div class="container px-8 py-16 mx-auto md:flex md:items-center md:justify-between">
             <div class="md:flex-shrink-0 md:w-64 mx-auto text-center md:mx-0 md:text-left mb-4 md:mb-0">
-                <a class="flex items-center justify-center text-gray-900 title-font md:justify-start text-3xl font-bold">
-                    SICCOMS
+                <a href="{{ route('home') }}"
+                    class="flex items-center py-4 pl-6 pr-4 font-extrabold text-white md:py-0 transition-transform duration-300 ease-in-out transform hover:scale-105 focus:scale-105">
+                    <img class="object-cover h-12 w-auto" src="{{ asset('img/logo-siccoms.png') }}" alt="Logo Siccoms">
                 </a>
                 <p class="mt-2 text-gray-600">¡<strong>Tu éxito, nuestra prioridad!</strong></p>
                 <div class="mt-4">
                     <span class="inline-flex justify-center mt-2 md:ml-auto md:mt-0 md:justify-start">
-                        <a
+                        {{-- Facebook --}}
+                        <a href="https://m.facebook.com/people/Siccoms-Oficial/61554231655085/" target="_blank"
                             class="text-gray-600 cursor-pointer hover:text-blue-700 hover:transition hover:duration-300 hover:scale-125">
                             <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 class="w-8 h-8" viewBox="0 0 24 24">
@@ -46,7 +48,8 @@
                     </span>
                 </div>
             </div>
-            <div class="flex flex-wrap flex-grow -mb-10 md:mt-0 md:text-left gap-8 md:gap-0 space-y-6 md:space-y-0 text-center">
+            <div
+                class="flex flex-wrap flex-grow -mb-10 md:mt-0 md:text-left gap-8 md:gap-0 space-y-6 md:space-y-0 text-center">
                 <div class="w-full px-4 lg:w-1/3 md:w-1/2">
                     <h2 class="mb-3 text-lg font-medium tracking-widest text-gray-900 uppercase relative inline-block">
                         Sobre nosotros
@@ -54,16 +57,20 @@
                     </h2>
                     <ul class="list-none">
                         <li class="mt-3">
-                            <a class="text-gray-700 cursor-pointer hover:text-blue-900">¿Quiénes Somos?</a>
+                            <a href="{{ route('nosotros.index') }}"
+                                class="text-gray-700 cursor-pointer hover:text-blue-900">¿Quiénes Somos?</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-700 cursor-pointer hover:text-blue-900">Servicios</a>
+                            <a href="{{ route('servicios.index') }}"
+                                class="text-gray-700 cursor-pointer hover:text-blue-900">Servicios</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-700 cursor-pointer hover:text-blue-900">Blog</a>
+                            <a href="{{ route('blog.index') }}"
+                                class="text-gray-700 cursor-pointer hover:text-blue-900">Blog</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-700 cursor-pointer hover:text-blue-900">Contáctanos</a>
+                            <a href="{{ route('contacto.index') }}"
+                                class="text-gray-700 cursor-pointer hover:text-blue-900">Contáctanos</a>
                         </li>
                     </ul>
                 </div>
@@ -74,8 +81,8 @@
                     </h2>
                     <ul class="list-none">
                         <li class="mt-3">
-                            <a class="text-gray-700 cursor-pointer hover:text-blue-900"
-                                href="http://vrabogados.com.mx/" target="_blank">Viveros Romero</a>
+                            <a class="text-gray-700 cursor-pointer hover:text-blue-900" href="http://vrabogados.com.mx/"
+                                target="_blank">Viveros Romero</a>
                         </li>
                         <li class="mt-3">
                             <a class="text-gray-700 cursor-pointer hover:text-blue-900"
@@ -103,20 +110,15 @@
                             <p class="text-gray-700 hover:text-blue-900">993-268-0885</p>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-700 hover:text-blue-900" href="mailto:ventas@siccoms.com">ventas@siccoms.com</a>
+                            <a class="text-gray-700 hover:text-blue-900"
+                                href="mailto:ventas@siccoms.com">ventas@siccoms.com</a>
                         </li>
-                        <li class="mt-3">
-                            <address class="text-gray-700 hover:text-blue-900">
-                                Av. del Sol #202 Fracc. Galaxia, <br>
-                                Villahermosa, Tabasco 86035, <br>
-                                México
-                            </address>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="bg-blue-800 text-gray-200 py-4">
+        <div class="bg-blue-900 text-gray-200 py-4">
             <div class="container mx-auto text-center leading-relaxed">
                 <p class="text-sm font-semibold">&copy; {{ date('Y') }} Derechos Reservados - SICCOMS</p>
                 <p class="text-sm">Sistemas Integrales en Consultoría, Comercialización y Servicios, S.A de C.V</p>

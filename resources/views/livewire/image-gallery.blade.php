@@ -101,11 +101,11 @@
 }" @image-gallery-next.window="imageGalleryNext()"
     @image-gallery-prev.window="imageGalleryPrev()" @keyup.right.window="imageGalleryNext();"
     @keyup.left.window="imageGalleryPrev();" class="w-full h-full select-none">
-    <div class="max-w-6xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view"
+    <div class="container py-4 mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view"
         style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
-        <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-4">
+        <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-3">
             <template x-for="(image, index) in imageGallery">
-                <li x-show="index < 4"> {{-- Mostrar solo las primeras 4 imagenes visualmente --}}
+                <li x-show="index < 9"> {{-- Mostrar solo las primeras 4 imagenes visualmente --}}
                     <img x-on:click="imageGalleryOpen" :src="image.photo" :alt="image.alt"
                         :data-index="index + 1"
                         class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-105 aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]">
@@ -133,7 +133,7 @@
                     x-transition:enter-start="opacity-0 transform scale-50"
                     x-transition:leave="transition ease-in-in duration-300"
                     x-transition:leave-end="opacity-0 transform scale-50"
-                    class="object-contain object-center w-full h-full select-none cursor-zoom-out"
+                    class="object-contain object-center w-full max-w-screen-md  h-full select-none cursor-zoom-out"
                     :src="imageGalleryActiveUrl" alt="" style="display: none;">
                 <div @click="$event.stopPropagation(); $dispatch('image-gallery-next');"
                     class="absolute right-0 flex items-center justify-center text-white -translate-x-10 rounded-full cursor-pointer xl:translate-x-24 2xl:translate-x-32 bg-white/10 w-14 h-14 hover:bg-white/20">
