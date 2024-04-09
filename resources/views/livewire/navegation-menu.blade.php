@@ -11,8 +11,7 @@
             class="absolute z-50 flex-col items-center justify-center w-full h-auto px-2 text-center text-gray-200 -translate-x-1/2 border-0 border-gray-500 rounded-full md:border md:w-auto md:h-10 left-1/2 md:flex-row md:items-center">
             @foreach ($links as $link)
             <livewire:nav-link route="{{$link['ruta']}}" text="{{$link['texto']}}" />
-            @endforeach
-            
+            @endforeach            
         </div>
         <div class="fixed top-0 left-0 z-40 items-center hidden w-full h-full p-3 text-sm bg-gray-900 bg-opacity-50 md:w-auto md:bg-transparent md:p-0 md:relative md:flex"
             :class="{ 'flex': showMenu, 'hidden': !showMenu }">

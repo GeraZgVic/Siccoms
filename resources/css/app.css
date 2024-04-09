@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Utilidades */
 .font-mulish-bold {
   font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;

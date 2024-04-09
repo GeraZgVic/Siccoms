@@ -58,59 +58,52 @@
     imagenesClientes: [
         {
             'photo': '{{ asset('clientes/1.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen ADO'
         },
         {
             'photo': '{{ asset('clientes/2.webp') }}',
-            'alt': 'Photo of Mountains'
-        },
-        {
-            'photo': '{{ asset('clientes/3.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen Altozano'
         },
         {
             'photo': '{{ asset('clientes/4.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen AT&T'
         },
         {
             'photo': '{{ asset('clientes/5.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen CI BANCO'
         },
         {
             'photo': '{{ asset('clientes/6.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen Dish'
         },
         {
             'photo': '{{ asset('clientes/7.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen G500'
         },
-        {
-            'photo': '{{ asset('clientes/8.webp') }}',
-            'alt': 'Photo of Mountains'
-        },
+      
         {
             'photo': '{{ asset('clientes/9.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen Medic Group'
         },
         {
             'photo': '{{ asset('clientes/10.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen Mudlogging'
         },
         {
             'photo': '{{ asset('clientes/11.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen Oleo Palma'
         },
         {
             'photo': '{{ asset('clientes/12.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen Petricore'
         },
         {
             'photo': '{{ asset('clientes/13.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen Stratum'
         },
         {
             'photo': '{{ asset('clientes/14.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen ITVH'
         },
         {
             'photo': '{{ asset('clientes/15.webp') }}',
@@ -122,10 +115,6 @@
         },
         {
             'photo': '{{ asset('clientes/17.webp') }}',
-            'alt': 'Photo of Mountains'
-        },
-        {
-            'photo': '{{ asset('clientes/18.webp') }}',
             'alt': 'Photo of Mountains'
         },
         {

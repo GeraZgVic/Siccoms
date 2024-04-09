@@ -5,7 +5,7 @@
 @endphp
 
 <a href="{{ route($route) }}"
-    wire:navigate
+    {{-- wire:navigate.hover --}}
    class="relative inline-block w-full h-full py-5 mx-1 font-medium leading-tight text-center duration-300 ease-out md:py-2 group hover:text-white md:w-auto md:px-2  md:text-center"
 >
     <span>{{ $text }}</span>

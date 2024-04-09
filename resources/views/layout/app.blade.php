@@ -20,7 +20,7 @@
     <meta property="og:site_name"
         content="SISTEMAS INTEGRALES EN CONSULTORIA, COMERCIALIZACION Y SERVICIOS S.A DE C.V. (SICCOMS)">
     <meta property="og:locale" content="es_MX">
-    <meta property="og:street-address" content="Av. del Sol #202 Fracc. Galaxia">
+    <meta property="og:street-address" content="Centro">
     <meta property="og:locality" content="Villahermosa">
     <meta property="og:region" content="Tabasco">
     <meta property="og:postal-code" content="86035">
@@ -28,7 +28,7 @@
     <meta property="og:email" content="ventas@siccoms.com">
     <meta property="og:phone_number" content="993-268-0885">
 
-    <link rel="icon" type="image/png" href="{{ asset('favicon.ico') }}">
+    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
 
     <title>Siccoms |@yield('titulo')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])

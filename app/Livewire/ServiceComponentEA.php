@@ -73,7 +73,7 @@ class ServiceComponentEA extends Component
                 ]
             ],
             [
-                'imagen' => 'img/cerca.jpg',
+                'imagen' => 'img/cerca_electrica.jpg',
                 'titulo' => 'Cercos eléctricos',
                 'lista' => [
                    'Soluciones de cercas eléctricas de alta y máxima

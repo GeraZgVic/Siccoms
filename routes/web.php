@@ -43,8 +43,6 @@ Route::get('/posts/{id}', [BlogController::class, 'show'])->name('posts.show');
 Route::get('/posts/{id}/edit',[BlogController::class, 'edit'])->name('posts.edit');
 Route::delete('/posts/delete/{id}',[BlogController::class, 'destroy'])->name('posts.destroy');
 
-
-
 Route::get('/contacto',[ContactoController::class, 'index'])->name('contacto.index');
 
 
