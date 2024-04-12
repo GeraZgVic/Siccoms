@@ -8,9 +8,9 @@
                 <canvas data-particle-animation data-particle-quantity="50" data-particle-ease="40"></canvas>
             </div>
             <div class="relative text-center">
-                <h1 class="font-mulish-bold py-4 inline-flex font-extrabold text-5xl md:text-6xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.sky.400),theme(colors.indigo.100),theme(colors.slate.300),theme(colors.sky.400),theme(colors.slate.300),theme(colors.indigo.100),theme(colors.sky.400))] bg-[length:200%_auto] animate-gradient">Sistemas Integrales En Consultoría</h1>
+                <h1 class="font-mulish-bold py-4 inline-flex font-extrabold text-5xl md:text-6xl 2xl:text-8xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.sky.400),theme(colors.indigo.100),theme(colors.slate.300),theme(colors.sky.400),theme(colors.slate.300),theme(colors.indigo.100),theme(colors.sky.400))] bg-[length:200%_auto] animate-gradient">Sistemas Integrales En Consultoría</h1>
                 <div class="max-w-3xl mx-auto mb-8">
-                    <p class="text-lg text-slate-400">Con más de 10 años de experiencia, ofrecemos servicios integrales en consultoría, comercialización y tecnología.</p>
+                    <p class="text-lg 2xl:text-2xl text-slate-400">Con más de 10 años de experiencia, ofrecemos servicios integrales en consultoría, comercialización y tecnología.</p>
                 </div>
                 <div class="inline-flex justify-center space-x-4">
                     <div>

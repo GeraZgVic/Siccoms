@@ -28,7 +28,7 @@
     <meta property="og:email" content="ventas@siccoms.com">
     <meta property="og:phone_number" content="993-268-0885">
 
-    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
+    <link rel="icon" type="ico" href="{{ asset('favicon.ico') }}">
 
     <title>Siccoms |@yield('titulo')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])

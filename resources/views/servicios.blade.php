@@ -4,7 +4,7 @@
 @endsection
 @section('contenido')
     <section>
-        <div class="container mx-auto px-4 py-8 lg:py-12">
+        <div class="px-4 py-8 lg:py-12">
             <div class="flex flex-col md:flex-row">
                 <div class="w-full px-3">
                     <div class="">
@@ -45,7 +45,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="w-full px-3 mb-12 hidden md:block">
+                <div class="w-full max-w-[80svh] px-3 mb-12 hidden md:block">
                     <livewire:ejemplo-componente />
                 </div>
             </div>

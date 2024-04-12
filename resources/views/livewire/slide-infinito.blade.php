@@ -14,7 +14,7 @@
             animation: scroll 20s linear infinite;
             -webkit-animation: scroll 30s linear infinite;
             /* El ancho del slide-track es el número total de imágenes por el ancho de cada imagen */
-            width: calc(200px * 40); /* 10 imágenes duplicadas */
+            width: calc(200px * 32); /* 10 imágenes duplicadas */
         }
 
         .slider .slide {
@@ -47,8 +47,8 @@
             /* La distancia de desplazamiento es la mitad del ancho total del slide-track */
             100% {
                 /* En lugar de terminar en la mitad del slide-track, terminamos en la posición que estaría justo después de la última imagen */
-                -webkit-transform: translateX(calc(-200px * (40 / 2)));
-                transform: translateX(calc(-200px * (40 / 2)));
+                -webkit-transform: translateX(calc(-200px * (32 / 2)));
+                transform: translateX(calc(-200px * (32 / 2)));
             }
         }
     </style>
@@ -106,24 +106,20 @@
             'alt': 'Imagen ITVH'
         },
         {
-            'photo': '{{ asset('clientes/15.webp') }}',
-            'alt': 'Photo of Mountains'
-        },
-        {
             'photo': '{{ asset('clientes/16.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen Tumsa'
         },
         {
             'photo': '{{ asset('clientes/17.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen Veana'
         },
         {
             'photo': '{{ asset('clientes/19.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen Lirsa'
         },
         {
             'photo': '{{ asset('clientes/20.webp') }}',
-            'alt': 'Photo of Mountains'
+            'alt': 'Imagen Ujat'
         },
 
     ]

@@ -85,7 +85,7 @@ class ServiceComponentEA extends Component
                 ]
             ],
             [
-                'imagen' => 'img/servicio1.jpg',
+                'imagen' => 'img/ups.webp',
                 'titulo' => 'Energía & UPS',
                 'lista' => [
                    'Venta y mantenimiento de equipos No-Break de

@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <div class="lg:w-1/2 lg:ml-10 mb-4 md:mb-0">
+        <div class="lg:w-1/2 lg:ml-10 my-4 md:mb-0">
             <picture>
                 <source srcset="{{ asset('img/imagen-siccoms.webp') }}" type="image/webp">
                 <img class="h-auto w-full object-cover lg:h-full lg:w-full rounded-lg shadow-lg" 

@@ -65,9 +65,7 @@
                     <div class="px-6 py-4">
                         <h3 class="text-xl font-semibold text-gray-800">Rastreo GPS</h3>
 
-                        <p class="py-2 text-gray-700">Nuestro servicio de Rastreo GPS ofrece seguimiento en
-                            tiempo real para flotas y vehículos particulares, garantizando seguridad y eficiencia en
-                            un solo lugar.</p>
+                        <p class="py-2 text-gray-700">Nuestro servicio de Rastreo GPS proporciona seguimiento en tiempo real para flotas y vehículos particulares, asegurando seguridad y eficiencia en un único lugar, respaldado por tecnología avanzada y un equipo dedicado.</p>
 
                         <div class="flex items-center mt-4 text-gray-700 ">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -411,16 +409,16 @@
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
                     </svg>
-                    <strong class="mx-3 text-lg font-semibold text-white">Contectando El Mundo</strong>
+                    <strong class="mx-3 text-lg font-semibold 2xl:text-2xl text-white">Contectando El Mundo</strong>
                 </div>
 
                 <div class="px-6 py-4">
-                    <h3 class="text-xl font-semibold text-gray-800">SICCOMS, la
+                    <h3 class="text-xl font-semibold text-gray-800 2xl:text-3xl">SICCOMS, la
                         Esencia
                         de la
                         Integración Digital</h3>
 
-                    <p class="py-2 text-gray-700">En el vasto lienzo del panorama tecnológico global, SICCOMS
+                    <p class="py-2 text-gray-700 2xl:text-lg">En el vasto lienzo del panorama tecnológico global, SICCOMS
                         emerge
                         como el artífice de la integración, tejiendo las complejas redes de computadoras con la destreza
                         de
@@ -436,7 +434,7 @@
 
             <div class="md:col-span-1">
                 <div class="px-4 py-6 bg-white rounded-lg shadow-md">
-                    <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold text-blue-900 mb-4 font-serif">Algunos de
+                    <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold mb-4 font-serif">Algunos de
                         nuestros
                         Trabajos
                     </h2>
@@ -452,8 +450,8 @@
 
         {{-- Clientes --}}
         <div class="my-10 seccion">
-            <div class="max-w-4xl mx-auto px-8 py-9 text-center">
-                <h2 class="text-4xl font-semibold text-blue-900 mb-4 capitalize font-serif">Algunos de Nuestros Clientes
+            <div class="max-w-4xl mx-auto px-8 py-9 text-center font-mulish-normal">
+                <h2 class="text-4xl font-semibold mb-4 capitalize font-serif">Algunos de Nuestros Clientes
                 </h2>
 
             </div>

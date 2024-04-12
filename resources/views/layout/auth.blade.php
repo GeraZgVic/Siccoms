@@ -19,7 +19,7 @@
     <meta property="og:site_name"
         content="SISTEMAS INTEGRALES EN CONSULTORIA, COMERCIALIZACION Y SERVICIOS S.A DE C.V. (SICCOMS)">
     <meta property="og:locale" content="es_MX">
-    <meta property="og:street-address" content="Av. del Sol #202 Fracc. Galaxia">
+    <meta property="og:street-address" content="Centro">
     <meta property="og:locality" content="Villahermosa">
     <meta property="og:region" content="Tabasco">
     <meta property="og:postal-code" content="86035">

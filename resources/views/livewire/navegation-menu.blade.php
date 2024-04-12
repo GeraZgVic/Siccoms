@@ -4,7 +4,7 @@
         {{-- LOGO --}}
         <a href="{{ route('home') }}"
             class="flex items-center py-4 pl-6 pr-4 font-extrabold text-white md:py-0 transition-transform duration-300 ease-in-out transform hover:scale-105 focus:scale-105">
-            <img class="object-cover h-12 w-auto" src="{{ asset('img/lg-siccoms.png') }}" alt="Logo Siccoms">
+            <img class="object-cover h-8 md:h-10 w-auto" src="{{ asset('img/lg-siccoms.png') }}" alt="Logo Siccoms">
         </a>
         {{-- enlaces de navegacion --}}
         <div id="show-menu" :class="{ 'flex': showMenu, 'hidden md:flex': !showMenu }"

@@ -6,17 +6,17 @@
 
         <!-- Item 1 -->
         <div class="inline-block w-full">
-            <img class="object-cover object-center w-full h-96" src="https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            <img class="object-contain object-center w-full h-96" src="{{asset('img/slide1.jpg')}}"
                 alt="" />
         </div>
         <!-- Item 2 -->
         <div class="inline-block w-full">
-            <img class="object-cover object-center w-full h-96" src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=2042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            <img class="object-contain object-center w-full h-96" src="{{asset('img/slide2.jpg')}}"
                 alt="" />
         </div>
         <!-- Item 3 -->
         <div class="inline-block w-full">
-            <img class="object-cover object-center w-full h-96" src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            <img class="object-contain object-center w-full h-96" src="{{asset('img/slide3.jpg')}}"
                 alt="" />
         </div>
 
@@ -25,12 +25,17 @@
     <!-- Prev/Next Arrows -->
     <div class="absolute inset-0 flex items-center justify-between px-2">
         <button @click="activeSlide = activeSlide > 1 ? activeSlide - 1 : slideCount"
-            class="w-[30px] h-[30px] flex items-center bg-black/30 text-white p-2 rounded-full">
-            &#8592;
+            class="w-[30px] h-[30px] flex items-center bg-black/20 hover:bg-black/50 text-white p-2 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+              </svg>              
         </button>
         <button @click="activeSlide = activeSlide < slideCount ? activeSlide + 1 : 1"
-            class="w-[30px] h-[30px] flex items-center bg-black/30 text-white p-2 rounded-full">
-            &#8594;
+            class="w-[30px] h-[30px] flex items-center bg-black/20 hover:bg-black/50 text-white p-2 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+                       
         </button>
     </div>
 

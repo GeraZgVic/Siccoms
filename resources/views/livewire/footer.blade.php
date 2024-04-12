@@ -82,7 +82,7 @@
                     <ul class="list-none">
                         <li class="mt-3">
                             <a class="text-gray-700 cursor-pointer hover:text-blue-900" href="http://vrabogados.com.mx/"
-                                target="_blank">Viveros Romero</a>
+                                target="_blank">Viveros Romero Abogados S.C.</a>
                         </li>
                         <li class="mt-3">
                             <a class="text-gray-700 cursor-pointer hover:text-blue-900"
@@ -94,7 +94,7 @@
                         </li>
                         <li class="mt-3">
                             <a class="text-gray-700 cursor-pointer hover:text-blue-900"
-                                href="https://www.linkedin.com/company/asesores-petroleros-de-tabasco/about/"
+                                href="https://www.linkedin.com/company/asesores-petroleros-de-tabasco/"
                                 target="_blank">Asesores Petroleros de Tabasco</a>
                         </li>
                     </ul>
