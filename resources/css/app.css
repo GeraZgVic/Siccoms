@@ -18,6 +18,15 @@
   font-weight: 400;
   font-style: normal;
 }
+.alerta-form {
+  /* Otras propiedades CSS aquí */
+  transition: opacity 0.5s ease; /* Transición de opacidad durante 0.5 segundos con efecto ease */
+}
+
+.alerta-form.removiendo {
+  opacity: 0; /* Opacidad 0 para ocultar la alerta */
+}
+
 
 @layer components {
   .group-date {
@@ -56,3 +65,4 @@ html {
   scrollbar-width: thin;
   scroll-behavior: smooth;
 }
+

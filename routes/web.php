@@ -44,5 +44,6 @@ Route::get('/posts/{id}/edit',[BlogController::class, 'edit'])->name('posts.edit
 Route::delete('/posts/delete/{id}',[BlogController::class, 'destroy'])->name('posts.destroy');
 
 Route::get('/contacto',[ContactoController::class, 'index'])->name('contacto.index');
+Route::post('/contacto',[ContactoController::class, 'store'])->name('contacto.store');
 
 
