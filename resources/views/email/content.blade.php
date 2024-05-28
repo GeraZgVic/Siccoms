@@ -15,12 +15,16 @@
             padding: 0;
         }
         
+        p {
+            font-size: 14px;
+            font-family: sans-serif;
+        }
         /* Contenedor principal */
         .container {
             max-width: 600px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #f4f1f1;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -32,7 +36,8 @@
         }
         
         .header h1 {
-            color: #333;
+            font-family: sans-serif;
+            color: #3178bf;
         }
         
         /* Contenido */
@@ -43,8 +48,7 @@
         
         /* Pie de página */
         .footer {
-            text-align: center;
-            color: #999;
+            color: #dfdada;
             font-size: 12px;
         }
     </style>

@@ -26,7 +26,7 @@
                 src="{{ asset('storage/blog/' . $post->image) }}" alt="{{ $post->title }}">
 
             <div class="flex justify-center">
-                <div class="md:relative md:z-10 p-4 bg-white shadow-sm md:-mt-6 rounded-md w-full max-w-2xl">
+                <div class="md:relative md:z-10 p-4 bg-white shadow-sm  rounded-md w-full max-w-2xl">
                     <span
                         class="{{ $colorClass }} py-1 px-2 rounded-full text-xs text-white font-medium uppercase leading-none">{{ $post->article->name }}</span>
                     <h2 class="text-2xl font-bold mt-2"><a href="#">{{ $post->title }}</a></h2>

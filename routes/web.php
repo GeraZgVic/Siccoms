@@ -21,9 +21,13 @@ use App\Http\Controllers\ServiciosController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/storage-link', function() {
+    $targetFolder = storage_path('app/public');
+    $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/storage';
+    symlink($targetFolder, $linkFolder);
+});
 
 Route::get('/',[HomeController::class, 'index'])->name('home'); //LISTO
-Route::get('/prueba',[HomeController::class, 'prueba'])->name('prueba'); //LISTO
 
 // Usuarios autenticados (Administrador)
 Route::get('/login', [LoginController::class, 'index'])->name('login');
@@ -45,5 +49,6 @@ Route::delete('/posts/delete/{id}',[BlogController::class, 'destroy'])->name('po
 
 Route::get('/contacto',[ContactoController::class, 'index'])->name('contacto.index');
 Route::post('/contacto',[ContactoController::class, 'store'])->name('contacto.store');
+
 
 

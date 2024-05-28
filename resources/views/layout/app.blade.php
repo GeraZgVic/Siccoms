@@ -34,6 +34,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     @stack('styles')
+    <script src="https://www.google.com/recaptcha/api.js?render={{ env('GOOGLE_RECAPTCHA_KEY') }}"></script>
 
 </head>
 
@@ -82,6 +83,7 @@
     </div>
 
     @stack('script')
+   
 </body>
 
 </html>

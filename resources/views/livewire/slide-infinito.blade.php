@@ -2,7 +2,7 @@
     <style>
         .slider {
             position: relative;
-            width: 75vw;
+            width: 100%;
             height: auto;
             margin: auto;
             overflow: hidden;
@@ -54,7 +54,7 @@
     </style>
 @endpush
 
-<section x-data="{
+<section class="w-full" x-data="{
     imagenesClientes: [
         {
             'photo': '{{ asset('clientes/1.webp') }}',

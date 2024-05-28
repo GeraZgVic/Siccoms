@@ -90,7 +90,7 @@
                 </div>
             @endif
 
-            <form action="{{ route('contacto.store') }}" method="POST" class="space-y-8" novalidate>
+            <form action="{{ route('contacto.store') }}" method="POST" class="space-y-8" id="contactUSForm" novalidate>
                 @csrf
                 <div>
                     <label for="name" class="block mb-2 text-sm font-medium text-gray-900">Nombre</label>
@@ -208,8 +208,8 @@
                         </div>
                     </div>
                 @enderror
-                <button type="submit"
-                    class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue-700 sm:w-fit hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">Enviar
+                <button type="submit"  data-sitekey="6LfMq74pAAAAAKL_OMsyA-chVDgt4ufsn2ezNBuL"  data-callback='onSubmit' data-action='submit'
+                    class="g-recaptcha py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue-700 sm:w-fit hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">Enviar
                     mensaje</button>
             </form>
         </div>
@@ -236,3 +236,12 @@
         }
     }
 </script>
+
+@push('script')
+    <script script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("contactUSForm").submit();
+        }
+    </script>
+@endpush

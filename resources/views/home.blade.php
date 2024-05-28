@@ -6,9 +6,6 @@
 
 
 @section('contenido')
-    {{-- <div
-        class=" nuestros-servicios bottom-0 left-0 w-full h-6 bg-[linear-gradient(to_right,theme(colors.blue.400),theme(colors.blue.100),theme(colors.sky.400),theme(colors.blue.300),theme(colors.sky.400),theme(colors.blue.100),theme(colors.blue.400))] bg-[length:200%_auto] animate-gradient ">
-    </div> --}}
     <div
         class="nuestros-servicios relative flex flex-col justify-center h-[60vh] items-center px-6 sm:flex-row sm:justify-around box-decoration-slice bg-gradient-to-r from-blue-800 via-blue-00 to-blue-800 ">
 
@@ -399,8 +396,8 @@
         </div>
 
 
-        <div class="my-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center px-2">
-            <div class="md:col-span-2 w-full overflow-hidden bg-white rounded-lg shadow-lg">
+        <div class="my-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-2">
+            <div class=" w-full overflow-hidden bg-white rounded-lg shadow-lg">
                 <img class="object-cover object-center object- w-full h-[50vh]" src="{{ asset('img/mundo-siccoms.jpg') }}"
                     alt="Mundo Siccoms">
                 <div class="flex items-center px-6 py-3 bg-gray-900">
@@ -434,13 +431,15 @@
 
             <div class="md:col-span-1">
                 <div class="px-4 py-6 bg-white rounded-lg shadow-md">
-                    <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold mb-4 font-serif">Algunos de
+                    <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold mb-4 font-serif text-center">Algunos de
                         nuestros
                         Trabajos
                     </h2>
                     <p class="text-base md:text-lg text-gray-700 mb-6">Explora nuestra galería de fotos para ver nuestros
                         trabajos destacados.</p>
                     <livewire:image-gallery />
+                    {{-- <x-full-gallery /> --}}
+                    
                 </div>
             </div>
         </div>

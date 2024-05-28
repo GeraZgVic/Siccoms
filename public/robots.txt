@@ -1,2 +1,3 @@
 User-agent: *
-Disallow:
+
+Sitemap: https://siccoms.com/sitemap.xml
