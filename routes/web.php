@@ -39,6 +39,15 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard
 
 // Usuarios (Visitantes)
 Route::get('/servicios',[ServiciosController::class, 'index'])->name('servicios.index');
+// Rutas de servicios destacados
+Route::get('/servicios/rastreo-gps',[ServiciosController::class, 'gps'])->name('servicios.gps');
+Route::get('/servicios/instalacion-cctv',[ServiciosController::class, 'cctv'])->name('servicios.cctv');
+Route::get('/servicios/desarrollo-de-sistemas',[ServiciosController::class, 'desarrollo'])->name('servicios.desarrollo');
+Route::get('/servicios/alarmas-residenciales',[ServiciosController::class, 'alarmas'])->name('servicios.alarmas');
+Route::get('/servicios/seguridad-vehicular',[ServiciosController::class, 'seguridadVehicular'])->name('servicios.seguridadVehicular');
+Route::get('/servicios/seguridad-perimetral',[ServiciosController::class, 'seguridadPerimetral'])->name('servicios.seguridadPerimetral');
+
+
 
 Route::get('/nosotros',[NosotrosController::class, 'index'])->name('nosotros.index'); //TRABAJANDO
 
@@ -49,6 +58,8 @@ Route::delete('/posts/delete/{id}',[BlogController::class, 'destroy'])->name('po
 
 Route::get('/contacto',[ContactoController::class, 'index'])->name('contacto.index');
 Route::post('/contacto',[ContactoController::class, 'store'])->name('contacto.store');
+
+
 
 
 
