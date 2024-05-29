@@ -62,7 +62,9 @@
                     <div class="px-6 py-4">
                         <h3 class="text-xl font-semibold text-gray-800">Rastreo GPS</h3>
 
-                        <p class="py-2 text-gray-700">Nuestro servicio de Rastreo GPS proporciona seguimiento en tiempo real para flotas y vehículos particulares, asegurando seguridad y eficiencia en un único lugar, respaldado por tecnología avanzada y un equipo dedicado.</p>
+                        <p class=" text-gray-700 line-clamp-5">Nuestro servicio de Rastreo GPS proporciona seguimiento en tiempo real
+                            para flotas y vehículos particulares, asegurando seguridad y eficiencia en un único lugar,
+                            respaldado por tecnología avanzada y un equipo dedicado.</p>
 
                         <div class="flex items-center mt-4 text-gray-700 ">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -88,9 +90,19 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
                             </svg>
-
-
                             <p class="px-2 text-sm">Reportes de combustible </p>
+                        </div>
+                        <div class="mt-3">
+                            <a href="#"
+                                class="cursor-pointer flex items-center gap-2 text-lg text-indigo-700 font-semibold">
+                                Leer más<svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.25 6L13.25 6M9.5 10.5L13.4697 6.53033C13.7197 6.28033 13.8447 6.15533 13.8447 6C13.8447 5.84467 13.7197 5.71967 13.4697 5.46967L9.5 1.5"
+                                        stroke="#4338CA" stroke-width="1.8" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +123,7 @@
                     <div class="px-6 py-4">
                         <h3 class="text-xl font-semibold text-gray-800">Soluciones de CCTV videovigilancia</h3>
 
-                        <p class="py-2 text-gray-700">Nuestras soluciones de CCTV videovigilancia ofrecen tecnología de
+                        <p class=" text-gray-700 line-clamp-5">Nuestras soluciones de CCTV videovigilancia ofrecen tecnología de
                             vanguardia para proteger su propiedad y activos. Desde sistemas CCTV Turbo e IP 4K hasta
                             almacenamiento en la nube, brindamos seguridad confiable y eficiente en todo momento.</p>
 
@@ -125,8 +137,8 @@
                         </div>
 
                         <div class="flex items-center mt-4 text-gray-700">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="w-6 h-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
                             </svg>
@@ -140,6 +152,18 @@
                                     d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
                             <p class="px-2 text-sm">Soluciones de Grado Industrial</p>
+                        </div>
+                        <div class="mt-3">
+                            <a href="#"
+                                class="cursor-pointer flex items-center gap-2 text-lg text-indigo-700 font-semibold">
+                                Leer más<svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.25 6L13.25 6M9.5 10.5L13.4697 6.53033C13.7197 6.28033 13.8447 6.15533 13.8447 6C13.8447 5.84467 13.7197 5.71967 13.4697 5.46967L9.5 1.5"
+                                        stroke="#4338CA" stroke-width="1.8" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -160,7 +184,7 @@
                         <h3 class="text-xl font-semibold text-gray-800">Servicios de Desarrollo Web y Software a tu Medida
                         </h3>
 
-                        <p class="py-2 text-gray-700">Ofrecemos soluciones integrales de desarrollo de software, abarcando
+                        <p class=" text-gray-700 line-clamp-5">Ofrecemos soluciones integrales de desarrollo de software, abarcando
                             desde sistemas ERP personalizados hasta el respaldo de datos. Además, creamos sitios web
                             estáticos o dinámicos a medida para adaptarse a sus necesidades específicas.</p>
 
@@ -192,6 +216,18 @@
                             </svg>
                             <p class="px-2 text-sm">Correos electrónicos empresariales</p>
                         </div>
+                        <div class="mt-3">
+                            <a href="#"
+                                class="cursor-pointer flex items-center gap-2 text-lg text-indigo-700 font-semibold">
+                                Leer más<svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.25 6L13.25 6M9.5 10.5L13.4697 6.53033C13.7197 6.28033 13.8447 6.15533 13.8447 6C13.8447 5.84467 13.7197 5.71967 13.4697 5.46967L9.5 1.5"
+                                        stroke="#4338CA" stroke-width="1.8" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="w-full md:max-w-sm overflow-hidden bg-white rounded-lg shadow-lg">
@@ -211,7 +247,7 @@
                         <h3 class="text-xl font-semibold text-gray-800">Alarmas residenciales y comerciales
                         </h3>
 
-                        <p class="py-2 text-gray-700">Desde barras de pánico hasta pulsadores de emergencia, nuestras
+                        <p class=" text-gray-700 line-clamp-5">Desde barras de pánico hasta pulsadores de emergencia, nuestras
                             soluciones de seguridad ofrecen protección completa para su hogar o negocio. Con
                             tecnología
                             avanzada, garantizamos respuestas rápidas y eficaces en situaciones críticas.</p>
@@ -242,6 +278,18 @@
                             </svg>
                             <p class="px-2 text-sm">Alarmas de zona</p>
                         </div>
+                        <div class="mt-3">
+                            <a href="#"
+                                class="cursor-pointer flex items-center gap-2 text-lg text-indigo-700 font-semibold">
+                                Leer más<svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.25 6L13.25 6M9.5 10.5L13.4697 6.53033C13.7197 6.28033 13.8447 6.15533 13.8447 6C13.8447 5.84467 13.7197 5.71967 13.4697 5.46967L9.5 1.5"
+                                        stroke="#4338CA" stroke-width="1.8" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="w-full md:max-w-sm overflow-hidden bg-white rounded-lg shadow-lg">
@@ -260,7 +308,7 @@
                         <h3 class="text-xl font-semibold text-gray-800">Controles de acceso vehicular
                         </h3>
 
-                        <p class="py-2 text-gray-700">Ofrecemos soluciones integrales de seguridad, desde barreras
+                        <p class="text-gray-700 line-clamp-5">Ofrecemos soluciones integrales de seguridad, desde barreras
                             vehiculares hasta portones eléctricos. Con servicios de digitalización, mantenimiento y
                             medidas de seguridad adicionales, aseguramos tranquilidad y eficiencia en su propiedad.</p>
 
@@ -291,6 +339,18 @@
 
                             <p class="px-2 text-sm">Señalizacion</p>
                         </div>
+                        <div class="mt-3">
+                            <a href="#"
+                                class="cursor-pointer flex items-center gap-2 text-lg text-indigo-700 font-semibold">
+                                Leer más<svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.25 6L13.25 6M9.5 10.5L13.4697 6.53033C13.7197 6.28033 13.8447 6.15533 13.8447 6C13.8447 5.84467 13.7197 5.71967 13.4697 5.46967L9.5 1.5"
+                                        stroke="#4338CA" stroke-width="1.8" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="w-full md:max-w-sm overflow-hidden bg-white rounded-lg shadow-lg">
@@ -310,7 +370,7 @@
                         <h3 class="text-xl font-semibold text-gray-800">Seguridad Perimetral
                         </h3>
 
-                        <p class="py-2 text-gray-700">Nuestros cercos eléctricos ofrecen seguridad máxima. Desde
+                        <p class=" text-gray-700 line-clamp-5">Nuestros cercos eléctricos ofrecen seguridad máxima. Desde
                             aplicaciones residenciales hasta industriales, garantizamos protección completa con
                             integraciones avanzadas de alarmas y Wi-Fi.</p>
 
@@ -341,6 +401,18 @@
                                     d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" />
                             </svg>
                             <p class="px-2 text-sm">Aplicación industrial, residencial, comercial y ganadera</p>
+                        </div>
+                        <div class="mt-3">
+                            <a href="#"
+                                class="cursor-pointer flex items-center gap-2 text-lg text-indigo-700 font-semibold">
+                                Leer más<svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.25 6L13.25 6M9.5 10.5L13.4697 6.53033C13.7197 6.28033 13.8447 6.15533 13.8447 6C13.8447 5.84467 13.7197 5.71967 13.4697 5.46967L9.5 1.5"
+                                        stroke="#4338CA" stroke-width="1.8" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -439,7 +511,7 @@
                         trabajos destacados.</p>
                     <livewire:image-gallery />
                     {{-- <x-full-gallery /> --}}
-                    
+
                 </div>
             </div>
         </div>
