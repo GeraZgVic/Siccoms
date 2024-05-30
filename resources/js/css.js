@@ -4,28 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function iniciarApp() {
     aplicarAnimaciones();
-    navegacionFija();
 
 }
-
-function navegacionFija() {
-    const barraNavegacion = document.querySelector('.navegacion');
-    const servicios = document.querySelector('.nuestros-servicios');
-
-    window.addEventListener('scroll', () => {
-        // Obtener la posición vertical del borde inferior del apartado de servicios
-        const serviciosBottom = servicios.getBoundingClientRect().bottom;
-
-        // Si el borde del apartado de servicios está arriba de la parte superior de la ventana
-        if (serviciosBottom < 0) {
-            barraNavegacion.classList.add('fixed', 'top-0', 'z-40', 'bg-blue-950', 'w-full');
-        } else {
-            barraNavegacion.classList.remove('fixed', 'top-0', 'z-40', 'bg-blue-950', 'w-full');
-
-        }
-    })
-}
-
 
 
 function aplicarAnimaciones() {

@@ -6,13 +6,6 @@ use Illuminate\Http\Request;
 
 class ServiciosController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        return view('servicios');
-    }
 
     public function gps()
     {

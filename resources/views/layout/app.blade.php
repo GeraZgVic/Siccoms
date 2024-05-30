@@ -12,7 +12,7 @@
         content="Con más de 10 años de experiencia, Siccoms ofrece servicios integrales en consultoría, comercialización y tecnología.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ Request::url() }}">
-    {{-- <meta property="og:image" content="URL_DE_LA_IMAGEN"> --}}
+    <meta property="og:image" content="{{asset('img/logo-siccoms.png')}}">
     <!-- Etiqueta Canonical -->
     <link rel="canonical" href="{{ Request::url() }}">
 
@@ -31,15 +31,46 @@
     <link rel="icon" type="ico" href="{{ asset('favicon.ico') }}">
 
     <title>Siccoms |@yield('titulo')</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/css.js'])
+    
 
     @stack('styles')
     <script src="https://www.google.com/recaptcha/api.js?render={{ env('GOOGLE_RECAPTCHA_KEY') }}"></script>
+     <!-- Datos estructurados JSON-LD -->
+     <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Siccoms",
+          "description": "Siccoms ofrece servicios integrales en consultoría, comercialización y tecnología con más de 10 años de experiencia. ¡Contáctanos para soluciones estratégicas y de calidad!",
+          "url": "https://www.siccoms.com",
+          "logo": "https://www.siccoms.com/img/lg-siccoms.png",
+          "telephone": "993-268-0885",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Villhermosa",
+            "postalCode": "86090",
+            "addressCountry": "MX"
+          },
+          "sameAs": [
+            "https://www.facebook.com/p/Siccoms-Oficial-61554231655085/"
+          ]
+        }
+    </script>
 
 </head>
 
 <body class="antialiased selection:bg-sky-400 selection:text-sky-900">
+
+    
+    @if (Request::is('/'))
+    <livewire:header />
+    @else
+        {{-- Todas las paginas excepto la principal --}}
     <livewire:navegation-menu-guest />
+
+    @endif
+
     <main>
         @yield('contenido')
     </main>

@@ -11,7 +11,6 @@
     <meta property="og:description"
         content="Con más de 10 años de experiencia, Siccoms ofrece servicios integrales en consultoría, comercialización y tecnología.">
     <meta property="og:type" content="website">
-    
     <meta property="og:url" content="{{ Request::url() }}">
     {{-- <meta property="og:image" content="URL_DE_LA_IMAGEN"> --}}
     <!-- Etiqueta Canonical -->
@@ -30,17 +29,45 @@
     <meta property="og:phone_number" content="993-268-0885">
 
     <link rel="icon" type="ico" href="{{ asset('favicon.ico') }}">
-    
 
-    <title>Siccoms |@yield('titulo')</title>
+    <title>@yield('titulo')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/css.js'])
 
-    @stack('styles')
 
+    @stack('styles')
+    <script src="https://www.google.com/recaptcha/api.js?render={{ env('GOOGLE_RECAPTCHA_KEY') }}"></script>
+    <!-- Datos estructurados JSON-LD -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Siccoms",
+          "description": "Siccoms ofrece servicios integrales en consultoría, comercialización y tecnología con más de 10 años de experiencia. ¡Contáctanos para soluciones estratégicas y de calidad!",
+          "url": "https://www.siccoms.com",
+          "logo": "https://www.siccoms.com/img/lg-siccoms.png",
+          "telephone": "993-268-0885",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Villhermosa",
+            "postalCode": "86090",
+            "addressCountry": "MX"
+          },
+          "sameAs": [
+            "https://www.facebook.com/p/Siccoms-Oficial-61554231655085/"
+          ]
+        }
+    </script>
 </head>
 
 <body class="antialiased selection:bg-sky-400 selection:text-sky-900">
-    <livewire:header />
+
+
+    @if (Request::is('/'))
+        <livewire:header />
+    @else
+        {{-- Todas las paginas excepto la principal --}}
+        <livewire:navegation-menu-guest />
+    @endif
 
     <main>
         @yield('contenido')
@@ -48,7 +75,7 @@
 
     <livewire:footer />
 
-    {{-- ICONO WHATSAPP --}}
+    {{-- Btn WhatsApp --}}
     <div class="fixed bottom-4 ml-4 z-10"> <!-- Ajusta la posición del icono según tu preferencia -->
         <a href="https://wa.me/9932910217" target="_blank" rel="noopener noreferrer" aria-label="Enviar WhatsApp"
             title="Enviar mensaje de WhatsApp">
@@ -60,9 +87,13 @@
         </a>
     </div>
 
-
-    {{-- Btn arrow Up --}}
-    <div x-data="{ showScrollButton: false, handleTop: function() { window.scrollTo({ top: 0, behavior: 'smooth' }); } }" x-init="window.addEventListener('scroll', function() {
+    {{-- Btn Arrow Up --}}
+    <div x-data="{
+        showScrollButton: false,
+        handleTop: function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    }" x-init="window.addEventListener('scroll', function() {
         showScrollButton = window.scrollY > window.innerHeight / 0.30;
     })">
         <button x-show="showScrollButton" @click="handleTop"
@@ -77,7 +108,7 @@
     </div>
 
     @stack('script')
-   
+
 </body>
 
 </html>

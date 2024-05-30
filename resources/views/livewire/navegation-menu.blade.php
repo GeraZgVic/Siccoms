@@ -1,6 +1,6 @@
-<nav class="flex items-center w-full h-24 select-none navegacion " x-data="{ showMenu: false }">
+<nav class="flex items-center w-full md:h-20 select-none navegacion " x-data="{ showMenu: false }">
     <div
-        class=" relative flex w-full mx-auto font-medium md:items-center md:h-24 md:justify-between">
+        class=" relative flex w-full mx-auto font-medium md:items-center  md:justify-between">
         {{-- LOGO --}}
         <a href="{{ route('home') }}"
             class="flex items-center py-4 pl-6 pr-4 font-extrabold text-white md:py-0 transition-transform duration-300 ease-in-out transform hover:scale-105 focus:scale-105">

@@ -49,7 +49,7 @@ Route::get('/servicios/seguridad-perimetral',[ServiciosController::class, 'segur
 
 
 
-Route::get('/nosotros',[NosotrosController::class, 'index'])->name('nosotros.index'); //TRABAJANDO
+Route::get('/nosotros',[NosotrosController::class, 'index'])->name('nosotros.index'); 
 
 Route::get('/blog',[BlogController::class, 'index'])->name('blog.index');
 Route::get('/posts/{id}', [BlogController::class, 'show'])->name('posts.show');
