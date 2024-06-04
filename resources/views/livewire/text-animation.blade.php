@@ -1,4 +1,4 @@
-<h2 x-data="{
+<h1 x-data="{
     startingAnimation: { opacity: 0, y: 50, rotation: '25deg' },
     endingAnimation: { opacity: 1, y: 0, rotation: '0deg', stagger: 0.02, duration: 0.7, ease: 'back' },
     addCNDScript: true,
@@ -34,4 +34,4 @@ gsapInterval2 = setInterval(function() {
 }, 5);"
     class="invisible block pb-4 overflow-hidden text-4xl md:text-5xl lg:text-7xl mb-2 md:m-0 font-bold custom-font tracking-tight text-black">
     {{$texto}}
-</h2>
+</h1>

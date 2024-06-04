@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-        content="Siccoms ofrece servicios integrales en consultoría, comercialización y tecnología con más de 10 años de experiencia. ¡Contáctanos para soluciones estratégicas y de calidad!">
+        content="@yield('description')">
     <!-- Etiquetas OG -->
-    <meta property="og:title" content="SICCOMS | Servicios Integrales en Consultoría, Comercialización y Servicios">
+    <meta property="og:title" content="Servicio de GPS | Servicios Integrales en Consultoría, Comercialización y Servicios">
     <meta property="og:description"
-        content="Con más de 10 años de experiencia, Siccoms ofrece servicios integrales en consultoría, comercialización y tecnología.">
+        content="@yield('description')">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ Request::url() }}">
     {{-- <meta property="og:image" content="URL_DE_LA_IMAGEN"> --}}
