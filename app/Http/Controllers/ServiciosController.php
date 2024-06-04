@@ -18,11 +18,11 @@ class ServiciosController extends Controller
     }
     public function cctv()
     {
-        return view('servicios.gps');
+        return view('servicios.cctv');
     }
     public function desarrollo()
     {
-        return view('servicios.cctv');
+        return view('servicios.desarrollo');
     }
     public function alarmas()
     {
