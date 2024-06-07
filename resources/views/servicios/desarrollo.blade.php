@@ -62,21 +62,25 @@ Servicio de desarrollo personalizado
 </div> -->
 
 <!-- Segunda opcion -->
-<section
-    class="flex flex-col md:flex-row items-center bg-white shadow-md rounded- overflow-hidden max-w-7xl mx-auto mt-10">
-    <div class="md:w-1/2 p-8">
-        <div class="uppercase text-sm font-bold text-gray-500 mb-2">¡Bienvenidos a SICCOMS!</div>
-        <livewire:text-animation texto="Nuestra Área de Desarrollo" />
+<div class="grid container px-6 py-12 mx-auto">
+    <section
+        class="flex flex-col md:flex-row items-center bg-white shadow-md rounded- overflow-hidden max-w-7xl mx-auto mt-10">
+        <div class="md:w-1/2 p-8">
+            <div class="uppercase text-sm font-bold text-gray-500 mb-2">¡Bienvenidos a SICCOMS!</div>
+            <livewire:text-animation texto="Nuestra Área de Desarrollo" />
 
-        <h2 class="text-lg text-gray-700 mb-6">
-            <span class="font-bold text-gray-900">¡Hola mundo!</span> ¿Estás buscando un equipo de expertos en
-            desarrollo web y desarrollo de sistemas que pueda llevar tu proyecto al siguiente nivel? ¡No busques más!
-        </h2>
-    </div>
-    <div class="md:w-1/2">
-        <img src="{{ asset('img/hero-desarrollo2.jpg') }}" alt="Forest image" class="w-full h-full object-cover rounded-lg shadow-md">
-    </div>
-</section>
+            <h2 class="text-lg text-gray-700 mb-6">
+                <span class="font-bold text-gray-900">¡Hola mundo!</span> ¿Estás buscando un equipo de expertos en
+                desarrollo web y desarrollo de sistemas que pueda llevar tu proyecto al siguiente nivel? ¡No busques
+                más!
+            </h2>
+        </div>
+        <div class="md:w-1/2">
+            <img src="{{ asset('img/hero-desarrollo2.jpg') }}" alt="Forest image"
+                class="w-full h-full object-cover rounded-lg shadow-md">
+        </div>
+    </section>
+</div>
 
 <div class="mt-5 px-6 py-12 mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between bg-black">
     <div>
