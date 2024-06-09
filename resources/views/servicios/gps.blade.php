@@ -23,7 +23,7 @@
                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
                             <path d="M9 12l2 2l4 -4" />
                         </svg>
-                        <span class="text-gray-700 tracking-wide">Control Preciso de la Ubicación en Tiempo Real</span>
+                        <span class="text-gray-700 tracking-wide font-light">Control Preciso de la Ubicación en Tiempo Real</span>
                     </li>
                     <li class="flex items-center mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@
                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
                             <path d="M9 12l2 2l4 -4" />
                         </svg>
-                        <span class="text-gray-700 tracking-wide">Gestión Eficiente de Geocercas para Seguridad y
+                        <span class="text-gray-700 tracking-wide font-light">Gestión Eficiente de Geocercas para Seguridad y
                             Eficiencia</span>
                     </li>
                     <li class="flex items-center mb-2">
@@ -46,7 +46,7 @@
                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
                             <path d="M9 12l2 2l4 -4" />
                         </svg>
-                        <span class="text-gray-700 tracking-wide">Optimización de Procesos: Planificación, Coordinación y
+                        <span class="text-gray-700 tracking-wide font-light">Planificación, Coordinación y
                             Monitoreo
                             Simplificados</span>
                     </li>
@@ -81,7 +81,7 @@
                 <div class="bg-white rounded text-2xl md:text-3xl lg:text-4xl font-bold text-black mix-blend-screen px-10 py-5 ">
                     Administración de Flotas</div>
 
-                <p class="mt-4 text-lg text-gray-100 font-semibold">Descubre la plataforma líder en gestión de flotas de
+                <p class="mt-4 text-lg text-gray-100  font-light">Descubre la plataforma líder en gestión de flotas de
                     <a href="https://www.epcom.net/product/EPCOMGPSANUAL-EPCOM-144428.html" target="_blank"><strong
                             class="text-gray-200">EPCOM
                             GPS.</strong>
@@ -89,7 +89,7 @@
                     Nuestra solución innovadora te ofrece control total sobre tus operaciones vehiculares, maximizando
                     eficiencia y control.
                 </p>
-                <p class="mt-4 text-lg text-gray-100">El sistema de <strong class="font-normal">EPCOM GPS</strong>
+                <p class="mt-4 text-lg text-gray-100 font-light">El sistema de <strong class="font-normal">EPCOM GPS</strong>
                     optimiza cada aspecto de tu flota, desde reducir trabajo administrativo y costos de mantenimiento hasta
                     mejorar los hábitos de conducción y la eficiencia en el uso del combustible.</p>
             </div>
@@ -211,80 +211,61 @@
         </div>
     </section>
 
-    {{-- <div
-        class="flex flex-col md:flex-row justify-center gap-y-8 gap-x-16 bg-gradient-to-r from-blue-500 via-blue-900 to-blue-500 py-6">
-        <div class="flex flex-col items-center">
-            <svg xmlns="http://www.w3.org/2000/svg"
-                class="transition-transform transform hover:scale-110 cursor-pointer icon icon-tabler icon-tabler-report w-28 h-28 md:w-40 md:h-40 transition-transform transform hover:scale-110 cursor-pointer"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#eff6ff" fill="none" stroke-linecap="round"
-                stroke-linejoin="round" alt="Reportes sobre comportamiento de conductor">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M8 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h5.697" />
-                <path d="M18 14v4h4" />
-                <path d="M18 11v-4a2 2 0 0 0 -2 -2h-2" />
-                <path d="M8 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-                <path d="M18 18m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
-                <path d="M8 11h4" />
-                <path d="M8 15h3" />
-            </svg>
-            <p class="text-center text-lg my-2 font-mulish-normal text-white">Reportes sobre<br><span
-                    class="text-green-400">comportamiento</span><br>de conductor</p>
+    <section class="bg-white">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="font-light text-gray-600 sm:text-lg">
+                <h2 class="mb-4 text-2xl md:text-4xl tracking-tight font-extrabold text-gray-900 ">
+                    Rastreo de Contenedores con EPCOM GPS</h2>
+                <p class="mb-4">EPCOM GPS proporciona herramientas avanzadas para rastrear contenedores, ofreciendo información en tiempo real sobre ubicación y condiciones, como temperatura y flujo de aire. Sus equipos robustos y flexibles hacen de EPCOM GPS la opción ideal para una logística eficiente y competitiva.</p>
+                <ul class="list-none mb-6 space-y-3">
+                    <li class="flex items-center mb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-eye-check mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                            <path d="M11.102 17.957c-3.204 -.307 -5.904 -2.294 -8.102 -5.957c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6a19.5 19.5 0 0 1 -.663 1.032" />
+                            <path d="M15 19l2 2l4 -4" />
+                          </svg>
+                        <span class="text-gray-700 tracking-wide font-light capitalize">Interfaz con múltiples vistas</span>
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-box-multiple mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+                            <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
+                          </svg>
+                        <span class="text-gray-700 tracking-wide font-light">Varias soluciones basadas en RFID</span>
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-photo-sensor-3 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M17 4h1a2 2 0 0 1 2 2v1" />
+                            <path d="M20 17v1a2 2 0 0 1 -2 2h-1" />
+                            <path d="M7 20h-1a2 2 0 0 1 -2 -2v-1" />
+                            <path d="M4 7v-1a2 2 0 0 1 2 -2h1" />
+                            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                            <path d="M12 18v2" />
+                            <path d="M4 12h2" />
+                            <path d="M12 4v2" />
+                            <path d="M20 12h-2" />
+                          </svg>
+                        <span class="text-gray-700 tracking-wide font-light"> Soporte de una gran cantidad de sensores</span>
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bell-ringing mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+                            <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+                            <path d="M21 6.727a11.05 11.05 0 0 0 -2.794 -3.727" />
+                            <path d="M3 6.727a11.05 11.05 0 0 1 2.792 -3.727" />
+                          </svg>
+                        <span class="text-gray-700 tracking-wide font-light"> Notificaciones y alarmas basadas en eventos</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg" src="{{asset('img/map2.webp')}}" alt=Mapa_1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="{{asset('img/map1.png')}}" alt="Mapa_2">
+            </div>
         </div>
-        <div class="flex flex-col items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
-                class="w-28 h-28 md:w-40 md:h-40 transition-transform transform hover:scale-110 cursor-pointer"
-                alt="Reducción de costos de combustible">
-                <path
-                    d="M22.917 12.5a4.158 4.158 0 0 0-4.167 4.167v66.666c0 2.084 2.083 4.167 4.167 4.167h37.5c2.083 0 4.166-2.083 4.166-4.167V62.5h2.084c2.083 0 2.083 2.083 2.083 2.083v8.334c0 4.166 2.083 6.25 6.25 6.25s6.25-2.084 6.25-6.25V50c0-4.167-8.333-8.333-8.333-12.5V25H68.75l-4.167-4.167v-4.166a4.158 4.158 0 0 0-4.166-4.167zm4.166 8.333H56.25V37.5H27.083zm37.5 12.5h4.167v6.25c0 4.167 8.333 8.334 8.333 12.5v20.834C77.083 75 75 75 75 75s-2.083 0-2.083-2.083V62.5c0-2.083-2.084-4.167-4.167-4.167h-4.167z"
-                    style="marker:none" color="#000000" fill="#eff6ff" fill-opacity="1" fill-rule="nonzero" stroke="none"
-                    stroke-width="2" visibility="visible" display="inline" overflow="visible" enable-background="accumulate"
-                    class="fill-000000"></path>
-            </svg>
-            <p class="text-center text-lg my-2 font-mulish-normal text-white"><span
-                    class="text-green-400">Reducción</span><br>de costos de<br>combustible</p>
-        </div>
-        <div class="flex flex-col items-center">
-            <svg viewBox="0 0 50 50"
-                class="w-28 h-28 md:w-40 md:h-40 transition-transform transform hover:scale-110 cursor-pointer"
-                alt="Incremento en la productividad de las flota">
-                <path fill="none" d="M0 0h50v50H0z"></path>
-                <path
-                    d="M25 1C11.767 1 1 11.766 1 25s10.767 24 24 24 24-10.766 24-24S38.233 1 25 1zm0 43C14.524 44 6 35.477 6 25S14.524 6 25 6s18.999 8.523 18.999 19S35.476 44 25 44z"
-                    fill="none" stroke="#eff6ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
-                    stroke-width="2.111" class="stroke-000000"></path>
-                <path
-                    d="M43.444 22c-8 0-11.841-5-18.444-5-6.613 0-9.944 5-18.444 5M29 42v-8c0-2.684 2.26-5 5-5h9.056m-36.5 0H16c2.885 0 5 2.23 5 5v8"
-                    fill="none" stroke="#eff6ff" stroke-linecap="round" stroke-linejoin="round"
-                    stroke-miterlimit="10" stroke-width="2" class="stroke-000000"></path>
-                <circle cx="25" cy="25" fill="none" r="4" stroke="#eff6ff" stroke-linecap="round"
-                    stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" class="stroke-000000"></circle>
-            </svg>
-            <p class="text-center text-lg my-2 font-mulish-normal text-white">Incremento en la<br><span
-                    class="text-green-400">productividad</span> de<br>las flota</p>
-        </div>
-    </div> --}}
-
-    {{-- <section class="container px-6 py-12 mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between">
-        <div class="w-full lg:w-7/12 lg:pr-6">
-            <h2 class="text-2xl md:text-3xl lg:text-5xl mb-4 md:mb-6 font-bold custom-font text-gray-700">Administración de
-                Flotas</h2>
-            <p class="text-lg text-gray-800 mb-4 md:mb-6">Descubre la plataforma líder en gestión de flotas de <strong
-                    class="text-blue-900">EPCOM GPS.</strong> Nuestra solución innovadora te ofrece control total sobre tus
-                operaciones vehiculares, maximizando eficiencia y control.</p>
-            <p class="text-lg text-gray-800 mb-4 md:mb-6">El sistema de <strong class="font-normal">EPCOM GPS</strong>
-                optimiza cada aspecto de tu flota, desde reducir trabajo administrativo y costos de mantenimiento hasta
-                mejorar los hábitos de conducción y la eficiencia en el uso del combustible.</p>
-        </div>
-        <div class="w-full lg:w-2/5">
-            <img src="{{ asset('img/monitoreo-gps.webp') }}" alt="GPS WEB" class="w-full h-auto rounded-lg">
-        </div>
-    </section> --}}
-
-
-
-
-
-
-
-
+    </section>
 @endsection

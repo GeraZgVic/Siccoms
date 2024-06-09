@@ -12,7 +12,7 @@
         content="@yield('description')">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ Request::url() }}">
-    {{-- <meta property="og:image" content="URL_DE_LA_IMAGEN"> --}}
+    <meta property="og:image" content="{{asset('img/logo-siccoms.png')}}">
     <!-- Etiqueta Canonical -->
     <link rel="canonical" href="{{ Request::url() }}">
 
