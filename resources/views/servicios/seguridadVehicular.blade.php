@@ -9,7 +9,7 @@
 @section('contenido')
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 py-12">
     <div>
-        <livewire:text-animation texto="Control de Acceso Vehicular" />
+        <h1 class="pb-4 text-3xl md:text-4xl lg:text-6xl mb-2 md:m-0 font-bold text-gray-800"> Control de Acceso Vehicular</h1>
         <section>
             <h2 class="text-xl font-semibold mb-4 text-gray-700">En SICCOMS, ofrecemos soluciones de control de acceso
                 vehicular para mejorar la seguridad y eficiencia en cualquier entorno.
