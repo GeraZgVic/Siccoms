@@ -244,42 +244,42 @@ Servicio de desarrollo personalizado
             automatización de sistemas y sitios web.</p>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 sm:px-6 lg:px-8">
-            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-110 cursor-pointer">
+            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-105 cursor-pointer">
                 <img src="{{ asset('img/content-laravel.webp')}}" alt="Laravel" class="h-12 mx-auto mb-4">
                 <h4 class="font-semibold">Laravel</h4>
                 <p class="text-gray-600">Framework</p>
             </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-110 cursor-pointer">
+            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-105 cursor-pointer">
                 <img src="{{ asset('img/content-codeigniter.webp')}}" alt="CodeIgniter" class="h-12 mx-auto mb-4">
                 <h4 class="font-semibold">CodeIgniter</h4>
                 <p class="text-gray-600">Framework</p>
             </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-110 cursor-pointer">
+            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-105 cursor-pointer">
                 <img src="{{ asset('img/content-yii2.webp')}}" alt="Yii2" class="h-12 mx-auto mb-4">
                 <h4 class="font-semibold">Yii2</h4>
                 <p class="text-gray-600">Framework</p>
             </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-110 cursor-pointer">
+            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-105 cursor-pointer">
                 <img src="{{ asset('img/content-php.webp')}}" alt="PHP" class="h-12 mx-auto mb-4">
                 <h4 class="font-semibold">PHP</h4>
                 <p class="text-gray-600">Lenguaje de programación</p>
             </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-110 cursor-pointer">
+            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-105 cursor-pointer">
                 <img src="{{ asset('img/content-tailwind.webp')}}" alt="Tailwind" class="h-12 mx-auto mb-4">
                 <h4 class="font-semibold">Tailwind</h4>
                 <p class="text-gray-600">Framework de CSS</p>
             </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-110 cursor-pointer">
+            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-105 cursor-pointer">
                 <img src="{{ asset('img/content-html.webp')}}" alt="HTML" class="h-12 mx-auto mb-4">
                 <h4 class="font-semibold">HTML</h4>
                 <p class="text-gray-600">HyperText Markup Language</p>
             </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-110 cursor-pointer">
+            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-105 cursor-pointer">
                 <img src="{{ asset('img/content-css.webp')}}" alt="CSS" class="h-12 mx-auto mb-4">
                 <h4 class="font-semibold">CSS</h4>
                 <p class="text-gray-600">Lenguaje de hoja de estilos</p>
             </div>
-            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-110 cursor-pointer">
+            <div class="bg-white shadow-lg rounded-lg p-6 text-center transition duration-300 hover:scale-105 cursor-pointer">
                 <img src="{{ asset('img/content-javascript.webp')}}" alt="JavaScript" class="h-12 mx-auto mb-4">
                 <h4 class="font-semibold">JavaScript</h4>
                 <p class="text-gray-600">Lenguaje de programación</p>
