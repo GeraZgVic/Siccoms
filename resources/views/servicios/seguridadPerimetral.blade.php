@@ -9,23 +9,19 @@ Servicio de Cercas electricas
 @endsection
 
 @section('contenido')
-
-
-<section class="bg-gray-900">
-    <div class=" mx-auto max-w-screen-xl text-center py-24 lg:py-5">
-        <h1 class="pb-4 text-3xl md:text-4xl lg:text-6xl mb-2 md:m-0 font-bold text-white"> Control de Acceso
-            Perimetral</h1>
-        <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Bienvenido a nuestro portal de
-            soluciones avanzadas para el Control de Acceso</p>
-        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-            <!-- Image Section -->
-            <div class="flex justify-center items-center">
-                <img src="{{ asset('img/hero-perimetral.jpg') }}" alt="Desarrollo Web"
-                    class="max-w-xl object-cover rounded-lg shadow-md">
-            </div>
+<div class="flex h-screen items-center justify-center bg-gray-800">
+    <div class="relative h-full w-full bg-cover bg-center bg-fixed" style="background-image: url('{{ asset('img/hero-perimetral.jpg') }}');">
+      <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm">
+        <div class="p-6 text-white">
+            <h1 class="pb-4 text-3xl md:text-4xl lg:text-6xl mb-2 md:m-0 font-bold text-white text-center font-mulish-bold"> Control de Acceso
+                Perimetral</h1>
+                <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Bienvenido a nuestro portal de
+                    soluciones avanzadas para el Control de Acceso</p>
         </div>
+      </div>
     </div>
-</section>
+  </div>
+  
 
 <section class="py-5 p-6 rounded-md">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -79,8 +75,7 @@ Servicio de Cercas electricas
             </div>
 </section>
 
-<section class="bg-gray-800 text-white">
-
+<section class="bg-gray-800 text-white px-4">
     <div class="container mx-auto p-4 flex flex-col md:flex-row items-center justify-center">
         <!-- Text Content -->
         <div class="backdrop-blur-sm bg-gray-900/90 p-6 rounded-lg shadow-lg w-full md:w-1/2 md:-mr-10 z-10">
