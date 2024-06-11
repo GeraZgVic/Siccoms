@@ -100,7 +100,7 @@
     }
 }" @image-gallery-next.window="imageGalleryNext()"
     @image-gallery-prev.window="imageGalleryPrev()" @keyup.right.window="imageGalleryNext();"
-    @keyup.left.window="imageGalleryPrev();" class="w-full h-full select-none">
+    @keyup.left.window="imageGalleryPrev();" class="w-full h-full select-none max-w-5xl ">
     <div class="container py-4 mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view"
         style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
         <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-4">
@@ -146,3 +146,4 @@
         </div>
     </template>
     </div>
+</section>

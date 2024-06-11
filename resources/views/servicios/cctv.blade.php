@@ -13,7 +13,9 @@
     <div class="max-w-[85rem] mx-auto px-4 sm:px-6 sm:pt-4 lg:px-8 lg:pt-4">
         <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
             <div>
-                <h1 class="animate-fade-down mt-4 md:mt-0 block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight font-mulish-bold">Soluciones de
+                <h1
+                    class="animate-fade-down mt-4 md:mt-0 block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight font-mulish-bold">
+                    Soluciones de
                     Videovigilancia <span class="text-blue-500 mx-1 font-extrabold relative inline-block stroke-current">
                         CCTV
                         <svg class="absolute -bottom-0.5 w-full max-h-1.5" viewBox="0 0 55 5"
@@ -108,7 +110,8 @@
                 </ul>
             </div>
             <div class="ms-4">
-                <img class="w-full h-auto rounded-md animate-fade-down animate-duration-[2000ms]" src="{{ asset('img/cam-cctv.webp') }}" alt="Image Description">
+                <img class="w-full h-auto rounded-md animate-fade-down animate-duration-[2000ms]"
+                    src="{{ asset('img/cam-cctv.webp') }}" alt="Image Description">
             </div>
         </div>
     </div>
@@ -120,7 +123,8 @@
                 <h2
                     class="animate-bottom text-4xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-gray-300 sm:text-5xl font-mulish-bold">
                     Casos de Uso y Beneficios</h2>
-                <p class="mt-4 text-lg text-gray-300 animate-bottom">Nuestras soluciones CCTV son ideales para una variedad de entornos,
+                <p class="mt-4 text-lg text-gray-300 animate-bottom">Nuestras soluciones CCTV son ideales para una variedad
+                    de entornos,
                     incluyendo</p>
             </div>
             <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -199,7 +203,8 @@
                             <h3 class="mt-8 text-lg font-semibold tracking-tight text-white uppercase"> Almacenes
                             </h3>
                             <p class="mt-5 text-base text-gray-300">Monitoreo de inventarios y control de accesos.
-                                <br>Mantén tu espacio seguro.</p>
+                                <br>Mantén tu espacio seguro.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -227,7 +232,8 @@
                             </div>
                             <h3 class="mt-8 text-lg font-semibold tracking-tight text-white uppercase">Residencias
                             </h3>
-                            <p class="mt-5 text-base text-gray-300">Seguridad familiar y control de visitas. <br> Mantén tu espacio seguro</p>
+                            <p class="mt-5 text-base text-gray-300">Seguridad familiar y control de visitas. <br> Mantén tu
+                                espacio seguro</p>
                         </div>
                     </div>
                 </div>
@@ -238,8 +244,10 @@
 
         <!-- Sección de Servicio y Soporte -->
         <div class="max-w-3xl mx-auto mt-16 text-center">
-            <h2 class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl font-mulish-bold animate-bottom">Servicio y Soporte</h2>
-            <p class="mt-4 text-lg text-gray-300 animate-bottom">Ofrecemos un servicio completo de instalación y configuración, asegurando
+            <h2 class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl font-mulish-bold animate-bottom">
+                Servicio y Soporte</h2>
+            <p class="mt-4 text-lg text-gray-300 animate-bottom">Ofrecemos un servicio completo de instalación y
+                configuración, asegurando
                 que su sistema de CCTV esté optimizado y listo para funcionar desde el primer día. Además, nuestro equipo de
                 soporte está disponible para ayudar con cualquier problema o consulta que pueda surgir.</p>
         </div>
@@ -251,13 +259,14 @@
             <div
                 class="flex flex-col justify-center items-center gap-x-16 gap-y-5 xl:gap-28 lg:flex-row lg:justify-between max-lg:max-w-2xl mx-auto max-w-full">
                 <div class="w-full lg:w-1/2 animate-right">
-                    <img src="{{asset('img/camera-faq.webp')}}"
-                        alt="Image Description" class="w-full h-auto rounded-md" />
+                    <img src="{{ asset('img/camera-faq.webp') }}" alt="Image Description"
+                        class="w-full h-auto rounded-md" />
                 </div>
                 <div class="w-full lg:w-1/2 animate-left">
                     <div class="lg:max-w-xl">
                         <div class="mb-6 lg:mb-16">
-                            <h2 class="text-4xl text-center font-bold text-gray-800 leading-tight mb-5 lg:text-left font-mulish-bold">
+                            <h2
+                                class="text-4xl text-center font-bold text-gray-800 leading-tight mb-5 lg:text-left font-mulish-bold">
                                 Preguntas Frecuentes</h2>
                             <p class="text-lg text-gray-800 mb-3 text-center lg:text-left">Aquí respondemos algunas de
                                 las preguntas más comunes sobre nuestras soluciones de videovigilancia:</p>
@@ -336,7 +345,9 @@
                                     class="accordion-content w-full px-0 overflow-hidden transition-max-height duration-500 ease-in-out"
                                     :style="openAccordion === 3 ? 'max-height: 100px;' : 'max-height: 0;'">
                                     <p class="text-base text-gray-500 font-normal">
-                                        Sí, ofrecemos servicios completos de instalación y configuración profesional para garantizar que su sistema CCTV esté optimizado y listo para funcionar desde el primer día.
+                                        Sí, ofrecemos servicios completos de instalación y configuración profesional para
+                                        garantizar que su sistema CCTV esté optimizado y listo para funcionar desde el
+                                        primer día.
                                     </p>
                                 </div>
                             </div>
