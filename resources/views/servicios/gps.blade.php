@@ -12,8 +12,8 @@
         <div>
             <livewire:text-animation texto="Rastreo GPS" />
             <section>
-                <h2 class="text-2xl font-bold mb-4 text-gray-700">Rastreo GPS de Vehículos: Control Total de tu Flotilla</h2>
-                <ul class="list-none mb-6 space-y-3">
+                <h2 class="text-2xl font-bold mb-4 text-gray-700 animate-fade-down animate-duration-[2000ms]">Rastreo GPS de Vehículos: Control Total de tu Flotilla</h2>
+                <ul class="list-none mb-6 space-y-3 animate-fade-down animate-duration-[3000ms]">
                     <li class="flex items-center mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             class="transition-transform transform hover:scale-110 cursor-pointer icon icon-tabler icon-tabler-circle-check mr-2"
@@ -51,7 +51,7 @@
                             Simplificados</span>
                     </li>
                 </ul>
-                <p class="text-xl font-semibold">
+                <p class="text-xl font-semibold animate-fade-down animate-duration-[2400ms]">
                     ¡Contacta con nosotros
                     <span class="text-green-500 mx-1 font-extrabold text-xl relative inline-block stroke-current">
                         hoy mismo
@@ -67,7 +67,7 @@
         </div>
 
         <div>
-            <img src="{{ asset('img/hero-gps.jpg') }}" alt="GPS WEB" class="w-full h-auto rounded-lg">
+            <img src="{{ asset('img/hero-gps.jpg') }}" alt="GPS WEB" class="w-full h-auto rounded-lg animate-fade-down animate-duration-[2000ms]">
 
         </div>
     </div>

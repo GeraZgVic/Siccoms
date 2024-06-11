@@ -9,20 +9,24 @@
                 <canvas data-particle-animation data-particle-quantity="50" data-particle-ease="40"></canvas>
             </div>
             <div class="relative text-center">
-                <h1
-                    class="animate-fade-down font-mulish-bold py-4 inline-flex font-extrabold text-3xl md:text-5xl 2xl:text-7xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.sky.400),theme(colors.indigo.100),theme(colors.slate.300),theme(colors.sky.400),theme(colors.slate.300),theme(colors.indigo.100),theme(colors.sky.400))] bg-[length:200%_auto] animate-gradient ">
-                    Sistemas Integrales En Consultoría, Comercialización y Servicios</h1>
+                <div class="animate-fade-down">
+                    <h1
+                        class="font-mulish-bold py-4 inline-flex font-extrabold text-3xl md:text-5xl 2xl:text-7xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.sky.400),theme(colors.indigo.100),theme(colors.slate.300),theme(colors.sky.400),theme(colors.slate.300),theme(colors.indigo.100),theme(colors.sky.400))] bg-[length:200%_auto] animate-gradient ">
+                        Sistemas Integrales En Consultoría, Comercialización y Servicios</h1>
+                </div>
                 <div class="max-w-3xl mx-auto mb-8">
-                    <p class="text-lg 2xl:text-2xl text-slate-400 animate-fade-down animate-duration-[2000ms]">Con más de una década de experiencia, brindamos servicios integrales en consultoría, comercialización y tecnología para impulsar tu éxito.</p>
+                    <p class="text-lg 2xl:text-2xl text-slate-400 animate-fade-down animate-duration-[2000ms]">Con más
+                        de una década de experiencia, brindamos servicios integrales en consultoría, comercialización y
+                        tecnología para impulsar tu éxito.</p>
                 </div>
                 <div class="inline-flex justify-center space-x-4">
                     <div>
                         <a class=" animate-fade-up animate-once animate-duration-[2000ms] inline-flex justify-center whitespace-nowrap rounded-lg bg-blue-600 px-3.5 py-2.5 text-sm font-medium text-white shadow-sm shadow-blue-950/10 hover:bg-blue-800 focus-visible:outline-none focus-visible:ring focus-visible:ring-blue-300"
                             href="{{ route('servicios.index') }}">
-                            Ver Servicios 
+                            Ver Servicios
                         </a>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

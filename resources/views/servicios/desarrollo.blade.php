@@ -9,68 +9,14 @@ Servicio de desarrollo personalizado
 @endsection
 
 @section('contenido')
-<!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-8 container px-6 py-12 mx-auto">
-        <div>
-            <livewire:text-animation texto="Área de Desarrollo" />
-            <section>
-                <h2 class="text-2xl font-bold mb-4 text-gray-700">¡Bienvenidos a SICCOMS!
-                </h2>
-                <p class="mb-8">¿Estás buscando un equipo de expertos en desarrollo web y desarrollo de sistemas que pueda
-                    llevar tu proyecto al siguiente nivel? ¡No busques más!</p>
-                <ul class="list-none mb-6 space-y-3">
-                    <li class="flex items-center mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-check mr-2"
-                            width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#0000FF" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-                            <path d="M9 12l2 2l4 -4" />
-                        </svg>
-                        <span class="text-gray-700 tracking-wide">Diseño Personalizado</span>
-                    </li>
-                    <li class="flex items-center mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-check mr-2"
-                            width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#0000FF" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-                            <path d="M9 12l2 2l4 -4" />
-                        </svg>
-                        <span class="text-gray-700 tracking-wide">Gestión Eficiente de Geocercas para Seguridad y
-                            Eficiencia</span>
-                    </li>
-                    <li class="flex items-center mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-check mr-2"
-                            width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#0000FF" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-                            <path d="M9 12l2 2l4 -4" />
-                        </svg>
-                        <span class="text-gray-700 tracking-wide">Optimización de Procesos: Planificación, Coordinación y
-                            Monitoreo
-                            Simplificados</span>
-                    </li>
-                </ul>
-                <p class="mb-8">¡Mejora la eficiencia de tu flotilla hoy mismo con nuestro servicio de Rastreo GPS!</p>
-            </section>
-        </div>
-        <div>
-            <img src="{{ asset('img/hero-desarrollo.jpg') }}" alt="GPS WEB" class="w-full h-auto rounded-lg">
-
-        </div>
-    </div> -->
-
-<!-- Segunda opcion -->
-
 <section class="flex flex-col md:flex-row items-center bg-white overflow-hidden mx-auto px-6 py-12">
     <div class="md:w-1/2">
-        <div class="capitalize text-xs font-bold text-gray-500 mb-2 bg-gray-300 p-1 inline-block rounded-md">
+        <div class="capitalize text-xs font-bold text-gray-500 mb-2 bg-gray-300 p-1 inline-block rounded-md animate-fade-down">
             ¡Bienvenidos a SICCOMS!</div>
         {{-- <livewire:text-animation texto="Nuestra Área de Desarrollo" /> --}}
-        <h1 class="pb-4 text-3xl md:text-4xl lg:text-6xl mb-2 md:m-0 font-bold text-gray-800">Área de Desarrollo</h1>
+        <h1 class="pb-4 text-3xl md:text-4xl lg:text-6xl mb-2 md:m-0 font-bold text-gray-800 animate-fade-down">Área de Desarrollo</h1>
 
-        <h2 class="text-lg text-gray-700 mb-6">
+        <h2 class="text-lg text-gray-700 mb-6 animate-fade-down animate-duration-[2000ms]">
             <span class="font-bold text-gray-900">¡Hola mundo!</span> ¿Estás buscando un equipo de expertos en
             desarrollo web y desarrollo de sistemas que pueda llevar tu proyecto al siguiente nivel? ¡No busques
             más!
@@ -78,7 +24,7 @@ Servicio de desarrollo personalizado
     </div>
     <div class="md:w-1/2">
         <img src="{{ asset('img/hero-desarrollo2.jpg') }}" alt="Forest image"
-            class="w-full h-full object-cover rounded-lg shadow-md">
+            class="w-full h-full object-cover rounded-lg shadow-md animate-fade-left animate-once animate-ease-in animate-duration-[1000ms]">
     </div>
 </section>
 
