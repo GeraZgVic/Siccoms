@@ -73,7 +73,7 @@
     </div>
 
     <section
-        class="bg-cover bg-fixed bg-center bg-[url('https://images.unsplash.com/photo-1520299607509-dcd935f9a839?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
+        class="bg-cover bg-fixed bg-center" style="background-image: url('{{asset('img/background-map.webp')}}')">
         <div
             class="px-6 py-12 mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between bg-black/70">
             <div class="w-full lg:w-5/12 mb-12 lg:mb-0">
