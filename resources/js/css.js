@@ -13,6 +13,7 @@ function aplicarAnimaciones() {
     let animate_right = document.querySelectorAll(".animate-right");
     let animate_left = document.querySelectorAll(".animate-left");
     let animate_bottom = document.querySelectorAll(".animate-bottom");
+    let animate_top = document.querySelectorAll('.animate-top');
 
     function mostrarAnimaciones() {
         let scroll = window.scrollY;
@@ -62,6 +63,17 @@ function aplicarAnimaciones() {
 
                 if (scroll + windowHeight >= offsetTop && scroll <= offsetTop + animateHeight) {
                     animate.classList.add("animate-fade-down", "animate-ease-in-out");
+                }
+            });
+        }
+        // De abajo hacia arriba
+        if (animate_top.length > 0) {
+            animate_top.forEach((animate) => {
+                let offsetTop = animate.offsetTop;
+                let animateHeight = animate.offsetHeight;
+
+                if (scroll + windowHeight >= offsetTop && scroll <= offsetTop + animateHeight) {
+                    animate.classList.add("animate-fade-up", "animate-ease-in-out");
                 }
             });
         }
