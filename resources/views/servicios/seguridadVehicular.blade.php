@@ -7,7 +7,7 @@
 @endsection
 
 @section('contenido')
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 py-12 h-[100vh]">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 py-12 h-auto md:h-[100vh]">
     <div>
         <section>
             <h1 class="pb-4 text-3xl md:text-4xl lg:text-6xl mb-2 md:m-0 font-mulish-bold text-gray-800 animate-top">
