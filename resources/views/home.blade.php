@@ -17,7 +17,7 @@
                 <span class="text-primary mb-2 block text-lg font-semibold font-mulish-normal">
                     Servicios Destacados
                 </span>
-                <h2 class="mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px] font-mulish-bold">
+                <h2 id="prueba-h2" class="mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px] font-mulish-bold">
                     Lo que Ofrecemos
                 </h2>
                 <p class="text-body-color text-base">
