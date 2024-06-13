@@ -561,10 +561,7 @@
     </section>
 
     <div class="px-4 text-center">
-        <h2 class="text-xl md:text-2xl lg:text-3xl mb-4 font-mulish-bold">Algunos de
-            nuestros
-            Trabajos
-        </h2>
+        <h2 class="text-xl md:text-2xl lg:text-3xl mb-4 font-mulish-bold">Servicios Destacados </h2>
         <p class="text-base md:text-lg text-gray-700 mb-6">Descubre nuestra galería de fotos para conocer
             nuestros proyectos más destacados.</p>
         <div class="flex flex-col items-center justify-center">

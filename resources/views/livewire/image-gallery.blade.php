@@ -4,80 +4,72 @@
     imageGalleryImageIndex: null,
     imageGalleryActiveAlt: '',
     imageGallery: [{
-            'photo': '{{ asset('img/work32.webp') }}',
-            'alt': 'Photo of Mountains'
+            'photo': '{{ asset('img/destacados/work01.webp') }}',
+            'alt': 'Instalación de Cámaras'
         },
         {
-            'photo': '{{ asset('img/work20.webp') }}',
-            'alt': 'Photo of Mountains 02'
+            'photo': '{{ asset('img/destacados/work02.webp') }}',
+            'alt': 'Cercas Eléctricas'
         },
         {
-            'photo': '{{ asset('img/work3.webp') }}',
-            'alt': 'Photo of Mountains 03'
+            'photo': '{{ asset('img/destacados/work03.webp') }}',
+            'alt': 'Automatización de Portones'
         },
         {
-            'photo': '{{ asset('img/work10.webp') }}',
-            'alt': 'Photo of Mountains 04'
+            'photo': '{{ asset('img/destacados/work04.webp') }}',
+            'alt': 'Instalación de Cámaras'
         },
         {
-            'photo': '{{ asset('img/work6.webp') }}',
-            'alt': 'Photo of Mountains 05'
+            'photo': '{{ asset('img/destacados/work05.webp') }}',
+            'alt': 'Instalación de Cámaras'
         },
         {
-            'photo': '{{ asset('img/work7.webp') }}',
-            'alt': 'Photo of Mountains 06'
+            'photo': '{{ asset('img/destacados/work06.webp') }}',
+            'alt': 'Instalación de Pantallas Inteligentes'
         },
         {
-            'photo': '{{ asset('img/work8.webp') }}',
-            'alt': 'Photo of Mountains 07'
+            'photo': '{{ asset('img/destacados/work07.webp') }}',
+            'alt': 'Instalación de Acceso Biométrico'
         },
         {
-            'photo': '{{ asset('img/work9.webp') }}',
-            'alt': 'Photo of Mountains 08'
+            'photo': '{{ asset('img/destacados/work08.webp') }}',
+            'alt': 'Instalación de Barreras Vehiculares'
         },
         {
-            'photo': '{{ asset('img/work5.webp') }}',
-            'alt': 'Photo of Mountains 09'
+            'photo': '{{ asset('img/destacados/work09.webp') }}',
+            'alt': 'Instalación de Cámaras'
         },
         {
-            'photo': '{{ asset('img/work11.webp') }}',
-            'alt': 'Photo of Mountains 10'
+            'photo': '{{ asset('img/destacados/work10.webp') }}',
+            'alt': 'Instalación de Racks'
         },
         {
-            'photo': '{{ asset('img/work12.webp') }}',
-            'alt': 'Photo of Mountains 11'
+            'photo': '{{ asset('img/destacados/work11.webp') }}',
+            'alt': 'Automatización de Portones'
         },
         {
-            'photo': '{{ asset('img/work13.webp') }}',
-            'alt': 'Photo of Mountains 12'
+            'photo': '{{ asset('img/destacados/work12.webp') }}',
+            'alt': 'Instalación De Control de Acceso'
         },
         {
-            'photo': '{{ asset('img/work17.webp') }}',
-            'alt': 'Photo of Mountains 13'
+            'photo': '{{ asset('img/destacados/work13.webp') }}',
+            'alt': 'Instalación de Acceso Biométrico'
         },
         {
-            'photo': '{{ asset('img/work19.webp') }}',
-            'alt': 'Photo of Mountains 14'
+            'photo': '{{ asset('img/destacados/work14.webp') }}',
+            'alt': 'Instalación de Cableado Estructurado'
         },
         {
-            'photo': '{{ asset('img/work2.webp') }}',
-            'alt': 'Photo of Mountains 15'
+            'photo': '{{ asset('img/destacados/work15.webp') }}',
+            'alt': 'Instalación de Barreras Vehiculares'
         },
         {
-            'photo': '{{ asset('img/work21.webp') }}',
-            'alt': 'Photo of Mountains 16'
+            'photo': '{{ asset('img/destacados/work16.webp') }}',
+            'alt': 'Instalación de Barreras Vehiculares'
         },
         {
-            'photo': '{{ asset('img/work22.webp') }}',
-            'alt': 'Photo of Mountains 17'
-        },
-        {
-            'photo': '{{ asset('img/work30.webp') }}',
-            'alt': 'Photo of Mountains 18'
-        },
-        {
-            'photo': '{{ asset('img/work1.webp') }}',
-            'alt': 'Photo of Mountains 19'
+            'photo': '{{ asset('img/destacados/work17.webp') }}',
+            'alt': 'Instalación de Cableado Estructurado'
         },
     ],
 
@@ -106,16 +98,15 @@
         this.imageGalleryActiveUrl = prevImage.src;
         this.imageGalleryActiveAlt = prevImage.alt;
     }
-}" @image-gallery-next.window="imageGalleryNext()"
-    @image-gallery-prev.window="imageGalleryPrev()" @keyup.right.window="imageGalleryNext();"
-    @keyup.left.window="imageGalleryPrev();" class="w-full h-full select-none max-w-5xl ">
+}" @image-gallery-next.window="imageGalleryNext()" @image-gallery-prev.window="imageGalleryPrev()"
+    @keyup.right.window="imageGalleryNext();" @keyup.left.window="imageGalleryPrev();"
+    class="w-full h-full select-none max-w-5xl ">
     <div class="container py-4 mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view"
         style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
         <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-4">
             <template x-for="(image, index) in imageGallery">
                 <li x-show="index < 8"> {{-- Mostrar solo las primeras 8 imagenes visualmente --}}
-                    <img x-on:click="imageGalleryOpen" :src="image.photo" :alt="image.alt"
-                        :data-index="index + 1"
+                    <img x-on:click="imageGalleryOpen" :src="image . photo" :alt="image . alt" :data-index="index + 1"
                         class="object-cover object-center select-none w-full h-auto rounded cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-105 aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]">
                 </li>
             </template>
@@ -144,8 +135,9 @@
                     x-transition:leave-end="opacity-0 transform scale-50">
                     <img class="object-cover object-center w-full md:w-[800px] 2xl:w-full max-w-screen-lg h-full select-none cursor-zoom-out"
                         :src="imageGalleryActiveUrl" :alt="imageGalleryActiveAlt">
-                    <div class="absolute bottom-0 left-0 bg-black bg-opacity-70 w-full text-center py-2">
-                        <h3 class="text-white text-lg md:text-2xl 2xl:text-4xl font-mulish-bold" x-text="imageGalleryActiveAlt"></h3>
+                    <div class="absolute bottom-0 left-0 bg-black bg-opacity-70 w-full text-center items-center py-2">
+                        <h3 class="text-white text-lg md:text-2xl 2xl:text-4xl font-mulish-bold"
+                            x-text="imageGalleryActiveAlt"></h3>
                     </div>
                 </div>
 
