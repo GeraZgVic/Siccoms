@@ -30,7 +30,7 @@
 
     <link rel="icon" type="ico" href="{{ asset('favicon.ico') }}">
 
-    <title>Siccoms |@yield('titulo')</title>
+    <title>Siccoms | @yield('titulo')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     
 

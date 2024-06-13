@@ -466,7 +466,7 @@ Principal
 </div>
 
 
-<section class="max-w-7xl mx-auto p-6">
+<section class="max-w-7xl mx-auto p-6 seccion">
     <div class="text-center mb-12">
         <h2 class="text-4xl font-mulish-bold">Noticias Recientes</h2>
     </div>
