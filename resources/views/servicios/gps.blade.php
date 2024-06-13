@@ -8,7 +8,7 @@
 @endsection
 
 @section('contenido')
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 py-12 h-[100vh]">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 py-12 md:h-[90vh]">
         <div>
             <livewire:text-animation texto="Rastreo GPS" />
             <section>

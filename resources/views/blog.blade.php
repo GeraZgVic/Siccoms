@@ -3,11 +3,11 @@
     Blog
 @endsection
 @section('contenido')
-    <div class="container px-6 py-12 mx-auto">
+    <div class="container px-6 py-12 mx-auto bg-slate-50">
         <livewire:text-animation texto="Nuestro Blog" />
-        <p class="mt-4 text-lg leading-7 text-gray-700">¡Bienvenido a nuestro blog en Siccoms! Nos complace compartir nuestra
+        <p class="mt-4 text-lg leading-7 text-gray-700 animate-fade-down animate-duration-[1500ms]">¡Bienvenido a nuestro blog en Siccoms! Nos complace compartir nuestra
             amplia experiencia de más de una década en la prestación de servicios integrales de consultoría. </p>
-        <div class="border border-blue-300 my-8"></div>
+        <div class="border-2 border-blue-300 my-8"></div>
 
         @if ($firstPost)
             @php

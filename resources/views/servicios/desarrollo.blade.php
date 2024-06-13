@@ -12,7 +12,7 @@ Servicio de desarrollo personalizado
 <section class="flex flex-col md:flex-row items-center px-6 h-[100vh]">
     <div class="md:w-1/2">
         <div
-            class="capitalize text-xs font-bold text-gray-500 mb-2 bg-gray-300 p-1 inline-block rounded-md animate-right">
+            class="mt-4 md:mt-0 capitalize text-xs font-bold text-gray-500 mb-2 bg-gray-300 p-1 inline-block rounded-md animate-right">
             ¡Bienvenidos a SICCOMS!</div>
         {{-- <livewire:text-animation texto="Nuestra Área de Desarrollo" /> --}}
         <h1 class="pb-4 text-3xl md:text-4xl lg:text-6xl mb-2 md:m-0 font-mulish-bold text-gray-800 animate-top">Área de
@@ -20,13 +20,13 @@ Servicio de desarrollo personalizado
 
         <h2 class="text-lg text-gray-700 mb-6 animate-bottom animate-duration-[2000ms]">
             <span class="font-mulish-bold text-gray-900">¡Hola mundo!</span> ¿Estás buscando un equipo de expertos en
-            desarrollo web y desarrollo de sistemas que pueda llevar tu proyecto al siguiente nivel? ¡No busques
+            desarrollo web y desarrollo de sistemas que pueda llevar tu proyecto al siguiente nivel? <br> ¡No busques
             más!
         </h2>
     </div>
     <div class="md:w-1/2">
         <img src="{{ asset('img/hero-desarrollo2.jpg') }}" alt="Desarrollo"
-            class="w-full h-full object-cover rounded-lg shadow-md animate-left animate-duration-[2000ms]">
+            class="w-full h-full object-cover rounded-lg shadow-md animate-top animate-duration-[2000ms]">
     </div>
 </section>
 
@@ -44,7 +44,7 @@ Servicio de desarrollo personalizado
     </section>
     <div>
         <img src="{{ asset('img/content-desarrollo1.jpg') }}" alt="Desarrollo Web"
-            class="object-center object-cover animate-left animate-duration-[5000ms]">
+            class="object-center object-cover animate-right animate-duration-[5000ms]">
     </div>
 </div>
 

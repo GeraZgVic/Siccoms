@@ -91,10 +91,10 @@
     </section>
     <section
         class="my-8 px-8 md:px-12 lg:px-32 max-w-7xl-8 mx-auto flex flex-col md:flex-row items-center justify-center lg:justify-between">
-        <div class="mr-0 md:mr-8 mb-8 md:mb-0">
+        <div class="mr-0 md:mr-8 mb-8 md:mb-0 order-2 md:order-1">
             <img src="{{ asset('img/led-emergencia.png') }}" alt="Led de emergencia" class="w-80 max-w-md">
         </div>
-        <div>
+        <div class="order-1 md:order-2">
             <h2 class="text-3xl tracking-tighter text-gray-600 lg:text-4xl font-mulish-bold">Luces LED de emergencia</h2>
             <p class="mt-2 text-gray-500 leading-6">
                 Las luces LED de emergencia son esenciales para proporcionar iluminación durante cortes de energía o emergencias. Su eficiencia energética, durabilidad y rápida activación las hacen ideales para diversos entornos, mejorando la visibilidad y la seguridad durante evacuaciones.

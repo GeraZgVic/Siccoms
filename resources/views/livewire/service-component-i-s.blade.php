@@ -7,7 +7,7 @@
                 <ul class="text-gray-600 text-base list-none">
                     @foreach ($servicio['lista'] as $item)
                         <li class="flex items-center mb-2">
-                            <div class="bg-blue-500 rounded-full p-1 mr-2">
+                            <div class="bg-green-500 rounded-full p-1 mr-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-4 h-4 text-white stroke-2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                 </svg>
