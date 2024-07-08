@@ -11,7 +11,7 @@ class BlogController extends Controller
     public function index()
     {
         // Obtener todos los posts de la base de datos paginados
-        $posts = Posts::paginate(7);
+        $posts = Posts::orderBy('created_at', 'desc')->paginate(7);
 
         // Obtener el primer post y eliminarlo de la colección de $posts
         $firstPost = $posts->shift();
