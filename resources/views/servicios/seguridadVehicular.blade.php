@@ -3,7 +3,7 @@
 @section('titulo', 'Servicio de Barreras vehiculares')
 
 @section('description')
-¡Descubre la Eficiencia y Seguridad con Nuestro Servicio de Barreras Vehiculares!
+Control de acceso vehicular: seguridad y eficiencia con SICCOMS. Tecnología avanzada y servicio profesional garantizados.
 @endsection
 
 @section('contenido')
@@ -75,10 +75,10 @@
 <section class="font-inter antialiased bg-cover bg-center bg-blend-overlay bg-fixed bg-black/50"
     style="background-image: url('/img/content-vehicular1.jpg')">
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1
+        <h2
             class="mb-4 text-2xl font-mulish-bold tracking-tight leading-none text-white md:text-3xl lg:text-5xl animate-top">
             ¿Por Qué
-            Elegir Nuestras Barreras Vehiculares?</h1>
+            Elegir Nuestras Barreras Vehiculares?</h2>
         <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48 animate-bottom">Nuestras barreras
             vehiculares
             ofrecen tecnología avanzada, seguridad robusta y fácil integración para satisfacer tus necesidades de

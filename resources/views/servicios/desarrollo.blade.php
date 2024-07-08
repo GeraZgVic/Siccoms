@@ -5,7 +5,7 @@ Servicio de desarrollo web y sistemas
 @endsection
 
 @section('description')
-Servicio de desarrollo personalizado
+Potencia tu éxito digital con SICCOMS. Desarrollo web y sistemas personalizados para impulsar tu negocio hacia el futuro digital.
 @endsection
 
 @section('contenido')
