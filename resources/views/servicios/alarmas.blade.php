@@ -20,7 +20,7 @@
         </p>
 
         <div class="relative h-full p-2 mt-24 overflow-hidden border rounded-3xl">
-            <img src="{{ asset('img/hero-alarm.webp') }}" class="object-cover h-full border shadow-2xl rounded-2xl animate-fade-down animate-duration-[3000ms]">
+            <img src="{{ asset('img/hero-alarm.jpg') }}" class="object-cover h-full border shadow-2xl rounded-2xl animate-fade-down animate-duration-[3000ms]">
         </div>
     </div>
     <div class="bg-gradient-to-b from-black to-gray-800 py-24">

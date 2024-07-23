@@ -9,14 +9,14 @@ class NavegationMenu extends Component
     public function render()
     {
         $links = [
-            [
-                'ruta' => 'home',
-                'texto' => 'Inicio'
-            ],
-            [
-                'ruta' => 'servicios.index',
-                'texto' => 'Servicios'
-            ],
+            // [
+            //     'ruta' => 'home',
+            //     'texto' => 'Inicio'
+            // ],
+            // [
+            //     'ruta' => 'servicios.index',
+            //     'texto' => 'Servicios'
+            // ],
             [
                 'ruta' => 'nosotros.index',
                 'texto' => 'Nosotros'

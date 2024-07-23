@@ -47,6 +47,13 @@ Route::get('/servicios/alarmas-residenciales',[ServiciosController::class, 'alar
 Route::get('/servicios/seguridad-vehicular',[ServiciosController::class, 'seguridadVehicular'])->name('servicios.seguridadVehicular');
 Route::get('/servicios/seguridad-perimetral',[ServiciosController::class, 'seguridadPerimetral'])->name('servicios.seguridadPerimetral');
 
+Route::get('/servicios/mantenimiento',[ServiciosController::class, 'mantenimiento'])->name('servicios.mantenimiento');
+Route::get('/servicios/venta-de-computo',[ServiciosController::class, 'computo'])->name('servicios.computo');
+Route::get('/servicios/amplificador-de-señal',[ServiciosController::class, 'amplificadorSeñal'])->name('servicios.amplificadorSeñal');
+Route::get('/servicios/redes-inalambricas',[ServiciosController::class, 'redesInalambricas'])->name('servicios.redesInalambricas');
+Route::get('/servicios/cableado-estructurado',[ServiciosController::class, 'cableadoEstructurado'])->name('servicios.cableadoEstructurado');
+Route::get('/servicios/telefonia',[ServiciosController::class, 'telefonia'])->name('servicios.telefonia');
+
 
 
 Route::get('/nosotros',[NosotrosController::class, 'index'])->name('nosotros.index'); 

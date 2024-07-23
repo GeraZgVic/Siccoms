@@ -361,7 +361,7 @@ Principal
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
                     </svg>
-                    <strong class="mx-3 text-lg font-semibold text-white">Control de Acceso Perimetral</strong>
+                    <strong class="mx-3 text-lg font-semibold text-white">Control de Acceso</strong>
                 </div>
 
                 <div class="px-6 py-4">

@@ -16,8 +16,7 @@ Descubre la innovación de SICCOMS para el Control de Acceso Perimetral: segurid
             <div class="p-6 text-white">
                 <h1
                     class="pb-4 text-3xl md:text-4xl lg:text-6xl mb-2 md:m-0 text-white text-center font-mulish-bold animate-top">
-                    Control de Acceso
-                    Perimetral</h1>
+                    Cercas Perimetrales</h1>
                 <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-32 animate-bottom text-center">Bienvenido
                     al portal de soluciones avanzadas de SICCOMS para el Control de Acceso, donde la tecnología e
                     innovación ofrecen la mejor seguridad y comodidad en la gestión de accesos y restricciones.</p>

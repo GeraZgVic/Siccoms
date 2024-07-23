@@ -17,6 +17,7 @@ class ArticlesTableSeeder extends Seeder
             ['name' => 'Tecnología', 'created_at' => now(), 'updated_at' => now() ],
             ['name' => 'Reparación', 'created_at' => now(), 'updated_at' => now() ],
             ['name' => 'Desarrollo', 'created_at' => now(), 'updated_at' => now() ],
+            ['name' => 'Suministro', 'created_at' => now(), 'updated_at' => now() ],
             
         ];
         DB::table('articles')->insert($articles);

@@ -1,5 +1,5 @@
 <header
-    class="font-inter antialiased bg-cover bg-center bg-blend-overlay bg-fixed bg-black/70"style="background-image: url('/img/heros.jpg')">
+    class="font-inter antialiased bg-cover bg-center bg-blend-overlay bg-fixed bg-black/50"style="background-image: url('/img/heros.jpg')">
     <livewire:navegation-menu />
     <div class="relative min-h-screen flex flex-col justify-center ">
         <div class="w-full max-w-6xl mx-auto px-4 md:px-4 py-24">
@@ -11,11 +11,11 @@
             <div class="relative text-center">
                 <div class="animate-fade-down">
                     <h1
-                        class="font-mulish-bold py-4 inline-flex font-extrabold text-3xl md:text-5xl 2xl:text-7xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.sky.400),theme(colors.indigo.100),theme(colors.slate.300),theme(colors.sky.400),theme(colors.slate.300),theme(colors.indigo.100),theme(colors.sky.400))] bg-[length:200%_auto] animate-gradient ">
+                        class="font-mulish-bold py-4 inline-flex font-extrabold text-xl md:text-5xl 2xl:text-7xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.sky.400),theme(colors.indigo.100),theme(colors.slate.300),theme(colors.sky.400),theme(colors.slate.300),theme(colors.indigo.100),theme(colors.sky.400))] bg-[length:200%_auto] animate-gradient ">
                         Sistemas Integrales En Consultoría, Comercialización y Servicios</h1>
                 </div>
                 <div class="max-w-3xl mx-auto mb-8">
-                    <p class="text-lg 2xl:text-2xl text-slate-400 animate-fade-down animate-duration-[2000ms]">Con más
+                    <p class="text-base md:text-lg 2xl:text-2xl text-slate-400 animate-fade-down animate-duration-[2000ms]">Con más
                         de una década de experiencia, brindamos servicios integrales en consultoría, comercialización y
                         tecnología para impulsar tu éxito.</p>
                 </div>

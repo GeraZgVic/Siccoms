@@ -7,7 +7,7 @@
         <livewire:text-animation texto="Nuestro Blog" />
         <p class="mt-4 text-lg leading-7 text-gray-700 animate-fade-down animate-duration-[1500ms]">¡Bienvenido a nuestro blog en Siccoms! Nos complace compartir nuestra
             amplia experiencia de más de una década en la prestación de servicios integrales de consultoría. </p>
-        <div class="border-2 border-blue-300 my-8"></div>
+        <div class="border-2 border-gray-300 my-8"></div>
 
         @if ($firstPost)
             @php
@@ -20,7 +20,7 @@
                             ? 'bg-yellow-500'
                             : ($articleId == 3
                                 ? 'bg-blue-500'
-                                : 'bg-blue-500'));
+                                : 'bg-teal-500'));
             @endphp
             <div class="flex flex-col items-center md:flex-row my-6">
                 <div class="w-full md:w-1/2">
@@ -67,7 +67,7 @@
                                 ? 'bg-yellow-500'
                                 : ($articleId == 3
                                     ? 'bg-blue-500'
-                                    : 'bg-blue-500'));
+                                    : 'bg-teal-500'));
                 @endphp
                 <div class="bg-white rounded-lg overflow-hidden p-4">
                     <a href="{{ route('posts.show', $post->id) }}">

@@ -29,7 +29,7 @@
                 <div class="md:relative md:z-10 p-4 bg-white shadow-sm  rounded-md w-full max-w-2xl">
                     <span
                         class="{{ $colorClass }} py-1 px-2 rounded-full text-xs text-white font-medium uppercase leading-none">{{ $post->article->name }}</span>
-                    <h2 class="text-2xl font-bold mt-2"><a href="#">{{ $post->title }}</a></h2>
+                    <h1 class="text-2xl font-bold mt-2"><a href="#">{{ $post->title }}</a></h1>
                     <p class="text-gray-700 mt-2 leading-relaxed">{{ $post->description }}</p>
                     <p class="mt-4 text-blue-600">{{ $post->created_at->diffForHumans() }}</p>
                 </div>

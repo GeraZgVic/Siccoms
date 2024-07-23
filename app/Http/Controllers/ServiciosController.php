@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class ServiciosController extends Controller
 {
 
-    public function index() 
+    public function index()
     {
         return view('servicios');
     }
@@ -35,5 +35,37 @@ class ServiciosController extends Controller
     public function seguridadPerimetral()
     {
         return view('servicios.seguridadPerimetral');
+    }
+
+    // Nuevas rutas
+
+    public function mantenimiento()
+    {
+        return view('servicios.mantenimiento');
+    }
+
+    public function computo()
+    {
+        return view('servicios.computo');
+    }
+
+    public function amplificadorSeñal()
+    {
+        return view('servicios.amplificadorSeñal');
+    }
+
+    public function redesInalambricas()
+    {
+        return view('servicios.redesInalambricas');
+    }
+
+    public function cableadoEstructurado()
+    {
+        return view('servicios.cableadoEstructurado');
+    }
+
+    public function telefonia()
+    {
+        return view('servicios.telefonia');
     }
 }
