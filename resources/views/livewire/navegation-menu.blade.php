@@ -85,7 +85,7 @@
                                             </span>
                                             Mantenimiento
                                         </a>
-                                        <a href="#" class="flex gap-2 items-center">
+                                        <a href="{{route('servicios.computo')}}" class="flex gap-2 items-center">
                                             <span class="bg-slate-600 p-2 rounded-md">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                                     viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -97,17 +97,7 @@
                                             </span>
                                             Venta de equipos de computo
                                         </a>
-                                        <a href="#" class="flex gap-2 items-center">
-                                            <span class="bg-slate-600 p-2 rounded-md">
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                                    class="size-6">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
-                                                </svg>
-                                            </span>
-                                            Ciberseguridad
-                                        </a>
+                                        
                                         <a href="#" class="flex gap-2 items-center">
                                             <span class="bg-slate-600 p-2 rounded-md">
                                                 <svg class="h-6 w-6 text-gray-200" width="24" height="24"

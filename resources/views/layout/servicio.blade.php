@@ -34,6 +34,13 @@
     @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/css.js'])
 
 
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.css"
+    />
+
     @stack('styles')
     <script src="https://www.google.com/recaptcha/api.js?render={{ env('GOOGLE_RECAPTCHA_KEY') }}"></script>
     <!-- Datos estructurados JSON-LD -->

@@ -49,6 +49,7 @@ Route::get('/servicios/seguridad-perimetral',[ServiciosController::class, 'segur
 
 Route::get('/servicios/mantenimiento',[ServiciosController::class, 'mantenimiento'])->name('servicios.mantenimiento');
 Route::get('/servicios/venta-de-computo',[ServiciosController::class, 'computo'])->name('servicios.computo');
+Route::get('/servicios/ciberseguridad',[ServiciosController::class, 'ciberseguridad'])->name('servicios.ciberseguridad');
 Route::get('/servicios/amplificador-de-señal',[ServiciosController::class, 'amplificadorSeñal'])->name('servicios.amplificadorSeñal');
 Route::get('/servicios/redes-inalambricas',[ServiciosController::class, 'redesInalambricas'])->name('servicios.redesInalambricas');
 Route::get('/servicios/cableado-estructurado',[ServiciosController::class, 'cableadoEstructurado'])->name('servicios.cableadoEstructurado');

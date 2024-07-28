@@ -49,6 +49,11 @@ class ServiciosController extends Controller
         return view('servicios.computo');
     }
 
+    public function ciberseguridad()
+    {
+        return view('servicios.ciberseguridad');
+    }
+
     public function amplificadorSeñal()
     {
         return view('servicios.amplificadorSeñal');

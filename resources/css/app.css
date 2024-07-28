@@ -5,6 +5,19 @@
 @tailwind utilities;
 
 /* Utilidades */
+/* CSS personalizado para efecto neon */
+.text-neon-teal {
+  text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 40px #00fff9, 0 0 80px #00fff9;
+  color: #00fff9;
+}
+
+
+.hover\:text-neon-teal:hover {
+  text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 40px #00fff9, 0 0 80px #00fff9;
+  color: #00fff9;
+}
+
+
 .font-mulish-bold {
   font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;
@@ -60,8 +73,8 @@
 }
 
 html {
-  overflow-y: scroll;
-  scrollbar-color: #32adfae0 #516791e4;
+  overflow-y: auto;
+  scrollbar-color: #57a1cfe0 #516791e4;
   scrollbar-width: thin;
   scroll-behavior: smooth;
 }

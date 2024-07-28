@@ -48,7 +48,6 @@
 
 
 
-
     <div class="px-6 py-16 mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between bg-gray-100">
         <section class="text-center lg:text-left lg:w-1/2 lg:pr-12">
             <h2 class="text-2xl md:text-3xl pl-2 my-2 border-l-4 border-teal-400 text-gray-800 font-bold animate-top">
@@ -149,5 +148,4 @@
         </div>
     </section>
     
-
 @endsection

@@ -70,7 +70,7 @@
                     más</a>
             </div>
             <div class="lg:w-1/2">
-                <img src="{{ asset('img/content-desarrollo1.jpg') }}" alt="Mantenimiento de Equipos"
+                <img src="https://via.placeholder.com/600x400" alt="Mantenimiento de Equipos"
                     class="w-full h-auto object-cover rounded-lg shadow-md">
             </div>
         </div>
@@ -78,70 +78,65 @@
 
     <section class="px-6 py-16 bg-gradient-to-b from-gray-800 to-gray-900 text-white">
         <div class="max-w-7xl mx-auto">
-            <h2 class="text-4xl font-bold text-center mb-12">Explora Nuestras Marcas y Productos</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-gray-700 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                    <img src="https://via.placeholder.com/600x400" alt="Computadoras de Escritorio"
-                        class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-white mb-2">Computadoras de Escritorio</h3>
-                        <p class="text-gray-300 leading-relaxed">Explora nuestra selección de computadoras de escritorio de
-                            marcas reconocidas y configuraciones personalizadas.</p>
-                        <a href="#"
-                            class="inline-block mt-4 bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded transition duration-300">Ver
-                            más</a>
+            <h2 class="text-4xl font-bold text-center mb-12">Algunos de los Productos que Distribuimos</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                <div class="relative group">
+                    <img src="https://via.placeholder.com/600x400" alt="Computadoras de Escritorio" class="w-full h-48 object-cover rounded-lg shadow-lg transition-transform transform group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center rounded-lg">
+                        <div class="text-center">
+                            <h3 class="text-2xl font-bold text-white mb-2">Computadoras de Escritorio</h3>
+                            <p class="text-gray-300 leading-relaxed">Explora nuestra selección de computadoras de escritorio de marcas reconocidas y configuraciones personalizadas.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="bg-gray-700 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                    <img src="https://via.placeholder.com/600x400" alt="Laptops y Portátiles"
-                        class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-white mb-2">Laptops y Portátiles</h3>
-                        <p class="text-gray-300 leading-relaxed">Descubre nuestras laptops y portátiles ideales para
-                            negocios, gaming y uso personal, de marcas líderes en el mercado.</p>
-                        <a href="#"
-                            class="inline-block mt-4 bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded transition duration-300">Ver
-                            más</a>
+                <div class="relative group">
+                    <img src="https://via.placeholder.com/600x400" alt="Laptops y Portátiles" class="w-full h-48 object-cover rounded-lg shadow-lg transition-transform transform group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center rounded-lg">
+                        <div class="text-center">
+                            <h3 class="text-2xl font-bold text-white mb-2">Laptops y Portátiles</h3>
+                            <p class="text-gray-300 leading-relaxed">Descubre nuestras laptops y portátiles ideales para negocios, gaming y uso personal, de marcas líderes en el mercado.</p>
+                        </div>
                     </div>
                 </div>
-           
-                <div class="bg-gray-700 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                    <img src="https://via.placeholder.com/600x400" alt="Periféricos y Accesorios"
-                        class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-white mb-2">Periféricos y Accesorios</h3>
-                        <p class="text-gray-300 leading-relaxed">Amplía la funcionalidad de tus equipos con nuestra gama de
-                            periféricos y accesorios como monitores, teclados, y más.</p>
-                        <a href="#"
-                            class="inline-block mt-4 bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded transition duration-300">Ver
-                            más</a>
+                <div class="relative group">
+                    <img src="https://via.placeholder.com/600x400" alt="Periféricos y Accesorios" class="w-full h-48 object-cover rounded-lg shadow-lg transition-transform transform group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center rounded-lg">
+                        <div class="text-center">
+                            <h3 class="text-2xl font-bold text-white mb-2">Periféricos y Accesorios</h3>
+                            <p class="text-gray-300 leading-relaxed">Amplía la funcionalidad de tus equipos con nuestra gama de periféricos y accesorios como monitores, teclados, y más.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="bg-gray-700 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                    <img src="https://via.placeholder.com/600x400" alt="Software y Licencias"
-                        class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-white mb-2">Software y Licencias</h3>
-                        <p class="text-gray-300 leading-relaxed">Optimiza tu rendimiento con software especializado y
-                            licencias legítimas para todas tus necesidades empresariales y personales.</p>
-                        <a href="#"
-                            class="inline-block mt-4 bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded transition duration-300">Ver
-                            más</a>
+                <div class="relative group">
+                    <img src="https://via.placeholder.com/600x400" alt="Software y Licencias" class="w-full h-48 object-cover rounded-lg shadow-lg transition-transform transform group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center rounded-lg">
+                        <div class="text-center">
+                            <h3 class="text-2xl font-bold text-white mb-2">Software y Licencias</h3>
+                            <p class="text-gray-300 leading-relaxed">Optimiza tu rendimiento con software especializado y licencias legítimas para todas tus necesidades empresariales y personales.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="bg-gray-700 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                    <img src="https://via.placeholder.com/600x400" alt="Accesorios de Red y Conectividad"
-                        class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-white mb-2">Accesorios de Red y Conectividad</h3>
-                        <p class="text-gray-300 leading-relaxed">Mantén tus equipos conectados y seguros con nuestros
-                            accesorios de red y soluciones de conectividad.</p>
-                        <a href="#"
-                            class="inline-block mt-4 bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded transition duration-300">Ver
-                            más</a>
+                <div class="relative group">
+                    <img src="https://via.placeholder.com/600x400" alt="Accesorios de Red y Conectividad" class="w-full h-48 object-cover rounded-lg shadow-lg transition-transform transform group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center rounded-lg">
+                        <div class="text-center">
+                            <h3 class="text-2xl font-bold text-white mb-2">Accesorios de Red y Conectividad</h3>
+                            <p class="text-gray-300 leading-relaxed">Mantén tus equipos conectados y seguros con nuestros accesorios de red y soluciones de conectividad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <img src="https://via.placeholder.com/600x400" alt="Accesorios de Red y Conectividad" class="w-full h-48 object-cover rounded-lg shadow-lg transition-transform transform group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center rounded-lg">
+                        <div class="text-center">
+                            <h3 class="text-2xl font-bold text-white mb-2">Soluciones de Energía (UPS)</h3>
+                            <p class="text-gray-300 leading-relaxed">Mantén tus sistemas operativos sin interrupciones con nuestras soluciones de energía, incluyendo UPS y reguladores de voltaje, diseñados para proteger tu equipo contra apagones y fluctuaciones.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
+    
 @endsection

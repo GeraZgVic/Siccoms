@@ -3,67 +3,194 @@
     Servicios
 @endsection
 @section('contenido')
-<section class="bg-cover bg-center bg-fixed" style="background-image: url('{{asset('img/hero-servicios.webp')}}')">
-    <div class="h-[80vh] md:h-screen justify-center items-center flex flex-col md:flex-row bg-black bg-opacity-50 backdrop-blur-sm">
-        <div class="w-full">
-            <div class="px-4 md:px-6 md:my-8">
-                <div class="mb-4">
-                    <h1
-                    class="animate-fade-down mt-4 md:mt-0 block text-4xl md:text-5xl lg:text-6xl  font-bold text-gray-100 lg:leading-tight font-mulish-bold">
-                    Servicios <span class="text-blue-400 mx-1 font-extrabold relative inline-block stroke-current">
-                        Siccoms
-                        <svg class="absolute -bottom-0.5 w-full max-h-1.5" viewBox="0 0 55 5"
-                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                            <path d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002" stroke-width="2">
-                            </path>
-                        </svg>
-                    </span></h1>
+    {{-- <div class="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24">
+        <div class="relative">
+            <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+                <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
+
+                    <div>
+                        <div>
+                            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-teal-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-8 w-8 text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </div>
+
+                        <div class="mt-6">
+                            <h2 class="text-3xl font-bold tracking-tight text-white">
+                                Ingeniería TI
+                            </h2>
+                            <p class="mt-4 text-lg text-gray-300">
+                                The AI product utilizes advanced NLP algorithms to understand and interpret human language,
+                                enabling it to accurately process and analyze text-based inputs.
+                            </p>
+                            <div class="mt-6">
+                                <a class="inline-flex rounded-lg bg-teal-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-teal-600 hover:bg-teal-700 hover:ring-teal-700"
+                                    href="/login">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p class="mb-4 font-medium tracking-tight text-gray-100 text-lg animate-fade-down animate-duration-[1500ms]">Afianzamos nuestros
-                    servicios en la región sureste de la república con el objetivo de brindar servicios de
-                    consultoría a empresas de los sectores energético y jurídico.</p>
-                <ul>
-                    <li class="flex items-center py-2 space-x-4 xl:py-3">
-                        <svg class="w-8 h-8 text-pink-500 animate-fade-right animate-duration-1000" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z">
-                            </path>
-                        </svg>
-                        <span class="font-medium text-gray-100 capitalize text-lg animate-fade-left animate-duration-1000">servicios de ingenieria TI</span>
-                    </li>
-                    <li class="flex items-center py-2 space-x-4 xl:py-3">
-                        <svg class="w-8 h-8 text-yellow-500 animate-fade-right animate-duration-1000" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
-                        </svg>
-                        <span class="font-medium text-gray-100 text-lg animate-fade-left animate-duration-1000">Ingenieria De Software</span>
-                    </li>
-                    <li class="flex items-center py-2 space-x-4 xl:py-3">
-                        <svg class="w-8 h-8 text-green-500 animate-fade-right animate-duration-1000" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
-                            </path>
-                        </svg>
-                        <span class="font-medium text-gray-100 text-lg animate-fade-left animate-duration-1000">Seguridad Electrónica y
-                            Automatización</span>
-                    </li>
-                </ul>
+                <div class="mt-12 sm:mt-16 lg:mt-0">
+                    <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                        <img loading="lazy" width="647" height="486"
+                            class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                            style="color:transparent" src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137">
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="w-full max-w-[80svh] mx-16 mb-12 hidden md:block animate-jump-in animate-duration-[1500ms] animate-ease-out">
-            <livewire:ejemplo-componente />
+
+
+
+        <div class="relative">
+            <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+                <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2">
+                    <div>
+                        <div>
+                            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-teal-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-8 w-8 text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="mt-6">
+                            <h2 class="text-3xl font-bold tracking-tight text-white">
+                                Seguridad y Automatización Electrónica
+                            </h2>
+                            <p class="mt-4 text-lg text-gray-300">
+                                The product has built-in sentiment analysis capabilities, allowing it to determine the
+                                sentiment (positive, negative, or neutral) expressed in text or customer feedback.
+                            </p>
+                            <div class="mt-6">
+                                <a class="inline-flex rounded-lg bg-teal-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-teal-600 hover:bg-teal-700 hover:ring-teal-700"
+                                    href="/login">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 sm:mt-16 lg:mt-0">
+                    <div class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                        <img alt="Inbox user interface" loading="lazy" width="647" height="486"
+                            class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                            style="color:transparent" src="https://images.unsplash.com/photo-1599134842279-fe807d23316e">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="relative">
+            <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+                <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
+                    <div>
+                        <div>
+                            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-teal-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-8 w-8 text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="mt-6">
+                            <h2 class="text-3xl font-bold tracking-tight text-white">
+                                Ingenieria de Software
+                            </h2>
+                            <p class="mt-4 text-lg text-gray-300">
+                                The AI product can generate human-like written content, summaries, or reports based on
+                                structured data or analysis results.
+                            </p>
+                            <div class="mt-6">
+                                <a class="inline-flex rounded-lg bg-teal-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-teal-600 hover:bg-teal-700 hover:ring-teal-700"
+                                    href="/login">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 sm:mt-16 lg:mt-0">
+                    <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                        <img loading="lazy" width="646" height="485"
+                            class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                            style="color:transparent" src="https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> --}}
+    <div class="bg-slate-900 py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="animate-fade-down mt-4 md:mt-0 block text-3xl font-bold text-gray-100 sm:text-4xl lg:text-5xl lg:leadin font-mug-tightlish-bold mb-4">Nuestros Servicios</h1>
+    
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Area: Ingeniería TI -->
+                <div class="bg-slate-800 rounded-lg shadow-md p-6">
+                    <h3 class="text-2xl font-semibold text-gray-100 mb-4 font-mulish-bold">
+                        <span class="">Ingeniería TI</span>
+                    </h3>
+                    <ul class="text-gray-200">
+                        <li class="mb-2 hover:text-neon-teal">Mantenimiento de equipo de computo y
+                            servidores</li>
+                        <li class="mb-2 hover:text-neon-teal">Venta de equipo de computo: Hardware y
+                            Software</li>
+                        <li class="mb-2 hover:text-neon-teal">Ciberseguridad</li>
+                        <li class="mb-2 hover:text-neon-teal">Cableado Estructurado</li>
+                        <li class="mb-2 hover:text-neon-teal">Redes inalambricas</li>
+                        <li class="mb-2 hover:text-neon-teal">Amplificador para Señal Celular</li>
+                        <li class="mb-2 hover:text-neon-teal">Telefonía y Conmutadores</li>
+                    </ul>
+                </div>
+    
+                <!-- Area: Ingeniería de Software -->
+                <div class="bg-slate-800 rounded-lg shadow-md p-6">
+                    <h3 class="text-2xl font-semibold text-gray-100 mb-4 font-mulish-bold">
+                        <span class="">Ingeniería de Software</span>
+                    </h3>
+                    <ul class="text-gray-200">
+                        <li class="mb-2 hover:text-neon-teal">Consultoría tecnológica</li>
+                        <li class="mb-2 hover:text-neon-teal">Desarrollo de sistemas de software</li>
+                        <li class="mb-2 hover:text-neon-teal">Desarrollo de páginas web</li>
+                        <li class="mb-2 hover:text-neon-teal">Digitalización empresarial</li>
+                        <li class="mb-2 hover:text-neon-teal">Administración de Bases de Datos</li>
+                        <li class="mb-2 hover:text-neon-teal">Modelado de Datos</li>
+                    </ul>
+                </div>
+    
+                <!-- Area: Seguridad Eléctrica y Automatización -->
+                <div class="bg-slate-800 rounded-lg shadow-md p-6">
+                    <h3 class="text-2xl font-semibold text-gray-100 mb-4 font-mulish-bold">
+                        <span class="">Seguridad Eléctrica y Automatización</span>
+                    </h3>
+                    <ul class="text-gray-200">
+                        <li class="mb-2 hover:text-neon-teal">Soluciones de CCTV videovigilancia</li>
+                        <li class="mb-2 hover:text-neon-teal">Alarmas residenciales y comerciales
+                            Sistemas de emergencia</li>
+                        <li class="mb-2 hover:text-neon-teal">Controles de acceso y asistencia personal</li>
+                        <li class="mb-2 hover:text-neon-teal">Controles de acceso vehicular</li>
+                        <li class="mb-2 hover:text-neon-teal">Rastreo GPS</li>
+                        <li class="mb-2 hover:text-neon-teal">Energía & UPS</li>
+                        <li class="mb-2 hover:text-neon-teal">Cercos eléctricos</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-</section>
-
-    <div
-        class=" nuestros-servicios bottom-0 left-0 w-full h-6 bg-[linear-gradient(to_right,theme(colors.blue.400),theme(colors.blue.100),theme(colors.sky.400),theme(colors.blue.300),theme(colors.sky.400),theme(colors.blue.100),theme(colors.blue.400))] bg-[length:200%_auto] animate-gradient ">
-    </div>
-
-    <section class="seccion nuestros-servicios my-6">
-        <livewire:tab-servicios />
-    </section>
+    
+    
+    
 @endsection
