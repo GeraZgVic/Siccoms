@@ -148,7 +148,6 @@
                             servidores</li>
                         <li class="mb-2 hover:text-neon-teal">Venta de equipo de computo: Hardware y
                             Software</li>
-                        <li class="mb-2 hover:text-neon-teal">Ciberseguridad</li>
                         <li class="mb-2 hover:text-neon-teal">Cableado Estructurado</li>
                         <li class="mb-2 hover:text-neon-teal">Redes inalambricas</li>
                         <li class="mb-2 hover:text-neon-teal">Amplificador para Señal Celular</li>
@@ -165,9 +164,6 @@
                         <li class="mb-2 hover:text-neon-teal">Consultoría tecnológica</li>
                         <li class="mb-2 hover:text-neon-teal">Desarrollo de sistemas de software</li>
                         <li class="mb-2 hover:text-neon-teal">Desarrollo de páginas web</li>
-                        <li class="mb-2 hover:text-neon-teal">Digitalización empresarial</li>
-                        <li class="mb-2 hover:text-neon-teal">Administración de Bases de Datos</li>
-                        <li class="mb-2 hover:text-neon-teal">Modelado de Datos</li>
                     </ul>
                 </div>
     
