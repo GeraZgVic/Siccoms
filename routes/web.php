@@ -54,6 +54,7 @@ Route::get('/servicios/amplificador-de-señal',[ServiciosController::class, 'amp
 Route::get('/servicios/redes-inalambricas',[ServiciosController::class, 'redesInalambricas'])->name('servicios.redesInalambricas');
 Route::get('/servicios/cableado-estructurado',[ServiciosController::class, 'cableadoEstructurado'])->name('servicios.cableadoEstructurado');
 Route::get('/servicios/telefonia',[ServiciosController::class, 'telefonia'])->name('servicios.telefonia');
+Route::get('/servicios/ups',[ServiciosController::class, 'ups'])->name('servicios.ups');
 
 
 
