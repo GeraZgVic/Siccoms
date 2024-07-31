@@ -49,7 +49,11 @@
 
 
     <div class="px-6 py-16 mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between bg-gray-100">
-        <section class="text-center lg:text-left lg:w-1/2 lg:pr-12">
+        <div class="lg:w-1/2 lg:pl-12 mt-6 lg:mt-0">
+            <img src="{{ asset('img/mantenimiento.jpg') }}" alt="Mantenimiento de Equipos"
+                class="w-full h-auto object-cover rounded-lg shadow-md animate-right animate-duration-[3000ms]">
+        </div>
+        <section class="text-center lg:text-left lg:w-1/2 lg:pl-12">
             <h2 class="text-2xl md:text-3xl pl-2 my-2 border-l-4 border-teal-400 text-gray-800 font-bold animate-top">
                 Optimiza el rendimiento de tu equipo con nuestro servicio de mantenimiento
             </h2>
@@ -59,10 +63,7 @@
                 garantizamos un servicio profesional y confiable.
             </p>
         </section>
-        <div class="lg:w-1/2 lg:pl-12 mt-6 lg:mt-0">
-            <img src="{{ asset('img/content-desarrollo1.jpg') }}" alt="Mantenimiento de Equipos"
-                class="w-full h-auto object-cover rounded-lg shadow-md animate-right animate-duration-[3000ms]">
-        </div>
+
     </div>
 
     <section class="px-6 py-16">
@@ -108,44 +109,53 @@
             </div>
 
             <div class="mt-12 text-center">
-                <a href="#"
+                <a href="https://wa.me/9932910217" target="_blank" rel="noopener noreferrer" aria-label="Enviar WhatsApp"
+                    title="Enviar mensaje de WhatsApp"
                     class="inline-block bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg shadow-md transition duration-300">Solicita
-                    una Evaluación Gratuita</a>
+                    una Evaluación</a>
             </div>
         </div>
     </section>
 
 
-    <section class="px-6 py-16 bg-gray-200">
+    <section class="px-6 py-16 bg-slate-900">
         <div class="max-w-3xl mx-auto">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center">Preguntas Frecuentes</h2>
-    
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-100 mb-8 text-center">Preguntas Frecuentes</h2>
+
             <div class="space-y-6">
                 <!-- Pregunta 1 -->
-                <div class="bg-white rounded-lg p-6 shadow-md transition duration-300 hover:scale-105 cursor-pointer">
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">¿Qué tipos de equipos de cómputo ofrecen mantenimiento?</h3>
-                    <p class="text-gray-700 leading-relaxed">Ofrecemos mantenimiento para computadoras de escritorio, laptops, servidores y periféricos relacionados.</p>
+                <div class="bg-slate-800 rounded-lg p-6 shadow-md transition duration-300 hover:scale-105 cursor-pointer">
+                    <h3 class="text-xl font-bold text-gray-100 mb-2">¿Qué tipos de equipos de cómputo ofrecen mantenimiento?
+                    </h3>
+                    <p class="text-gray-200 leading-relaxed">Ofrecemos mantenimiento para computadoras de escritorio,
+                        laptops, servidores y periféricos relacionados.</p>
                 </div>
-    
+
                 <!-- Pregunta 2 -->
-                <div class="bg-white rounded-lg p-6 shadow-md transition duration-300 hover:scale-105 cursor-pointer">
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">¿Cuáles son los beneficios de un contrato de mantenimiento?</h3>
-                    <p class="text-gray-700 leading-relaxed">Los contratos de mantenimiento garantizan atención prioritaria, visitas periódicas de mantenimiento preventivo, y soporte técnico especializado, lo que ayuda a minimizar tiempos de inactividad y reduce costos imprevistos.</p>
+                <div class="bg-slate-800 rounded-lg p-6 shadow-md transition duration-300 hover:scale-105 cursor-pointer">
+                    <h3 class="text-xl font-bold text-gray-100 mb-2">¿Cuáles son los beneficios de un contrato de
+                        mantenimiento?</h3>
+                    <p class="text-gray-200 leading-relaxed">Los contratos de mantenimiento garantizan atención prioritaria,
+                        visitas periódicas de mantenimiento preventivo, y soporte técnico especializado, lo que ayuda a
+                        minimizar tiempos de inactividad y reduce costos imprevistos.</p>
                 </div>
-    
+
                 <!-- Pregunta 3 -->
-                <div class="bg-white rounded-lg p-6 shadow-md transition duration-300 hover:scale-105 cursor-pointer">
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">¿Cómo puedo solicitar servicio de mantenimiento?</h3>
-                    <p class="text-gray-700 leading-relaxed">Puedes solicitar una evaluación gratuita a través de nuestro formulario en línea o contactándonos directamente por teléfono, WhatsApp o correo electrónico.</p>
+                <div class="bg-slate-800 rounded-lg p-6 shadow-md transition duration-300 hover:scale-105 cursor-pointer">
+                    <h3 class="text-xl font-bold text-gray-100 mb-2">¿Cómo puedo solicitar servicio de mantenimiento?</h3>
+                    <p class="text-gray-200 leading-relaxed">Puedes solicitar una evaluación gratuita a través de nuestro
+                        formulario en línea o contactándonos directamente por teléfono, WhatsApp o correo electrónico.</p>
                 </div>
-    
+
                 <!-- Pregunta 4 -->
-                <div class="bg-white rounded-lg p-6 shadow-md transition duration-300 hover:scale-105 cursor-pointer">
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">¿Qué incluye un mantenimiento preventivo?</h3>
-                    <p class="text-gray-700 leading-relaxed">El mantenimiento preventivo incluye limpieza interna y externa de equipos, actualización de software, verificación de hardware, y ajustes de rendimiento para mantener tu equipo funcionando de manera óptima.</p>
+                <div class="bg-slate-800 rounded-lg p-6 shadow-md transition duration-300 hover:scale-105 cursor-pointer">
+                    <h3 class="text-xl font-bold text-gray-100 mb-2">¿Qué incluye un mantenimiento preventivo?</h3>
+                    <p class="text-gray-200 leading-relaxed">El mantenimiento preventivo incluye limpieza interna y externa
+                        de equipos, actualización de software, verificación de hardware, y ajustes de rendimiento para
+                        mantener tu equipo funcionando de manera óptima.</p>
                 </div>
             </div>
         </div>
     </section>
-    
+
 @endsection

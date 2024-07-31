@@ -69,7 +69,7 @@
                         <div class="w-full h-auto  p-4 bg-slate-900 lg:pt-4">
                             <!-- Contenido 1 -->
                             <div x-show="openTab === 1">
-                                <h3 class="text-sm my-3 font-mulish-bold">Ingeniería en Tecnologías de Información</h3>
+                                <span class="text-sm my-3 font-mulish-bold">Ingeniería en Tecnologías de Información</span>
                                 <ul class="space-y-3 text-center">
                                     <div class="text-center grid lg:grid-cols-2 gap-2 mt-2 lg:mt-0 ">
                                         <a href="{{ route('servicios.mantenimiento') }}"
@@ -136,7 +136,7 @@
                                             </span>
                                             Redes inalámbricas
                                         </a>
-                                        <a href="#" class="flex gap-2 items-center">
+                                        <a href="{{route('servicios.cableadoEstructurado')}}" class="flex gap-2 items-center">
                                             <span class="bg-slate-600 p-2 rounded-md">
                                                 <svg class="h-6 w-6 text-gray-200" width="24" height="24"
                                                     viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
@@ -178,7 +178,7 @@
 
                             <!-- Contenido 2 -->
                             <div x-show="openTab === 2">
-                                <h3 class="text-sm my-3 font-mulish-bold">Seguridad Electrónica y Automatización</h3>
+                                <span class="text-sm my-3 font-mulish-bold">Seguridad Electrónica y Automatización</span>
                                 <div class="text-center grid lg:grid-cols-2 gap-2 mt-2 lg:mt-0 ">
                                     <a href="{{ route('servicios.cctv') }}" class="flex gap-2 items-center">
                                         <span class="bg-slate-600 p-2 rounded-md">
@@ -251,7 +251,7 @@
 
                             <!-- Contenido 3 -->
                             <div x-show="openTab === 3">
-                                <h3 class="text-sm my-3 font-mulish-bold">Ingeniería de Software</h3>
+                                <span class="text-sm my-3 font-mulish-bold">Ingeniería de Software</span>
                                 <div class="text-center grid lg:grid-cols-2 gap-2 mt-2 lg:mt-0 ">
                                     <a href="#" class="flex gap-2 items-center">
                                         <span class="bg-slate-600 p-2 rounded-md">

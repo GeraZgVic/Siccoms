@@ -73,4 +73,9 @@ class ServiciosController extends Controller
     {
         return view('servicios.telefonia');
     }
+
+    public function ups()
+    {
+        return view('servicios.ups');
+    }
 }

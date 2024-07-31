@@ -7,5 +7,5 @@
 @endsection
 
 @section('contenido')
-    <h1>Telefonía/h1>
+    <h1>Telefonía </h1>
 @endsection

@@ -9,7 +9,7 @@
 @section('contenido')
     <section class="px-6 py-12">
         <div class="max-w-3xl mx-auto text-center">
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">Redes Inalámbricas</h1>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold font-mulish-bold text-gray-800 mb-4">Redes Inalámbricas</h1>
             <p class="text-lg text-gray-700 leading-relaxed mb-6">Ofrecemos soluciones completas para redes inalámbricas,
                 incluyendo instalación, configuración y soporte de modems, tarjetas de red, puntos de acceso, routers,
                 puentes Wi-Fi, repetidores y extensores.</p>
@@ -65,18 +65,18 @@
         </div>
     </section>
 
-    <div class="px-6 py-16 mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between bg-gray-100">
+    <div class="px-6 py-16 mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between bg-slate-900">
         <section class="text-center lg:text-left lg:w-1/2 lg:pr-12">
-            <h2 class="text-2xl md:text-3xl pl-2 my-2 border-l-4 border-teal-400 text-gray-800 font-bold animate-top">
+            <h2 class="text-2xl md:text-3xl pl-2 my-2 border-l-4 border-teal-400 text-gray-100 font-bold animate-top">
                 Optimiza tu conectividad con nuestras soluciones de redes inalámbricas
             </h2>
-            <p class="text-lg text-gray-700 my-4 animate-bottom">
+            <p class="text-lg text-gray-100 my-4 animate-bottom">
                 Como distribuidores oficiales, ofrecemos una gama completa de dispositivos para redes inalámbricas, junto
                 con servicios de instalación y configuración profesional para garantizar el mejor rendimiento.
             </p>
         </section>
         <div class="lg:w-1/2 lg:pl-12 mt-6 lg:mt-0">
-            <img src="https://via.placeholder.com/600x400" alt="Redes Inalámbricas"
+            <img src="{{asset('img/hero-inalambrico.jpg')}}" alt="Redes Inalámbricas"
                 class="w-full h-auto object-cover rounded-lg shadow-md animate-right animate-duration-[3000ms]">
         </div>
     </div>
@@ -121,11 +121,36 @@
                 </div>
             </div>
 
-            {{-- <div class="mt-12 text-center">
-                <a href="#"
-                    class="inline-block bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg shadow-md transition duration-300">Solicita
-                    una Evaluación Gratuita</a>
-            </div> --}}
+            <h3 class="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center my-6">
+                Marcas de Confianza
+            </h3>
+            {{-- Cards --}}
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Card 1 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden transition duration-300 hover:scale-105 cursor-pointer">
+                        <img src="{{asset('img/tplink.png')}}" alt="Tplink" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold mb-2">Tplink</h3>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden transition duration-300 hover:scale-105 cursor-pointer">
+                        <img src="{{asset('img/router.png')}}" alt="Hikvision" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold mb-2">Hikvision</h3>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden transition duration-300 hover:scale-105 cursor-pointer">
+                        <img src="{{asset('img/ap_ubiquiti.png')}}" alt="Ubiquiti networks" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold mb-2">Ubiquiti networks</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
