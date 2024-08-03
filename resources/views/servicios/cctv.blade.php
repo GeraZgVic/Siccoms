@@ -111,7 +111,7 @@
             </div>
             <div class="ms-4">
                 <img class="w-full h-auto rounded-md animate-fade-down animate-duration-[2000ms]"
-                    src="{{ asset('img/cam-cctv.webp') }}" alt="Image Description">
+                    src="{{ asset('img/cam-cctv.jpg') }}" alt="Image Description">
             </div>
         </div>
     </div>
@@ -174,7 +174,7 @@
                                     </svg>
                                 </span>
                             </div>
-                            <h3 class="mt-8 text-lg font-semibold tracking-tight text-white uppercase">Residencias
+                            <h3 class="mt-8 text-lg font-semibold tracking-tight text-white uppercase">Negocios
                             </h3>
                             <p class="mt-5 text-base text-gray-300">Supervisión de empleados y seguridad de activos. <br>
                                 La seguridad es primero.</p>
@@ -252,6 +252,84 @@
                 soporte está disponible para ayudar con cualquier problema o consulta que pueda surgir.</p>
         </div>
     </section>
+
+
+
+    <section class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+        <h2
+            class="text-3xl font-extrabold tracking-tight text-gray-700 sm:text-4xl font-mulish-bold animate-bottom text-center mb-4">
+            Instalación de Cámaras</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 gap-5">
+
+            <div class="animate-right">
+                <div class="relative w-full flex items-end justify-start text-left bg-cover bg-center rounded-md transition-transform transform hover:scale-105 duration-300"
+                    style="height: 450px; background-image:url({{ asset('img/servicios/cctv_4.jpg') }});">
+                    <div
+                        class="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900">
+                    </div>
+                    <main class="p-5 z-10">
+                        <a href="#"
+                            class="text-md tracking-tight font-medium leading-7 font-regular text-white hover:underline">
+                            Servicio
+                        </a>
+                    </main>
+
+                </div>
+            </div>
+
+            <div class="animate-bottom">
+                <div class="relative w-full flex items-end justify-start text-left bg-cover bg-center rounded-md transition-transform transform hover:scale-105 duration-300"
+                    style="height: 450px; background-image:url({{ asset('img/servicios/cctv_3.jpeg') }});">
+                    <div
+                        class="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900">
+                    </div>
+
+                    <main class="p-5 z-10">
+                        <a href="#"
+                            class="text-md tracking-tight font-medium leading-7 font-regular text-white hover:underline">Servicio
+                        </a>
+                    </main>
+
+                </div>
+            </div>
+
+
+            <div class="animate-bottom">
+                <div class="relative w-full flex items-end justify-start text-left bg-cover bg-center rounded-md transition-transform transform hover:scale-105 duration-300"
+                    style="height: 450px; background-image:url({{ asset('img/servicios/cctv_2.jpg') }});">
+                    <div
+                        class="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900">
+                    </div>
+                    <main class="p-5 z-10">
+                        <a href="#"
+                            class="text-md tracking-tight font-medium leading-7 font-regular text-white hover:underline">Servicio
+                        </a>
+                    </main>
+
+                </div>
+            </div>
+
+
+            <div class="animate-left">
+                <div class="relative w-full flex items-end justify-start text-left bg-cover bg-center rounded-md transition-transform transform hover:scale-105 duration-300"
+                    style="height: 450px; background-image:url({{ asset('img/servicios/cctv_1.jpg') }});">
+                    <div
+                        class="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900">
+                    </div>
+
+                    <main class="p-5 z-10">
+                        <a href="#"
+                            class="text-md tracking-tight font-medium leading-7 font-regular text-white hover:underline">Servicio
+                        </a>
+                    </main>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
 
 
     <section class="py-24 p-6 rounded-md" x-data="{ openAccordion: null }">

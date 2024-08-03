@@ -9,7 +9,8 @@
 @section('contenido')
     <section class="px-6 py-12">
         <div class="max-w-3xl mx-auto text-center">
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold font-mulish-bold text-gray-800 mb-4">Redes Inalámbricas</h1>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold font-mulish-bold text-gray-800 mb-4">Redes Inalámbricas
+            </h1>
             <p class="text-lg text-gray-700 leading-relaxed mb-6">Ofrecemos soluciones completas para redes inalámbricas,
                 incluyendo instalación, configuración y soporte de modems, tarjetas de red, puntos de acceso, routers,
                 puentes Wi-Fi, repetidores y extensores.</p>
@@ -76,7 +77,7 @@
             </p>
         </section>
         <div class="lg:w-1/2 lg:pl-12 mt-6 lg:mt-0">
-            <img src="{{asset('img/hero-inalambrico.jpg')}}" alt="Redes Inalámbricas"
+            <img src="{{ asset('img/hero-inalambrico.jpg') }}" alt="Redes Inalámbricas"
                 class="w-full h-auto object-cover rounded-lg shadow-md animate-right animate-duration-[3000ms]">
         </div>
     </div>
@@ -126,28 +127,15 @@
             </h3>
             {{-- Cards --}}
             <div class="container mx-auto">
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     <!-- Card 1 -->
-                    <div class="bg-white shadow-md rounded-lg overflow-hidden transition duration-300 hover:scale-105 cursor-pointer">
-                        <img src="{{asset('img/tplink.png')}}" alt="Tplink" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <h3 class="text-lg font-semibold mb-2">Tplink</h3>
-                        </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="bg-white shadow-md rounded-lg overflow-hidden transition duration-300 hover:scale-105 cursor-pointer">
-                        <img src="{{asset('img/router.png')}}" alt="Hikvision" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <h3 class="text-lg font-semibold mb-2">Hikvision</h3>
-                        </div>
-                    </div>
+                    <x-modal-tplink />
+                    <!-- Card 2 -->   
+                    <x-modal-hikvision />
                     <!-- Card 3 -->
-                    <div class="bg-white shadow-md rounded-lg overflow-hidden transition duration-300 hover:scale-105 cursor-pointer">
-                        <img src="{{asset('img/ap_ubiquiti.png')}}" alt="Ubiquiti networks" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <h3 class="text-lg font-semibold mb-2">Ubiquiti networks</h3>
-                        </div>
-                    </div>
+                    <x-modal-ubiquiti />
+                    {{-- Card 4 --}}
+                    <x-modal-ruijie />
                 </div>
             </div>
 

@@ -17,6 +17,16 @@
   color: #00fff9;
 }
 
+.text-neon-white {
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
+  color: #ffffff;
+}
+
+.hover\:text-neon-white:hover {
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
+  color: #ffffff;
+}
+
 
 .font-mulish-bold {
   font-family: "Mulish", sans-serif;
@@ -72,10 +82,4 @@
   }
 }
 
-html {
-  overflow-y: auto;
-  scrollbar-color: #57a1cfe0 #516791e4;
-  scrollbar-width: thin;
-  scroll-behavior: smooth;
-}
 

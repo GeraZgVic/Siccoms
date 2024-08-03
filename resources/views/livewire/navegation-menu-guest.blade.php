@@ -68,12 +68,12 @@
                         <!-- Contenido derecho -->
                         <div class="w-full h-auto  p-4 bg-slate-900 lg:pt-4">
                             <!-- Contenido 1 -->
-                            <div x-show="openTab === 1">
-                                <span class="text-sm my-3 font-mulish-bold">Ingeniería en Tecnologías de Información</span>
+                            <div x-show="openTab === 1" class="space-y-2">
+                                <span class="text-sm font-mulish-bold">Ingeniería en Tecnologías de Información</span>
                                 <ul class="space-y-3 text-center">
                                     <div class="text-center grid lg:grid-cols-2 gap-2 mt-2 lg:mt-0 ">
                                         <a href="{{ route('servicios.mantenimiento') }}"
-                                            class="flex gap-2 items-center">
+                                            class="flex gap-2 items-center hover:text-neon-white ">
                                             <span class="bg-slate-600 p-2 rounded-md">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                                     viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -84,7 +84,8 @@
                                             </span>
                                             Mantenimiento
                                         </a>
-                                        <a href="{{ route('servicios.computo') }}" class="flex gap-2 items-center">
+                                        <a href="{{ route('servicios.computo') }}"
+                                            class="flex gap-2 items-center hover:text-neon-white  ">
                                             <span class="bg-slate-600 p-2 rounded-md">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                                     viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -96,16 +97,15 @@
                                             </span>
                                             Venta de equipos de computo
                                         </a>
-                                    
+
                                         <a href="{{ route('servicios.amplificadorSeñal') }}"
-                                            class="flex gap-2 items-center">
+                                            class="flex gap-2 items-center hover:text-neon-white ">
                                             <span class="bg-slate-600 p-2 rounded-md">
                                                 <svg class="h-6 w-6 text-gray-200" width="24" height="24"
                                                     viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
                                                     fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" />
-                                                    <rect x="3" y="13" width="18" height="8"
-                                                        rx="2" />
+                                                    <rect x="3" y="13" width="18" height="8" rx="2" />
                                                     <line x1="17" y1="17" x2="17"
                                                         y2="17.01" />
                                                     <line x1="13" y1="17" x2="13"
@@ -119,7 +119,7 @@
                                             Amplificador de Señal
                                         </a>
                                         <a href="{{ route('servicios.redesInalambricas') }}"
-                                            class="flex gap-2 items-center">
+                                            class="flex gap-2 items-center hover:text-neon-white ">
                                             <span class="bg-slate-600 p-2 rounded-md">
                                                 <svg class="h-6 w-6 text-gray-200" width="24" height="24"
                                                     viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
@@ -136,7 +136,8 @@
                                             </span>
                                             Redes inalámbricas
                                         </a>
-                                        <a href="{{route('servicios.cableadoEstructurado')}}" class="flex gap-2 items-center">
+                                        <a href="{{ route('servicios.cableadoEstructurado') }}"
+                                            class="flex gap-2 items-center hover:text-neon-white ">
                                             <span class="bg-slate-600 p-2 rounded-md">
                                                 <svg class="h-6 w-6 text-gray-200" width="24" height="24"
                                                     viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
@@ -149,7 +150,7 @@
                                             </span>
                                             Cableado Estructurado
                                         </a>
-                                        <a href="#" class="flex gap-2 items-center">
+                                        {{-- <a href="#" class="flex gap-2 items-center hover:text-neon-white ">
                                             <span class="bg-slate-600 p-2 rounded-md">
                                                 <svg class="h-6 w-6 text-gray-200" width="24" height="24"
                                                     viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
@@ -160,8 +161,8 @@
                                                 </svg>
                                             </span>
                                             Telefonía
-                                        </a>
-                                        <a href="#" class="flex gap-2 items-center">
+                                        </a> --}}
+                                        <a href="#" class="flex gap-2 items-center hover:text-neon-white ">
                                             <span class="bg-slate-600 p-2 rounded-md">
                                                 <svg class="h-6 w-6 text-white" viewBox="0 0 24 24" fill="none"
                                                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -177,10 +178,12 @@
 
 
                             <!-- Contenido 2 -->
-                            <div x-show="openTab === 2">
-                                <span class="text-sm my-3 font-mulish-bold">Seguridad Electrónica y Automatización</span>
+                            <div x-show="openTab === 2" class="space-y-2">
+                                <span class="text-sm my-3 font-mulish-bold">Seguridad Electrónica y
+                                    Automatización</span>
                                 <div class="text-center grid lg:grid-cols-2 gap-2 mt-2 lg:mt-0 ">
-                                    <a href="{{ route('servicios.cctv') }}" class="flex gap-2 items-center">
+                                    <a href="{{ route('servicios.cctv') }}"
+                                        class="flex gap-2 items-center hover:text-neon-white ">
                                         <span class="bg-slate-600 p-2 rounded-md">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                                 viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -191,7 +194,8 @@
                                         </span>
                                         Soluciones de CCTV
                                     </a>
-                                    <a href="{{ route('servicios.alarmas') }}" class="flex gap-2 items-center">
+                                    <a href="{{ route('servicios.alarmas') }}"
+                                        class="flex gap-2 items-center hover:text-neon-white ">
                                         <span class="bg-slate-600 p-2 rounded-md">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                                 viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -203,7 +207,8 @@
                                         Alarmas Comerciales
                                     </a>
 
-                                    <a href="{{ route('servicios.alarmas') }}" class="flex gap-2 items-center">
+                                    <a href="{{ route('servicios.seguridadVehicular') }}"
+                                        class="flex gap-2 items-center hover:text-neon-white ">
                                         <span class="bg-slate-600 p-2 rounded-md">
                                             <svg class="h-6 w-6 text-white" width="24" height="24"
                                                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
@@ -217,7 +222,8 @@
                                         </span>
                                         Control de acceso vehicular
                                     </a>
-                                    <a href="{{ route('servicios.alarmas') }}" class="flex gap-2 items-center">
+                                    <a href="{{ route('servicios.seguridadPerimetral') }}"
+                                        class="flex gap-2 items-center hover:text-neon-white ">
                                         <span class="bg-slate-600 p-2 rounded-md">
                                             <svg class="h-6 w-6 text-white" viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -230,7 +236,8 @@
                                         </span>
                                         Cercos Eléctricos
                                     </a>
-                                    <a href="{{ route('servicios.alarmas') }}" class="flex gap-2 items-center">
+                                    <a href="{{ route('servicios.gps') }}"
+                                        class="flex gap-2 items-center hover:text-neon-white ">
                                         <span class="bg-slate-600 p-2 rounded-md">
                                             <svg class="h-6 w-6 text-white" width="24" height="24"
                                                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
@@ -250,10 +257,10 @@
 
 
                             <!-- Contenido 3 -->
-                            <div x-show="openTab === 3">
+                            <div x-show="openTab === 3" class="space-y-2">
                                 <span class="text-sm my-3 font-mulish-bold">Ingeniería de Software</span>
                                 <div class="text-center grid lg:grid-cols-2 gap-2 mt-2 lg:mt-0 ">
-                                    <a href="#" class="flex gap-2 items-center">
+                                    <a href="#" class="flex gap-2 items-center hover:text-neon-white ">
                                         <span class="bg-slate-600 p-2 rounded-md">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                                 viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -264,7 +271,8 @@
                                         </span>
                                         Consultoría Tecnológica
                                     </a>
-                                    <a href="{{ route('servicios.desarrollo') }}" class="flex gap-2 items-center">
+                                    <a href="{{ route('servicios.desarrollo') }}"
+                                        class="flex gap-2 items-center hover:text-neon-white ">
                                         <span class="bg-slate-600 p-2 rounded-md">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                                 viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"

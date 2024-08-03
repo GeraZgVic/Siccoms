@@ -56,7 +56,7 @@ class ServiciosController extends Controller
 
     public function amplificadorSeñal()
     {
-        return view('servicios.amplificadorSeñal');
+        return view('servicios.amplificadorSenal');
     }
 
     public function redesInalambricas()
@@ -69,10 +69,10 @@ class ServiciosController extends Controller
         return view('servicios.cableadoEstructurado');
     }
 
-    public function telefonia()
-    {
-        return view('servicios.telefonia');
-    }
+    // public function telefonia()
+    // {
+    //     return view('servicios.telefonia');
+    // }
 
     public function ups()
     {

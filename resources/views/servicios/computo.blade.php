@@ -9,7 +9,7 @@
 @section('contenido')
     <section class="px-6 py-12">
         <div class="max-w-3xl mx-auto text-center">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Venta de Equipos de Cómputo</h1>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 font-mulish-bold">Venta de Equipos de Cómputo</h1>
             <p class="text-lg md:text-xl leading-relaxed mb-6">
                 Somos distribuidores autorizados de equipos de cómputo y soluciones tecnológicas.
             </p>
@@ -70,7 +70,7 @@
                     más</a>
             </div>
             <div class="lg:w-1/2">
-                <img src="https://via.placeholder.com/600x400" alt="Mantenimiento de Equipos"
+                <img src="{{asset('img/servicios/venta.jpg')}}" alt="Mantenimiento de Equipos"
                     class="w-full h-auto object-cover rounded-lg shadow-md">
             </div>
         </div>
