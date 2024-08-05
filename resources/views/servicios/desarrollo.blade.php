@@ -466,11 +466,11 @@
                             <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
                             <div class="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
                                 <div class="flex items-center -mt-1">
-                                    <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Journey Management</h3>
+                                    <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Administrador de viajes</h3>
                                 </div>
                                 <p class="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">------------</p>
                                 <p class="mb-2 text-gray-600">Gestiona de manera integral los viajes de tus unidades.</p>
-                                <p class="mb-2 text-gray-600">El módulo Journey Management (JM) permite asignar folios
+                                <p class="mb-2 text-gray-600">El módulo administrador de viajes permite asignar folios
                                     únicos, registrar detalles de conductores y clientes, y controlar las horas de duración
                                     y descanso. Con funcionalidades de semáforo, generación de reportes y filtros de
                                     búsqueda, tendrás un control total sobre tus operaciones logísticas.</p>
