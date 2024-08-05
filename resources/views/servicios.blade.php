@@ -98,9 +98,7 @@ Servicios
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Mantenimiento de equipo de computo y servidores</h3>
-                        <p class="absolute bottom-96 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                            Ver ahora
-                        </p>
+                        
 
                     </a>
                 </div>
@@ -113,10 +111,7 @@ Servicios
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Venta de equipo de computo: Hardware y Software</h3>
-                        <p
-                            class="absolute bottom-14 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                            Ver ahora
-                        </p>
+                        
                     </a>
                     <a href="{{route('servicios.amplificadorSeñal')}}"
                         class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
@@ -126,9 +121,7 @@ Servicios
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Amplificador para Señal Celular</h3>
-                        <p class="absolute bottom-24 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                            Ver ahora
-                        </p>
+                        
                     </a>
                     <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
                         <a href="{{route('servicios.cableadoEstructurado')}}"
@@ -139,9 +132,7 @@ Servicios
                             <h3
                                 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                                 Cableado Estructurado</h3>
-                            <p class="absolute bottom-16 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                                Ver ahora
-                            </p>
+                           
                         </a>
                         <a href="{{route('servicios.redesInalambricas')}}"
                             class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
@@ -151,9 +142,7 @@ Servicios
                             <h3
                                 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                                 Redes inalambricas</h3>
-                            <p class="absolute bottom-16 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                                Ver ahora
-                            </p>
+                           
                         </a>
                     </div>
                 </div>
@@ -166,9 +155,7 @@ Servicios
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Telefonía y Conmutadores</h3>
-                        <p class="absolute bottom-96 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                            Ver ahora
-                        </p>
+                        
                     </a>
                 </div>
             </div>
@@ -190,9 +177,7 @@ Servicios
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Consultoría tecnológica</h3>
-                        <p class="absolute bottom-72 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                            Ver ahora
-                        </p>
+                       
                     </a>
                 </div>
                 <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-200">
@@ -204,9 +189,7 @@ Servicios
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Desarrollo de sistemas de software</h3>
-                        <p class="absolute bottom-16 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                            Ver ahora
-                        </p>
+                       
                     </a>
                     <a href="{{route('servicios.desarrollo')}}"
                         class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb">
@@ -216,9 +199,7 @@ Servicios
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Desarrollo de páginas web</h3>
-                        <p class="absolute bottom-24 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                            Ver ahora
-                        </p>
+                       
                     </a>
                 </div>
             </div>
@@ -240,9 +221,7 @@ Servicios
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Soluciones de CCTV videovigilancia</h3>
-                        <p class="absolute bottom-96 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                            Ver ahora
-                        </p>
+                        
                     </a>
                 </div>
                 <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-200">
@@ -254,9 +233,7 @@ Servicios
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Alarmas residenciales y comerciales Sistemas de emergencia</h3>
-                        <p class="absolute bottom-8 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                            Ver ahora
-                        </p>
+                        
                     </a>
                     <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
                         <a href="{{route('servicios.seguridadVehicular')}}"
@@ -267,9 +244,7 @@ Servicios
                             <h3
                                 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                                 Controles de acceso vehicular</h3>
-                            <p class="absolute bottom-8 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                                Ver ahora
-                            </p>
+                            
                         </a>
                         <a href="{{route('servicios.gps')}}"
                             class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
@@ -279,11 +254,9 @@ Servicios
                             <h3
                                 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                                 Rastreo GPS</h3>
-                            <p class="absolute bottom-5 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                                Ver ahora
-                            </p>
+                            
                         </a>
-                        <a href="{{route('servicios.seguridadPerimetral')}}"
+                        <a href="{{route('servicios.cercasPerimetrales')}}"
                             class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                             <img src="{{ asset('img/servicios/electricos.jpg') }}" alt=""
                                 class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
@@ -291,11 +264,9 @@ Servicios
                             <h3
                                 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                                 Cercos eléctricos</h3>
-                            <p class="absolute bottom-16 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                                Ver ahora
-                            </p>
+                            
                         </a>
-                        <a href="#" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                        <a href="{{route('servicios.ups')}}" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                             <img src="{{ asset('img/servicios/ups.webp') }}"
                                 alt=""
                                 class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
@@ -303,14 +274,12 @@ Servicios
                             <h3
                                 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                                 Energía & UPS</h3>
-                            <p class="absolute bottom-24 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                                Ver ahora
-                            </p>
+                            
                         </a>
                     </div>
                 </div>
                 <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-gray-200 h-auto md:h-full flex flex-col">
-                    <a href="{{route('servicios.seguridadPerimetral')}}"
+                    <a href="{{route('servicios.cercasPerimetrales')}}"
                         class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
                         <img src="{{ asset('img/servicios/personal.jpg') }}" alt=""
                             class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
@@ -318,9 +287,7 @@ Servicios
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Controles de acceso y asistencia personal</h3>
-                        <p class="absolute bottom-80 left-12 transform -translate-x-1/2 text-white inline-block underline">
-                            Ver ahora
-                        </p>
+                       
                     </a>
                 </div>
             </div>

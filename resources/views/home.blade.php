@@ -353,56 +353,54 @@ Principal
             </div>
             <div class="w-full md:max-w-sm overflow-hidden bg-white rounded-lg shadow-lg animate-left">
                 <img class="object-cover object-center w-full h-56" src="{{ asset('img/cerca_electrica.jpg') }}"
-                    alt="Imagen GPS">
-
+                    alt="Imagen Cerca Perimetral">
+            
                 <div class="flex items-center px-6 py-3 bg-gray-900">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="w-6 h-6 text-white">
                         <path stroke-linecap="round" stroke-linejoin="round"
-                            d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+                            d="M3 12l9-9 9 9-9 9-9-9z" />
                     </svg>
-                    <strong class="mx-3 text-lg font-semibold text-white">Control de Acceso</strong>
+                    <strong class="mx-3 text-lg font-semibold text-white">Cercas Perimetrales</strong>
                 </div>
-
+            
                 <div class="px-6 py-4">
-                    <h3 class="text-xl font-semibold text-gray-800">Sistemas de Control de Acceso</h3>
-
-                    <p class=" text-gray-700 mt-2">¿Quieres proteger tu propiedad contra intrusos? SICCOMS Tabasco
-                        ofrece instalaciones de sistemas de control de acceso perimetral avanzados, que controlan y
-                        monitorean el acceso las 24 horas, proporcionando una barrera efectiva y tranquilidad constante
-                        con tecnología de última generación.
-                    </p>
-
-                    <div class="flex items-center mt-4 text-gray-700 ">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="m6.115 5.19.319 1.913A6 6 0 0 0 8.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 0 0 2.288-4.042 1.087 1.087 0 0 0-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 0 1-.98-.314l-.295-.295a1.125 1.125 0 0 1 0-1.591l.13-.132a1.125 1.125 0 0 1 1.3-.21l.603.302a.809.809 0 0 0 1.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 0 0 1.528-1.732l.146-.292M6.115 5.19A9 9 0 1 0 17.18 4.64M6.115 5.19A8.965 8.965 0 0 1 12 3c1.929 0 3.716.607 5.18 1.64" />
-                        </svg>
-                        <p class="px-2 text-sm">Seguridad Perimetral</p>
-                    </div>
-
+                    <h3 class="text-xl font-semibold text-gray-800">Cercas Perimetrales</h3>
+            
+                    <p class="text-gray-700 mt-2">Las cercas perimetrales son una solución efectiva para proteger tu propiedad, proporcionando una barrera física robusta contra accesos no autorizados. En SICCOMS Tabasco, ofrecemos una amplia gama de opciones para cercas perimetrales, adaptadas a tus necesidades específicas, combinando durabilidad, seguridad y estética.</p>
+            
                     <div class="flex items-center mt-4 text-gray-700">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M12.75 19.5v-.75a7.5 7.5 0 0 0-7.5-7.5H4.5m0-6.75h.75c7.87 0 14.25 6.38 14.25 14.25v.75M6 18.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                d="M4.5 3v18m15-18v18m-15-6h15m-15 0v6m15-6v6" />
                         </svg>
-                        <p class="px-2 text-sm">Alarmas a control remoto y Wi-Fi</p>
+                        <p class="px-2 text-sm">Seguridad Robusta</p>
                     </div>
-
+            
                     <div class="flex items-center mt-4 text-gray-700">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
-                                d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                                d="M12 3v18m-7.5-7.5l7.5-7.5 7.5 7.5-7.5 7.5-7.5-7.5z" />
                         </svg>
-                        <p class="px-2 text-sm">Asesoramiento Personalizado</p>
+                        <p class="px-2 text-sm">Materiales de Alta Calidad</p>
                     </div>
+            
+                    <div class="flex items-center mt-4 text-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 4v16m-8-8h16" />
+                        </svg>
+                        <p class="px-2 text-sm">Instalación Profesional</p>
+                    </div>
+            
                     <div class="mt-3">
-                        <a href="{{ route('servicios.seguridadPerimetral') }}"
+                        <a href="{{ route('servicios.cercasPerimetrales') }}"
                             class="cursor-pointer flex items-center gap-2 text-lg text-indigo-700 font-semibold">
-                            Leer más<svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                            Leer más
+                            <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M1.25 6L13.25 6M9.5 10.5L13.4697 6.53033C13.7197 6.28033 13.8447 6.15533 13.8447 6C13.8447 5.84467 13.7197 5.71967 13.4697 5.46967L9.5 1.5"
@@ -413,6 +411,7 @@ Principal
                     </div>
                 </div>
             </div>
+            
             <!-- end row -->
         </div>
     </div>

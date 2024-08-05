@@ -45,7 +45,7 @@ Route::get('/servicios/instalacion-cctv',[ServiciosController::class, 'cctv'])->
 Route::get('/servicios/desarrollo-de-sistemas',[ServiciosController::class, 'desarrollo'])->name('servicios.desarrollo');
 Route::get('/servicios/alarmas-residenciales',[ServiciosController::class, 'alarmas'])->name('servicios.alarmas');
 Route::get('/servicios/seguridad-vehicular',[ServiciosController::class, 'seguridadVehicular'])->name('servicios.seguridadVehicular');
-Route::get('/servicios/seguridad-perimetral',[ServiciosController::class, 'seguridadPerimetral'])->name('servicios.seguridadPerimetral');
+Route::get('/servicios/cercas-electricas',[ServiciosController::class, 'seguridadPerimetral'])->name('servicios.cercasPerimetrales');
 
 Route::get('/servicios/mantenimiento',[ServiciosController::class, 'mantenimiento'])->name('servicios.mantenimiento');
 Route::get('/servicios/venta-de-computo',[ServiciosController::class, 'computo'])->name('servicios.computo');
@@ -55,6 +55,7 @@ Route::get('/servicios/redes-inalambricas',[ServiciosController::class, 'redesIn
 Route::get('/servicios/cableado-estructurado',[ServiciosController::class, 'cableadoEstructurado'])->name('servicios.cableadoEstructurado');
 // Route::get('/servicios/telefonia',[ServiciosController::class, 'telefonia'])->name('servicios.telefonia');
 Route::get('/servicios/ups',[ServiciosController::class, 'ups'])->name('servicios.ups');
+Route::get('/servicios/consultoria',[ServiciosController::class, 'consultoria'])->name('servicios.consultoria');
 
 
 

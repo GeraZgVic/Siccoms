@@ -162,7 +162,7 @@
                                             </span>
                                             Telefonía
                                         </a> --}}
-                                        <a href="#" class="flex gap-2 items-center hover:text-neon-white ">
+                                        <a href="{{route('servicios.ups')}}" class="flex gap-2 items-center hover:text-neon-white ">
                                             <span class="bg-slate-600 p-2 rounded-md">
                                                 <svg class="h-6 w-6 text-white" viewBox="0 0 24 24" fill="none"
                                                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -222,7 +222,7 @@
                                         </span>
                                         Control de acceso vehicular
                                     </a>
-                                    <a href="{{ route('servicios.seguridadPerimetral') }}"
+                                    <a href="{{ route('servicios.cercasPerimetrales') }}"
                                         class="flex gap-2 items-center hover:text-neon-white ">
                                         <span class="bg-slate-600 p-2 rounded-md">
                                             <svg class="h-6 w-6 text-white" viewBox="0 0 24 24" fill="none"
@@ -260,7 +260,7 @@
                             <div x-show="openTab === 3" class="space-y-2">
                                 <span class="text-sm my-3 font-mulish-bold">Ingeniería de Software</span>
                                 <div class="text-center grid lg:grid-cols-2 gap-2 mt-2 lg:mt-0 ">
-                                    <a href="#" class="flex gap-2 items-center hover:text-neon-white ">
+                                    <a href="{{route('servicios.consultoria')}}" class="flex gap-2 items-center hover:text-neon-white ">
                                         <span class="bg-slate-600 p-2 rounded-md">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                                 viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"

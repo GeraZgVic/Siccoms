@@ -121,6 +121,10 @@
             'photo': '{{ asset('clientes/20.webp') }}',
             'alt': 'Imagen Ujat'
         },
+        {
+            'photo': '{{ asset('clientes/21.png') }}',
+            'alt': 'Imagen Ujat'
+        },
 
     ]
 }">

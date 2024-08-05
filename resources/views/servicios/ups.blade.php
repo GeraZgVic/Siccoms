@@ -70,7 +70,7 @@ Servicio de ups
             </div>
         </div>
         <div class="py-12 px-6 lg:px-12 max-w-xl lg:max-w-5xl lg:w-1/2 rounded-t-none border lg:rounded-lg">
-            <h2 class="text-3xl text-gray-800 font-bold">
+            <h2 class="text-xl md:text-3xl text-gray-800 font-bold">
                 Asegura tu Continuidad Operativa con nuestros UPS de Alta
                 <span class="text-green-500">Eficiencia</span>
             </h2>
@@ -97,7 +97,7 @@ Servicio de ups
 
             <!-- Product Details -->
             <div class="w-full md:w-1/2 px-4">
-                <h2 class="text-3xl font-bold mb-2">UPS de 1000 VA/900 W, Online Doble Conversión, Entrada 120 Vca NEMA 5-15P, Onda Senoidal Pura, Tipo Torre, Con 4 Tomas NEMA 5-15R</h2>
+                <h2 class="text-xl md:text-3xl font-bold mb-2">UPS de 1000 VA/900 W, Online Doble Conversión, Entrada 120 Vca NEMA 5-15P, Onda Senoidal Pura, Tipo Torre, Con 4 Tomas NEMA 5-15R</h2>
                 <div>
                     <div>
                         <h3 class="text-lg font-semibold mb-2">Características Principales</h3>
@@ -156,7 +156,7 @@ Servicio de ups
 
             <!-- Product Details -->
             <div class="w-full md:w-1/2 px-4">
-                <h2 class="text-3xl font-bold mb-2">UPS de 3000 VA/2700 W, Online Doble Conversión, Entrada 120 Vca NEMA L5-30P, Onda Senoidal Pura, Tipo Torre, Con 4 Tomas NEMA 5-20R y 1 Block Hardwired</h2>
+                <h2 class="text-xl md:text-3xl font-bold mb-2">UPS de 3000 VA/2700 W, Online Doble Conversión, Entrada 120 Vca NEMA L5-30P, Onda Senoidal Pura, Tipo Torre, Con 4 Tomas NEMA 5-20R y 1 Block Hardwired</h2>
                 <div>
                     <div>
                         <h3 class="text-lg font-semibold mb-2">Características Principales</h3>
@@ -216,7 +216,7 @@ Servicio de ups
 
             <!-- Product Details -->
             <div class="w-full md:w-1/2 px-4">
-                <h2 class="text-3xl font-bold mb-2">UPS de 10000 VA/10000 W, Online Doble Conversión, 200 - 240 Vac de Entrada, 120 - 240 Vac de Salida, Entrada Hardwired, Onda Senoidal Pura, Torre o Rack de 8 UR, Con 6 Tomas NEMA 5-20R, 3 NEMA L6-30R y Terminal Hardwire</h2>
+                <h2 class="text-xl md:text-3xl font-bold mb-2">UPS de 10000 VA/10000 W, Online Doble Conversión, 200 - 240 Vac de Entrada, 120 - 240 Vac de Salida, Entrada Hardwired, Onda Senoidal Pura, Torre o Rack de 8 UR, Con 6 Tomas NEMA 5-20R, 3 NEMA L6-30R y Terminal Hardwire</h2>
                 <div>
                     <div>
                         <h3 class="text-lg font-semibold mb-2">Características Principales</h3>

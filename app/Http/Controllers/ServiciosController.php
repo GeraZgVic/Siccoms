@@ -78,4 +78,8 @@ class ServiciosController extends Controller
     {
         return view('servicios.ups');
     }
+
+    public function consultoria() {
+        return view('servicios.consultoria');
+    }
 }
