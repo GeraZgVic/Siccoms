@@ -13,8 +13,8 @@ Servicios
 
 <section class="relative bg-gradient-to-br from-blue-900 to-indigo-800 text-white overflow-hidden">
     <div class="absolute inset-0 bg-black opacity-50"></div>
-    <div class="absolute inset-0 bg-cover bg-center"
-        style="background-image: url('https://img.freepik.com/foto-gratis/hombre-negocios-utilizar-tableta-digital_53876-108317.jpg?t=st=1722470895~exp=1722474495~hmac=a324678c9b8de8281c77763cb21685d4d6fb01761fce282d1075382a2e1562af&w=1060');">
+    <div class="absolute inset-0 bg-cover bg-center bg-blend-overlay bg-black/50"
+        style="background-image: url('/img/serviciohero.webp');">
     </div>
 
     <div class="container mx-auto px-4 py-24 md:py-32 relative z-10">
@@ -28,11 +28,9 @@ Servicios
                 <p class="text-xl mb-8 text-gray-100">Fortalecemos a las empresas con tecnología de punta para un futuro
                     digital.</p>
                 <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                    <a href="#"
+                    <a href="{{ route('contacto.index') }}"
                         class="bg-white text-blue-900 font-semibold px-8 py-3 rounded-full hover:bg-blue-100 transition duration-300 text-center">Contactanos</a>
-                    <a href="#"
-                        class="border-2 border-white text-white font-semibold px-8 py-3 rounded-full hover:bg-white hover:text-blue-900 transition duration-300 text-center">Leer
-                        más</a>
+                    
                 </div>
             </div>
 
@@ -96,7 +94,7 @@ Servicios
                         class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
                         <img src="{{ asset('img/servicios/mantenimiento.jpg') }}" alt=""
                             class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/50"></div>
+                        <div class="absolute inset-0 bg-gradient-to-b from-black/40 to-black/25"></div>
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Mantenimiento de equipo de computo y servidores</h3>
@@ -111,7 +109,7 @@ Servicios
                         class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
                         <img src="{{ asset('img/servicios/venta.jpg') }}" alt=""
                             class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/50"></div>
+                        <div class="absolute inset-0 bg-gradient-to-b from-black/40 to-black/25"></div>
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Venta de equipo de computo: Hardware y Software</h3>
@@ -124,7 +122,7 @@ Servicios
                         class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
                         <img src="{{ asset('img/kit_amplificador.webp') }}" alt=""
                             class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/50"></div>
+                        <div class="absolute inset-0 bg-gradient-to-b from-black/40 to-black/25"></div>
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Amplificador para Señal Celular</h3>
@@ -137,7 +135,7 @@ Servicios
                             class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                             <img src="{{ asset('img/servicios/cableado.jpg') }}" alt=""
                                 class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/50"></div>
+                            <div class="absolute inset-0 bg-gradient-to-b from-black/40 to-black/25"></div>
                             <h3
                                 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                                 Cableado Estructurado</h3>
@@ -149,7 +147,7 @@ Servicios
                             class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                             <img src="{{ asset('img/servicios/inalambricas.jpeg') }}" alt=""
                                 class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/50"></div>
+                            <div class="absolute inset-0 bg-gradient-to-b from-black/40 to-black/25"></div>
                             <h3
                                 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                                 Redes inalambricas</h3>
@@ -164,7 +162,7 @@ Servicios
                         class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
                         <img src="{{ asset('img/servicios/telefonia.jpg') }}" alt=""
                             class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/50"></div>
+                        <div class="absolute inset-0 bg-gradient-to-b from-black/40 to-black/25"></div>
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Telefonía y Conmutadores</h3>
@@ -238,7 +236,7 @@ Servicios
                         class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
                         <img src="{{ asset('img/servicios/cctv.jpg') }}" alt=""
                             class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-slate-900/10"></div>
+                        <div class="absolute inset-0 bg-gradient-to-b from-black/25 to-black/25"></div>
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Soluciones de CCTV videovigilancia</h3>
@@ -252,7 +250,7 @@ Servicios
                         class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
                         <img src="{{ asset('img/servicios/alarma.jpg') }}" alt=""
                             class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/50"></div>
+                        <div class="absolute inset-0 bg-gradient-to-b from-black/25 to-black/25"></div>
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Alarmas residenciales y comerciales Sistemas de emergencia</h3>
@@ -265,7 +263,7 @@ Servicios
                             class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                             <img src="{{ asset('img/servicios/controlacceso.jpg') }}" alt=""
                                 class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/50"></div>
+                            <div class="absolute inset-0 bg-gradient-to-b from-black/25 to-black/25"></div>
                             <h3
                                 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                                 Controles de acceso vehicular</h3>
@@ -277,7 +275,7 @@ Servicios
                             class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                             <img src="{{ asset('img/servicios/gps.jpg') }}" alt=""
                                 class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/50"></div>
+                            <div class="absolute inset-0 bg-gradient-to-b from-black/25 to-black/25"></div>
                             <h3
                                 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                                 Rastreo GPS</h3>
@@ -289,7 +287,7 @@ Servicios
                             class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                             <img src="{{ asset('img/servicios/electricos.jpg') }}" alt=""
                                 class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/50"></div>
+                            <div class="absolute inset-0 bg-gradient-to-b from-black/25 to-black/25"></div>
                             <h3
                                 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                                 Cercos eléctricos</h3>
@@ -298,10 +296,10 @@ Servicios
                             </p>
                         </a>
                         <a href="#" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                            <img src="https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/CYBERPOWER/OLS2000A/OLS2000A-p.PNG"
+                            <img src="{{ asset('img/servicios/ups.webp') }}"
                                 alt=""
                                 class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/50"></div>
+                            <div class="absolute inset-0 bg-gradient-to-b from-black/25 to-black/25"></div>
                             <h3
                                 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                                 Energía & UPS</h3>
@@ -316,7 +314,7 @@ Servicios
                         class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
                         <img src="{{ asset('img/servicios/personal.jpg') }}" alt=""
                             class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/50"></div>
+                        <div class="absolute inset-0 bg-gradient-to-b from-black/25 to-black/25"></div>
                         <h3
                             class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                             Controles de acceso y asistencia personal</h3>
